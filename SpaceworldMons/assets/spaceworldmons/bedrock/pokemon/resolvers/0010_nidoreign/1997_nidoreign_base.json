@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:nidoreign",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0010_nidoreign",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0010_nidoreign/nidoreign.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0010_nidoreign/nidoreign_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:cactus",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0018_cactus",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0018_cactus/cactus.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0018_cactus/cactus_shiny.png"
+    }
+  ]
+}

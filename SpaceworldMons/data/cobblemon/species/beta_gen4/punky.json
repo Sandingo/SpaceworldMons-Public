@@ -1,0 +1,232 @@
+{
+    "implemented": true,
+    "name": "Punky",
+    "nationalPokedexNumber": 87,
+    "primaryType": "poison",
+    "secondaryType": "dark",
+    "maleRatio": 0.5,
+    "height": 2,
+    "weight": 96,
+    "pokedex": [
+        "spaceworldmons.species.punky.desc",
+        "spaceworldmons.species.betasinnoh.desc"
+    ],
+    "labels": [
+        "gen4beta"
+    ],
+    "aspects": [],
+    "abilities": [
+        "stench",
+        "aftermath",
+        "h:keeneye"
+    ],
+    "eggGroups": [
+        "undiscovered"
+    ],
+    "baseStats": {
+        "hp": 43,
+        "attack": 43,
+        "defence": 37,
+        "special_attack": 31,
+        "special_defence": 31,
+        "speed": 54
+    },
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+    },
+    "baseExperienceYield": 56,
+    "experienceGroup": "medium_fast",
+    "catchRate": 255,
+    "eggCycles": 20,
+    "baseFriendship": 50,
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 0.7,
+        "height": 0.7,
+        "fixed": false
+    },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 1.5
+      }
+    ]
+  },
+    "moves": [
+        "1:scratch",
+        "1:poisongas",
+        "1:charm",
+        "3:feint",
+        "6:smokescreen",
+        "9:acidspray",
+        "10:furyswipes",
+        "12:focusenergy",
+        "14:bite",
+        "18:venoshock",
+        "20:screech",
+        "22:toxic",
+        "25:suckerpunch",
+        "28:memento",
+        "31:nightslash",
+        "35:belch",
+        "egg:astonish",
+        "egg:doubleedge",
+        "egg:flameburst",
+        "egg:haze",
+        "egg:leer",
+        "egg:punishment",
+        "egg:pursuit",
+        "egg:slash",
+        "egg:smog",
+        "tm:acidspray",
+        "tm:assurance",
+        "tm:bodyslam",
+        "tm:corrosivegas",
+        "tm:crunch",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dig",
+        "tm:doubleedge",
+        "tm:endure",
+        "tm:explosion",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:flamethrower",
+        "tm:focusenergy",
+        "tm:foulplay",
+        "tm:furycutter",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:honeclaws",
+        "tm:incinerate",
+        "tm:irontail",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:nastyplot",
+        "tm:payback",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:poisontail",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:roar",
+        "tm:rocksmash",
+        "tm:scaryface",
+        "tm:screech",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:snatch",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:tailslap",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:temperflare",
+        "tm:terablast",
+        "tm:thief",
+        "tm:throatchop",
+        "tm:torment",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:trailblaze",
+        "tm:venomdrench",
+        "tm:venoshock",
+        "tutor:corrosivegas",
+        "tutor:darkpulse",
+        "tutor:defog",
+        "tutor:flamethrower",
+        "tutor:focusenergy",
+        "tutor:foulplay",
+        "tutor:furycutter",
+        "tutor:gunkshot",
+        "tutor:helpinghand",
+        "tutor:irontail",
+        "tutor:knockoff",
+        "tutor:lashout",
+        "tutor:playrough",
+        "tutor:poisonjab",
+        "tutor:rest",
+        "tutor:rocksmash",
+        "tutor:shadowball",
+        "tutor:shadowclaw",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:snarl",
+        "tutor:snatch",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:throatchop",
+        "legacy:attract",
+        "legacy:captivate",
+        "legacy:confide",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:mudslap",
+        "legacy:naturalgift",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger"
+    ],
+    "evolutions": [{
+            "id": "punky-stunky",
+            "variant": "level_up",
+            "result": "stunky",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "friendship",
+                    "amount": 160
+                }
+            ]
+        }
+    ],
+    "behaviour": {
+        "herd": {
+            "maxSize": 2,
+            "toleratedLeaders": [{
+                    "pokemon": "punky alpha",
+                    "tier": 1
+                }, {
+                    "pokemon": "stunky",
+                    "tier": 1
+                }, {
+                    "pokemon": "skuntank",
+                    "tier": 1
+                }
+            ]
+        },
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendOwner": true
+        },
+        "resting": {
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        }
+    }
+}

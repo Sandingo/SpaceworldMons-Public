@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:mikon",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0023_mikon",
+      "model": "spaceworldmons:mikon.geo",
+      "texture": "spaceworldmons:textures/pokemon/0023_mikon/mikon.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0023_mikon/mikon_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0023_mikon/mikon_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

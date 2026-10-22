@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:gible-beta",
+    "speciesId": "cobblemon:gible",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

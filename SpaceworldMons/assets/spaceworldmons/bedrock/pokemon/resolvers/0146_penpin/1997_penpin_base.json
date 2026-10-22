@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:penpin",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0146_penpin",
+      "model": "spaceworldmons:penpin.geo",
+      "texture": "spaceworldmons:textures/pokemon/0146_penpin/penpin.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0146_penpin/penpin_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0146_penpin/penpin_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

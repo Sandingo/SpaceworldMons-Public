@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:jollibird",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0214_jollibird",
+      "model": "spaceworldmons:jollibird.geo",
+      "texture": "spaceworldmons:textures/pokemon/0214_jollibird/jollibird.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0214_jollibird/jollibird_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:mitsuboshi",
+    "speciesId": "cobblemon:mitsuboshi",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

@@ -1,0 +1,157 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wolfman-herd-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "5-48",
+      "weight": 20.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_glacial"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "wolfman",
+          "weight": 80.0,
+          "levelRange": "8-27",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "warwolf",
+          "weight": 15.0,
+          "levelRange": "44-44",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "wolfman-herd-2",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "5-48",
+      "weight": 50.0,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_tundra"
+        ],
+        "minY": 0
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "wolfman",
+          "weight": 80.0,
+          "levelRange": "8-27",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "warwolf",
+          "weight": 15.0,
+          "levelRange": "44-44",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "wolfman-herd-3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "5-48",
+      "weight": 500.0,
+      "condition": {
+        "minSkyLight": 1,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "minecraft:igloo"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "wolfman",
+          "weight": 80.0,
+          "levelRange": "8-27",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "wolfman-herd-4",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "5-48",
+      "weight": 50.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_frozen"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "wolfman",
+          "weight": 80.0,
+          "levelRange": "8-27",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "warwolf",
+          "weight": 15.0,
+          "levelRange": "44-44",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

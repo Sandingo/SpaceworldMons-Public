@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sunorora-1",
+      "level": "37-51",
+      "pokemon": "sunorora",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 9.6,
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_glacial",
+          "#cobblemon:is_tundra"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+    }
+  ]
+}

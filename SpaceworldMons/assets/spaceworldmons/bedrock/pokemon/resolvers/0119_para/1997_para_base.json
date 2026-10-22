@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:para",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0119_para",
+      "model": "spaceworldmons:para.geo",
+      "texture": "spaceworldmons:textures/pokemon/0119_para/para.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0119_para/para_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0119_para/para_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

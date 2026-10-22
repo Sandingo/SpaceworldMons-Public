@@ -1,0 +1,95 @@
+{
+    "portraitScale": 1.5,
+    "portraitTranslation": [-0.2, 0.5, 0],
+    "profileScale": 0.8,
+    "profileTranslation": [0.1, 0.6, 0],
+    "rootBone": "madamuu",
+    "animations": {
+        "cry": "q.bedrock_stateful('madamuu', 'cry')",
+        "recoil": "q.bedrock_stateful('madamuu', 'blink')",
+        "faint": "q.bedrock_stateful('madamuu', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('madamuu', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('madamuu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('madamuu', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('madamuu', 'air_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('madamuu', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('madamuu', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('madamuu', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('madamuu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('madamuu', 'blink')"
+            ]
+        },
+        "hovering": {
+            "poseName": "hovering",
+            "poseTypes": ["HOVER"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('madamuu', 'air_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('madamuu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('madamuu', 'blink')"
+            ]
+        },
+        "flying": {
+            "poseName": "flying",
+            "poseTypes": ["FLY"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('madamuu', 'air_fly')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('madamuu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('madamuu', 'blink')"
+            ]
+        }
+	}
+}

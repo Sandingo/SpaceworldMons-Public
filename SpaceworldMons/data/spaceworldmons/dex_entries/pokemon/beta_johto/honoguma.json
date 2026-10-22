@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:honoguma",
+    "speciesId": "cobblemon:honoguma",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:kobat",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0020_kobat",
+      "model": "spaceworldmons:kobat.geo",
+      "texture": "spaceworldmons:textures/pokemon/0020_kobat/kobat.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0020_kobat/kobat_shiny.png"
+    }
+  ]
+}

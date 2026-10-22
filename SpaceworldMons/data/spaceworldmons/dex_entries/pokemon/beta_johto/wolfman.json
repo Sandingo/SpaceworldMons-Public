@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:wolfman",
+    "speciesId": "cobblemon:wolfman",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

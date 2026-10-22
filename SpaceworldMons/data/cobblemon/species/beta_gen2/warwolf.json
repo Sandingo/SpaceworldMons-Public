@@ -1,0 +1,157 @@
+{
+    "implemented": true,
+    "name": "Warwolf",
+    "nationalPokedexNumber": 58,
+    "primaryType": "ice",
+    "abilities": [
+        "furcoat",
+        "snowcloak",
+        "h:guts"
+    ],
+    "baseStats": {
+        "hp": 70,
+        "attack": 90,
+        "defence": 80,
+        "special_attack": 70,
+        "special_defence": 85,
+        "speed": 100
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 191,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "field",
+        "monster"
+    ],
+    "behaviour": {
+        "herd": {
+            "maxSize": "4",
+            "toleratedLeaders": [{
+                    "pokemon": "wolfman",
+                    "tier": 1
+                }, {
+                    "pokemon": "warwolf",
+                    "tier": 2
+                }
+            ]
+        },
+        "resting": {
+            "times": [
+                "any"
+            ],
+            "drowsyChance": 0.0014,
+            "rouseChance": 0.0042
+        },
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendOwner": true
+        }
+    },
+    "drops": {
+        "amount": 3,
+        "entries": [{
+                "item": "minecraft:brown_wool",
+                "quantityRange": "1-2"
+            }, {
+                "item": "cobblemon:rawst_berry",
+                "percentage": 5.0
+            }, {
+                "item": "cobblemon:never_melt_ice",
+                "percentage": 5.0
+            }
+        ]
+    },
+    "moves": [
+        "1:tackle",
+        "1:leer",
+        "7:powdersnow",
+        "11:furyswipes",
+        "15:lowkick",
+        "21:scaryface",
+        "25:icywind",
+        "29:screech",
+        "31:icepunch",
+        "38:slash",
+        "43:confuseray",
+        "48:swordsdance",
+        "54:blizzard",
+        "59:reversal",
+        "egg:takedown",
+        "egg:counter",
+        "egg:dynamicpunch",
+        "egg:mist",
+        "egg:outrage",
+        "egg:pursuit",
+        "egg:screech",
+        "tm:dynamicpunch",
+        "tm:headbutt",
+        "tm:curse",
+        "tm:rollout",
+        "tm:roar",
+        "tm:toxic",
+        "tm:rocksmash",
+        "tm:hiddenpower",
+        "tm:payday",
+        "tm:hyperbeam",
+        "tm:blizzard",
+        "tm:icywind",
+        "tm:protect",
+        "tm:raindance",
+        "tm:endure",
+        "tm:irontail",
+        "tm:return",
+        "tm:megahorn",
+        "tm:dig",
+        "tm:mudslap",
+        "tm:doubleteam",
+        "tm:icepunch",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:swift",
+        "tm:defensecurl",
+        "tm:thunderpunch",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:furycutter",
+        "tm:cut",
+        "tm:strength",
+        "tm:flash",
+        "tm:icebeam"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.warwolf.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 0.9,
+    "hitbox": {
+        "width": 1.2,
+        "height": 1.7,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 16,
+    "weight": 1011,
+    "preEvolution": "wolfman",
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

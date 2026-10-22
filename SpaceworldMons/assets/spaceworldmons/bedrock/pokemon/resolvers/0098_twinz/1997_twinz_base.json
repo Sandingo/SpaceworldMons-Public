@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:twinz",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0098_twinz",
+      "model": "spaceworldmons:twinz.geo",
+      "texture": "spaceworldmons:textures/pokemon/0098_twinz/twinz.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0098_twinz/twinz_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0098_twinz/twinz_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

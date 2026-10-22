@@ -1,0 +1,163 @@
+{
+    "implemented": true,
+    "name": "Gurotesu",
+    "nationalPokedexNumber": 36,
+    "primaryType": "water",
+    "secondaryType": "steel",
+    "abilities": [
+        "swiftswim",
+        "illuminate",
+        "h:strongjaw"
+    ],
+    "baseStats": {
+        "hp": 60,
+        "attack": 65,
+        "defence": 110,
+        "special_attack": 80,
+        "special_defence": 110,
+        "speed": 50
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 189,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "water_2",
+        "amorphous"
+    ],
+    "behaviour": {
+        "moving": {
+            "walk": {
+                "avoidsLand": true
+            },
+            "swim": {
+                "canBreatheUnderwater": true,
+                "swimSpeed": "0.2"
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "light": "0-4",
+            "times": [
+                "any"
+            ],
+            "drowsyChance": 0.0014,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": "9",
+            "toleratedLeaders": [{
+                    "pokemon": "eelektrik",
+                    "tier": 1
+                }, {
+                    "pokemon": "gorebyss",
+                    "tier": 2
+                }, {
+                    "pokemon": "unadon",
+                    "tier": 3
+                }, {
+                    "pokemon": "huntail",
+                    "tier": 3
+                }, {
+                    "pokemon": "eelektross",
+                    "tier": 4
+                }, {
+                    "pokemon": "gurotesu",
+                    "tier": 4
+                }, {
+                    "pokemon": "manaphy",
+                    "tier": 5
+                }
+            ]
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "lightingData": {
+        "lightLevel": 14,
+        "liquidGlowMode": "BOTH"
+    },
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:metal_coat",
+                "percentage": 10.0
+            }, {
+                "item": "cobblemon:deep_sea_scale",
+                "percentage": 20.0
+            }
+        ]
+    },
+    "moves": [
+        "1:tackle",
+        "1:growl",
+        "1:bubble",
+        "6:defensecurl",
+        "10:rage",
+        "15:supersonic",
+        "19:bubblebeam",
+        "24:screech",
+        "28:irontail",
+        "34:acidarmor",
+        "39:scaryface",
+        "46:crunch",
+        "52:hydropump",
+        "egg:takedown",
+        "egg:raindance",
+        "egg:feintattack",
+        "egg:haze",
+        "egg:swagger",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:endure",
+        "tm:irontail",
+        "tm:return",
+        "tm:megahorn",
+        "tm:mudslap",
+        "tm:doubleteam",
+        "tm:swift",
+        "tm:defensecurl",
+        "tm:rockhead",
+        "tm:rest",
+        "tm:surf",
+        "tm:waterfall",
+        "tm:whirlpool"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.gurotesu.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 1.2,
+    "hitbox": {
+        "width": 1.2,
+        "height": 0.5,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+    },
+    "height": 8,
+    "weight": 326,
+    "preEvolution": "unadon",
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

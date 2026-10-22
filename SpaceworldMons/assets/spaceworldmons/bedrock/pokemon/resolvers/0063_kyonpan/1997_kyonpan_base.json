@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:kyonpan",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0063_kyonpan",
+      "model": "spaceworldmons:kyonpan.geo",
+      "texture": "spaceworldmons:textures/pokemon/0063_kyonpan/kyonpan.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0063_kyonpan/kyonpan_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0063_kyonpan/kyonpan_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

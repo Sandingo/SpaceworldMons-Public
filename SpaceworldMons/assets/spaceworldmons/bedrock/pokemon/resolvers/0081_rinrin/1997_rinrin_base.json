@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:rinrin",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0081_rinrin",
+      "model": "spaceworldmons:rinrin.geo",
+      "texture": "spaceworldmons:textures/pokemon/0081_rinrin/rinrin.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0081_rinrin/rinrin_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0081_rinrin/rinrin_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

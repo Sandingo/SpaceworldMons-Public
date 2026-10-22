@@ -1,0 +1,42 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "warabbit-1",
+            "pokemon": "warabbit",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "6-17",
+            "weight": 15.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            }
+        }, {
+            "id": "warabbit-2",
+            "pokemon": "warabbit",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "ultra-rare",
+            "level": "9-20",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": ["#cobblemon:is_river"]
+            },
+            "anticondition": {
+                "biomes": ["#cobblemon:is_freezing"]
+            }
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "implemented": true,
+    "name": "Sunoun",
+    "nationalPokedexNumber": 61,
+    "primaryType": "bug",
+    "secondaryType": "ice",
+    "abilities": [
+        "shielddust",
+        "clearbody",
+        "h:icescales"
+    ],
+    "baseStats": {
+        "hp": 60,
+        "attack": 30,
+        "defence": 70,
+        "special_attack": 80,
+        "special_defence": 80,
+        "speed": 65
+    },
+    "behaviour": {
+        "combat": {
+            "willDefendOwner": false,
+            "willDefendSelf": false,
+            "willFlee": true
+        },
+        "herd": {
+            "maxSize": "6"
+        },
+        "moving": {
+            "fly": {
+                "canFly": true
+            },
+            "swim": {
+                "avoidsWater": true
+            }
+        }
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 160,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 15,
+    "eggGroups": [
+        "bug"
+    ],
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:rawst_berry",
+                "percentage": 50
+            }, {
+                "item": "cobblemon:never_melt_ice",
+                "percentage": 10
+            }
+        ]
+    },
+    "moves": [
+        "1:gust",
+        "1:powdersnow",
+        "1:strugglebug",
+        "4:stringshot",
+        "12:mist",
+        "15:infestation",
+        "17:defog",
+        "24:aurorabeam",
+        "28:hail",
+        "30:whirlwind",
+        "32:bugbuzz",
+        "36:auroraveil",
+        "40:blizzard",
+        "44:tailwind",
+        "52:quiverdance",
+        "egg:bugbite",
+        "egg:fairywind",
+        "egg:mirrorcoat",
+        "tm:takedown",
+        "tm:protect",
+        "tm:acrobatics",
+        "tm:strugglebug",
+        "tm:pounce",
+        "tm:facade",
+        "tm:swift",
+        "tm:icywind",
+        "tm:avalanche",
+        "tm:endure",
+        "tm:hail",
+        "tm:snowscape",
+        "tm:uturn",
+        "tm:airslash",
+        "tm:sleeptalk",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:dazzlinggleam",
+        "tm:rest",
+        "tm:imprison",
+        "tm:leechlife",
+        "tm:substitute",
+        "tm:gigadrain",
+        "tm:tailwind",
+        "tm:icespinner",
+        "tm:calmmind",
+        "tm:helpinghand",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:gigaimpact",
+        "tm:hurricane",
+        "tm:bugbuzz",
+        "tm:hyperbeam",
+        "tm:bugbite",
+        "tm:lunge",
+        "tm:tripleaxel",
+        "tm:skittersmack",
+        "tm:doubleteam",
+        "tm:psychic",
+        "tm:roost",
+        "tm:attract",
+        "tm:energyball"
+    ],
+    "labels": [
+        "gen3beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.sunoun.desc",
+        "spaceworldmons.species.betahoenn.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 0.4,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+    },
+    "height": 50,
+    "weight": 50,
+    "evolutions": [],
+    "aspects": [
+        
+    ],
+    "cannotDynamax": false
+}

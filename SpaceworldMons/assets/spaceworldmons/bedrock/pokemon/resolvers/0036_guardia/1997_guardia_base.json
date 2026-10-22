@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:guardia",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0036_guardia",
+      "model": "spaceworldmons:guardia.geo",
+      "texture": "spaceworldmons:textures/pokemon/0036_guardia/guardia.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0036_guardia/guardia_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0036_guardia/guardia_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+    "implemented": false,
+    "name": "Cheep",
+    "nationalPokedexNumber": 20,
+    "primaryType": "water",
+    "abilities": [
+        "earlybird",
+        "swiftswim",
+        "h:unburden"
+    ],
+    "baseStats": {
+        "hp": 45,
+        "attack": 65,
+        "defence": 40,
+        "special_attack": 40,
+        "special_defence": 40,
+        "speed": 60
+    },
+    "catchRate": 225,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 111,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "amorphous"
+    ],
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:oran_berry",
+                "percentage": 50.0
+            }
+        ]
+    },
+    "moves": [
+        "1:bubble",
+        "1:peck",
+        "17:counter",
+        "21:bubblebeam",
+        "25:lowkick",
+        "30:jumpkick",
+        "40:highjumpkick",
+        "44:hydropump",
+        "48:drillpeck",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:toxic",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:bubblebeam",
+        "tm:watergun",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:submission",
+        "tm:counter",
+        "tm:seismictoss",
+        "tm:rage",
+        "tm:substitute",
+        "tm:surf",
+        "tm:psychic",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:bide",
+        "tm:metronome",
+        "tm:skullbash",
+        "tm:rest",
+        "tm:psywave",
+        "tm:windride"
+    ],
+    "labels": [
+        "gen1beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.cheep.desc",
+        "spaceworldmons.species.betakanto.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 50,
+    "weight": 50,
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

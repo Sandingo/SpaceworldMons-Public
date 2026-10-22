@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:animon",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0117_animon",
+      "model": "spaceworldmons:animon.geo",
+      "texture": "spaceworldmons:textures/pokemon/0117_animon/animon.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0117_animon/animon_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0117_animon/animon_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

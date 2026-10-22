@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:kurusu",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0083_kurusu",
+      "model": "spaceworldmons:kurusu.geo",
+      "texture": "spaceworldmons:textures/pokemon/0083_kurusu/kurusu.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0083_kurusu/kurusu_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0083_kurusu/kurusu_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

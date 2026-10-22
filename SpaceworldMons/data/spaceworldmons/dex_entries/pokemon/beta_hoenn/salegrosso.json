@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:salegrosso",
+    "speciesId": "cobblemon:salegrosso",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:magnetite",
+    "speciesId": "cobblemon:magnetite",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

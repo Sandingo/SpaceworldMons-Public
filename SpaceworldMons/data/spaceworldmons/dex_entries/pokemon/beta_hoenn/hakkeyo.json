@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:hakkeyo",
+    "speciesId": "cobblemon:hakkeyo",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

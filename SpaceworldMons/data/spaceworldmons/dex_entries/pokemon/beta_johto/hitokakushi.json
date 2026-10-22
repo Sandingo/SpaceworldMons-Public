@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:hitokakushi",
+    "speciesId": "cobblemon:hitokakushi",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

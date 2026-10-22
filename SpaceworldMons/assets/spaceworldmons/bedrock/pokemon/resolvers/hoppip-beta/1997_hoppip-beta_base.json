@@ -1,0 +1,15 @@
+{
+    "species": "cobblemon:hoppip",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:hoppip-beta",
+            "model": "spaceworldmons:hoppip-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/hoppip-beta/hoppip.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/hoppip-beta/hoppip_shiny.png"
+        }
+    ]
+}

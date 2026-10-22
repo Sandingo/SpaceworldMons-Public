@@ -1,0 +1,61 @@
+{
+    "portraitScale": 1,
+    "portraitTranslation": [0, 0.8, 0],
+    "profileScale": 0.7,
+    "profileTranslation": [0, 0.7, 0],
+	"rootBone": "warwolf",
+    "animations": {
+        "blink": "q.bedrock_stateful('warwolf', 'blink')",
+        "recoil": "q.bedrock_stateful('warwolf', 'blink')",
+        "faint": "q.bedrock_stateful('warwolf', 'faint')"
+    },
+    "poses": {
+		"standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.bedrock('warwolf', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('warwolf', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('warwolf', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.bedrock('warwolf', 'battle_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('warwolf', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('warwolf', 'blink')"
+            ]
+        },
+		"walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.bedrock('warwolf', 'ground_walk')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('warwolf', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('warwolf', 'blink')"
+            ]
+        }
+    }
+}

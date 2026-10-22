@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "komari-herd-1",
+      "type": "pokemon-herd",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-41",
+      "weight": 15,
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "#c:is_spooky"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "komari",
+          "weight": 80,
+          "levelRange": "25-41",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "komari-herd-2",
+      "type": "pokemon-herd",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-41",
+      "weight": 15,
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "#c:is_magical"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "komari",
+          "weight": 80,
+          "levelRange": "25-41",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

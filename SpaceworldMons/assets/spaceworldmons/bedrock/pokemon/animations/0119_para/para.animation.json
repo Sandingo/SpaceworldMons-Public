@@ -1,0 +1,111 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.para.ground_idle": {
+			"loop": true,
+			"bones": {
+				"cap": {
+					"rotation": ["-math.cos(query.anim_time * 180) * 2.5", "-math.cos(query.anim_time * 180) * 2.5", "math.sin(query.anim_time * 180) * 2.5"]
+				},
+				"body": {
+					"rotation": [0, 0, "-math.sin(query.anim_time * 180) * 2.5"],
+					"position": [0, "math.sin(query.anim_time * 360) * 0.25", 0]
+				},
+				"rightarm": {
+					"rotation": [60, "-55 + math.cos(query.anim_time * 180) * 5", -60]
+				},
+				"rightforearm": {
+					"rotation": [0, 0, "45 + math.cos(query.anim_time * 180) * 10"]
+				},
+				"righthand": {
+					"rotation": [0, "math.cos(query.anim_time * 180) * 15", -100]
+				},
+				"leftarm": {
+					"rotation": [60, "55 + math.cos(query.anim_time * 180) * 5", 60]
+				},
+				"leftforearm": {
+					"rotation": [0, 0, "-45 + math.cos(query.anim_time * 180) * 10"]
+				},
+				"lefthand": {
+					"rotation": [0, "-math.cos(query.anim_time * 180) * 15", 100]
+				},
+				"head": {
+					"rotation": [0, 0, "-math.cos(query.anim_time * 180) * 5"]
+				}
+			}
+		},
+		"animation.para.ground_walk": {
+			"loop": true,
+			"bones": {
+				"stem": {
+					"rotation": ["math.cos(query.anim_time * 360) * 5", 0, 0],
+					"position": [0, "1.75 - math.cos(query.anim_time * 360) * 2", "math.sin(query.anim_time * 360) * 1"]
+				},
+				"cap": {
+					"rotation": ["-2.5 -math.sin(query.anim_time * 360 - 0.3) * 5", 0, "-2.5 - math.sin(query.anim_time * 360 - 0.3) * 5"]
+				},
+				"body": {
+					"rotation": ["2.5 - math.sin(query.anim_time * 360 - 0.6) * 2.5", 0, 0]
+				},
+				"rightarm": {
+					"rotation": [60, -25, -60]
+				},
+				"rightforearm": {
+					"rotation": [0, -30, 60]
+				},
+				"righthand": {
+					"rotation": [0, 0, -110]
+				},
+				"leftarm": {
+					"rotation": [60, 25, 60]
+				},
+				"leftforearm": {
+					"rotation": [0, 30, -60]
+				},
+				"lefthand": {
+					"rotation": [0, 0, 110]
+				},
+				"head": {
+					"rotation": ["math.cos(query.anim_time * 360 - 0.9) * 10", 0, 0]
+				}
+			}
+		},
+		"animation.para.twitch": {
+			"animation_length": 0.5,
+			"bones": {
+				"nose": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.125": {
+							"post": [-10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.25": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.375": {
+							"post": [-10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		},
+		"animation.para.hold_item": {
+			"loop": true,
+			"bones": {
+				"rightlowerclaw": {
+					"rotation": [0, 0, -35]
+				}
+			}
+		}
+	}
+}

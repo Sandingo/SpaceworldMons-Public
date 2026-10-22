@@ -1,0 +1,33 @@
+
+{
+  "species": "cobblemon:gurotesu",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0047_gurotesu",
+      "model": "spaceworldmons:gurotesu.geo",
+      "texture": "spaceworldmons:textures/pokemon/0047_gurotesu/gurotesu.png",
+      "layers": [{
+          "name": "lure",
+          "texture": "spaceworldmons:textures/pokemon/0047_gurotesu/gurotesu_emissive.png",
+		      "emissive": true}]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0047_gurotesu/gurotesu_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0047_gurotesu/gurotesu_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

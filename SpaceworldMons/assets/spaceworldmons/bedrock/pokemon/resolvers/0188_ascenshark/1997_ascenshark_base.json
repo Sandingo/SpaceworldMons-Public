@@ -1,0 +1,65 @@
+
+{
+  "species": "cobblemon:ascenshark",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0188_ascenshark",
+      "model": "spaceworldmons:ascenshark.geo",
+      "texture": "spaceworldmons:textures/pokemon/0188_ascenshark/ascenshark.png",
+      "layers": [
+        {
+          "name": "energy",
+          "texture": {
+            "frames": [
+              "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy1.png",
+              "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy2.png",
+              "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy3.png",
+			  "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy4.png",
+			  "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy5.png",
+			  "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy6.png"
+			],
+            "fps": 9,
+            "loop": true
+          },
+		  "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0188_ascenshark/ascenshark_shiny.png",
+	  "layers": [
+        {
+          "name": "energy",
+          "texture": {
+            "frames": [
+              "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy1.png",
+              "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy2.png",
+              "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy3.png",
+			  "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy4.png",
+			  "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy5.png",
+			  "spaceworldmons:textures/pokemon/0188_ascenshark/animation/energy6.png"
+			],
+            "fps": 9,
+            "loop": true
+          },
+		  "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0188_ascenshark/ascenshark_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

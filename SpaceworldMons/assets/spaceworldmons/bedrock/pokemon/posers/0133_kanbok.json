@@ -1,0 +1,69 @@
+{
+    "portraitScale": 2,
+    "portraitTranslation": [0, 0, 0],
+    "profileScale": 1.1,
+    "profileTranslation": [0, 0.2, 0],
+    "rootBone": "kanbok",
+    "animations": {
+        "cry": "q.bedrock_stateful('kanbok', 'cry')",
+        "recoil": "q.bedrock_stateful('kanbok', 'blink')",
+        "faint": "q.bedrock_stateful('kanbok', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.bedrock('kanbok', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kanbok', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('kanbok', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.bedrock('kanbok', 'battle_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kanbok', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('kanbok', 'blink')"
+            ]
+        },
+        "walk": {
+            "poseName": "walk",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.bedrock('kanbok', 'ground_walk')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kanbok', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('kanbok', 'blink')"
+            ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('kanbok', 'sleep')"
+            ],
+            "transformTicks": 10
+        }
+    }
+}

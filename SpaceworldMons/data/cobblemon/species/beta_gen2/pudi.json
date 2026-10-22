@@ -1,0 +1,225 @@
+{
+  "implemented": true,
+  "name": "Pudi",
+  "nationalPokedexNumber": 48,
+  "primaryType": "fire",
+  "abilities": [
+    "intimidate",
+    "flashfire",
+    "h:justified"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 40,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 50
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 45,
+  "experienceGroup": "slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "behaviour": {
+    "herd": {
+      "maxSize": 4,
+      "toleratedLeaders": [
+        {
+          "pokemon": "pudi alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "growlithe",
+          "tier": 1
+        },
+        {
+          "pokemon": "arcanine",
+          "tier": 2
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "entityInteract": {
+      "avoidedBySkeleton": true,
+      "avoidedByFox": true
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": true
+    },
+    "fireImmune": true
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:bite",
+    "1:growl",
+    "13:ember",
+    "18:leer",
+    "22:takedown",
+    "28:agility",
+    "30:flamethrower",
+    "egg:burnup",
+    "egg:covet",
+    "egg:doubleedge",
+    "egg:doublekick",
+    "egg:morningsun",
+    "egg:ragingfury",
+    "egg:thrash",
+    "tm:agility",
+    "tm:bide",
+    "tm:bodyslam",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dig",
+    "tm:dragonrage",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:mimic",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rage",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:skullbash",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tutor:covet",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:outrage",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:swift",
+    "tutor:thunderfang",
+    "tutor:wildcharge",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:dragonbreath",
+    "legacy:dragonrage",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "labels": [
+    "gen2beta"
+  ],
+  "pokedex": [
+    "spaceworldmons.species.pudi.desc",
+    "spaceworldmons.species.betajohto.desc"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 90,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 46,
+  "evolutions": [
+    {
+      "id": "pudi_growlithe",
+      "variant": "level_up",
+      "result": "growlithe",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 13
+        }
+      ]
+    }
+  ],
+  "aspects": [],
+  "cannotDynamax": false
+}

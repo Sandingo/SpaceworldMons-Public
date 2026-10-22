@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:blastyke",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0042_blastyke",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0042_blastyke/blastyke.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0042_blastyke/blastyke_shiny.png"
+    }
+  ]
+}

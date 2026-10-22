@@ -1,0 +1,58 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "jaranra-alpha-1",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "jaranra held_item=cobblemon:grass_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "monja",
+                    "weight": 30.0,
+                    "levelRange": "4-18",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "tangela",
+                    "weight": 65.0,
+                    "levelRange": "19-44",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "jaranra",
+                    "weight": 130.0,
+                    "levelRange": "24-54",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

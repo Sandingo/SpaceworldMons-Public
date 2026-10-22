@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:scizor",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [
+        "beta"
+      ],
+      "poser": "spaceworldmons:scizor-beta",
+      "model": "spaceworldmons:scizor-beta.geo",
+      "texture": "spaceworldmons:textures/pokemon/scizor-beta/scizor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "beta"
+      ],
+      "model": "spaceworldmons:scizor-beta_female.geo"
+    },
+    {
+      "aspects": [
+        "beta",
+        "shiny"
+      ],
+      "texture": "spaceworldmons:textures/pokemon/scizor-beta/scizor_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/scizor-beta/scizor_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

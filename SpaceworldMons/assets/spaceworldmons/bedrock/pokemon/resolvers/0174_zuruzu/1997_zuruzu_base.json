@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:zuruzu",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0174_zuruzu",
+      "model": "spaceworldmons:zuruzu.geo",
+      "texture": "spaceworldmons:textures/pokemon/0174_zuruzu/zuruzu.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0174_zuruzu/zuruzu_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0174_zuruzu/zuruzu_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

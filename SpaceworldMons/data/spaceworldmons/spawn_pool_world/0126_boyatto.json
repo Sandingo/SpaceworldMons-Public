@@ -1,0 +1,83 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "boyatto-1",
+            "pokemon": "boyatto",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "25-55",
+            "weight": 0.8,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_glacial"
+                ]
+            }
+        }, {
+            "id": "boyatto-2",
+            "pokemon": "boyatto",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "25-55",
+            "weight": 4,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_snowy",
+                    "#cobblemon:is_tundra"
+                ],
+                "minY": 0
+            }
+        }, {
+            "id": "boyatto-3",
+            "pokemon": "boyatto",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "25-55",
+            "weight": 5,
+            "condition": {
+                "minSkyLight": 1,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "minecraft:igloo"
+                ]
+            }
+        }, {
+            "id": "boyatto-4",
+            "pokemon": "boyatto",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "25-55",
+            "weight": 4,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_frozen"
+                ]
+            }
+        }
+    ]
+}

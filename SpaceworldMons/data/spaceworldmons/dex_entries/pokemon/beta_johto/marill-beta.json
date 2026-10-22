@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:marill-beta",
+    "speciesId": "cobblemon:marill",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

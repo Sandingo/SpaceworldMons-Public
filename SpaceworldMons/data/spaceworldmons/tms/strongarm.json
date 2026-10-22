@@ -1,0 +1,19 @@
+{
+  "moveName": "strongarm",
+  "obtainMethods": [
+    {
+      "variant": "cobblemon:default"
+    }
+  ],
+  "type": "normal",
+  "recipe": [
+    {
+      "item": "cobblemon:steel_gem",
+      "count": 10
+    },
+    {
+      "item": "cobblemon:red_mint_leaf",
+      "count": 2
+    }
+  ]
+}

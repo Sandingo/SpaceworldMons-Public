@@ -1,0 +1,67 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "komari-alpha-1",
+            "type": "pokemon-herd",
+            "context": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#c:is_spooky"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "komari held_item=cobblemon:psychic_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "komari",
+                    "weight": 80.0,
+                    "levelRange": "25-41",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "komari-alpha-2",
+            "type": "pokemon-herd",
+            "context": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#c:is_magical"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "komari held_item=cobblemon:psychic_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "komari",
+                    "weight": 80.0,
+                    "levelRange": "25-41",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

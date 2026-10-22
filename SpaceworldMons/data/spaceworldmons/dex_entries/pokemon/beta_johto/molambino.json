@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:molambino",
+    "speciesId": "cobblemon:molambino",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

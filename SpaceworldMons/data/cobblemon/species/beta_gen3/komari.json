@@ -1,0 +1,190 @@
+{
+    "implemented": true,
+    "name": "Komari",
+    "nationalPokedexNumber": 65,
+    "primaryType": "ghost",
+    "secondaryType": "psychic",
+    "abilities": [
+        "magicbounce",
+        "h:rattled"
+    ],
+    "baseStats": {
+        "hp": 90,
+        "attack": 60,
+        "defence": 80,
+        "special_attack": 60,
+        "special_defence": 150,
+        "speed": 50
+    },
+    "catchRate": 190,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 48,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "amorphous",
+        "field"
+    ],
+    "behaviour": {
+        "herd": {
+            "maxSize": "5"
+        },
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendSelf": false,
+            "willDefendOwner": true,
+            "willFlee": true
+        },
+        "resting": {
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        }
+    },
+    "drops": {
+        "amount": 2,
+        "entries": [{
+                "item": "cobblemon:shell_bell",
+                "percentage": 2.5
+            }, {
+                "item": "cobblemon:sitrus_berry",
+                "percentage": 2.5
+            }
+        ]
+    },
+    "moves": [
+        "1:astonish",
+        "1:pound",
+        "1:extrasensory",
+        "5:echoedvoice",
+        "10:howl",
+        "12:nightshade",
+        "15:rest",
+        "15:sleeptalk",
+        "21:stomp",
+        "25:roar",
+        "30:supersonic",
+        "31:mirrorcoat",
+        "33:echo",
+        "35:uproar",
+        "40:screech",
+        "43:synchronoise",
+        "45:hypervoice",
+        "50:shadowball",
+        "55:exitpath",
+        "egg:disarmingvoice",
+        "egg:endeavor",
+        "egg:extrasensory",
+        "egg:faketears",
+        "egg:smokescreen",
+        "egg:snore",
+        "egg:swagger",
+        "egg:takedown",
+        "egg:whirlwind",
+        "egg:bellchime",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:captivate",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:echoedvoice",
+        "tm:endure",
+        "tm:facade",
+        "tm:faketears",
+        "tm:fireblast",
+        "tm:flamethrower",
+        "tm:fling",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:incinerate",
+        "tm:megakick",
+        "tm:naturalgift",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:roar",
+        "tm:round",
+        "tm:screech",
+        "tm:secretpower",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:uproar",
+        "tm:waterpulse",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:megaphone",
+        "tutor:bodyslam",
+        "tutor:counter",
+        "tutor:defensecurl",
+        "tutor:doubleedge",
+        "tutor:dynamicpunch",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:headbutt",
+        "tutor:hypervoice",
+        "tutor:icywind",
+        "tutor:megakick",
+        "tutor:megapunch",
+        "tutor:mimic",
+        "tutor:mudslap",
+        "tutor:pound",
+        "tutor:psychup",
+        "tutor:rollout",
+        "tutor:seismictoss",
+        "tutor:shockwave",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:substitute",
+        "tutor:swagger",
+        "tutor:teeterdance",
+        "tutor:uproar",
+        "tutor:waterpulse",
+        "tutor:zenheadbutt"
+    ],
+    "labels": [
+        "gen3beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.komari.desc",
+        "spaceworldmons.species.betahoenn.desc"
+    ],
+    "baseScale": 0.28,
+    "hitbox": {
+        "width": 0.7,
+        "height": 1.2,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+    },
+    "height": 2,
+    "weight": 150,
+    "evolutions": [],
+    "aspects": [
+        
+    ],
+    "cannotDynamax": false
+}

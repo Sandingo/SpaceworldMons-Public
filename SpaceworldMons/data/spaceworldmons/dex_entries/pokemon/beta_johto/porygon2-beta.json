@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:porygon2-beta",
+    "speciesId": "cobblemon:porygon2",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

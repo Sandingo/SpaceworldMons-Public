@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "ingredients": [],
+    "pattern": [
+        " G",
+        " e",
+        " w"
+    ],
+    "key": {
+        "w": {
+            "item": "minecraft:potion"
+        },
+        "G": {
+            "item": "cobblemon:water_gem"
+        },
+        "e": {
+            "item": "minecraft:fermented_spider_eye"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:music_disc_13",
+        "components": {
+            "minecraft:custom_model_data": 199714,
+            "minecraft:item_name": "{\"translate\":\"item.spaceworldmons.strange_water\", \"italic\":false}",
+            "minecraft:lore": [
+                "{\"translate\":\"tooltip.spaceworldmons.strange_water\", \"color\":\"gray\", \"italic\":false}"
+            ],
+            "cobblemon:held_item_effect": {
+                "showdownId": "strange_water",
+                "consumed": false
+            },
+            "!minecraft:jukebox_playable": {},
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

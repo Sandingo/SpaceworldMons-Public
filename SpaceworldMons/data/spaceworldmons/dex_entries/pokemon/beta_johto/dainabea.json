@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:dainabea",
+    "speciesId": "cobblemon:dainabea",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

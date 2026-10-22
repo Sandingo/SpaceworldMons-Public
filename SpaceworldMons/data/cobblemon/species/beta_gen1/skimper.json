@@ -1,0 +1,96 @@
+{
+    "implemented": false,
+    "name": "Skimper",
+    "nationalPokedexNumber": 25,
+    "primaryType": "dragon",
+    "abilities": [
+        "swiftswim",
+        "hydration",
+        "h:marvelscale"
+    ],
+    "baseStats": {
+        "hp": 62,
+        "attack": 43,
+        "defence": 36,
+        "special_attack": 71,
+        "special_defence": 71,
+        "speed": 88
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 67,
+    "experienceGroup": "slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "amorphous"
+    ],
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:oran_berry",
+                "percentage": 50.0
+            }
+        ]
+    },
+    "moves": [
+        "1:scratch",
+        "1:tailwhip",
+        "10:leer",
+        "15:watergun",
+        "20:bite",
+        "30:dragonrage",
+        "45:hydropump",
+        "tm:toxic",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:bubblebeam",
+        "tm:watergun",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:rage",
+        "tm:dragonrage",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:bide",
+        "tm:fireblast",
+        "tm:swift",
+        "tm:skullbash",
+        "tm:rest",
+        "tm:thunderwave",
+        "tm:substitute",
+        "tm:surf",
+        "tm:flamethrower"
+    ],
+    "labels": [
+        "gen1beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.skimper.desc",
+        "spaceworldmons.species.betakanto.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+    },
+    "height": 50,
+    "weight": 50,
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

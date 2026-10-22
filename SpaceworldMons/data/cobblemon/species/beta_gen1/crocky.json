@@ -1,0 +1,101 @@
+{
+    "implemented": false,
+    "name": "Crocky",
+    "nationalPokedexNumber": 14,
+    "primaryType": "water",
+    "primaryType": "dark",
+    "abilities": [
+        "strongjaw",
+        "h:intimidate"
+    ],
+    "baseStats": {
+        "hp": 75,
+        "attack": 105,
+        "defence": 85,
+        "special_attack": 100,
+        "special_defence": 100,
+        "speed": 40
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 211,
+    "experienceGroup": "slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "amorphous"
+    ],
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:oran_berry",
+                "percentage": 50.0
+            }
+        ]
+    },
+    "moves": [
+        "1:bide",
+        "1:bubble",
+        "1:bite",
+        "14:vinewhip",
+        "18:watergun",
+        "20:furyattack",
+        "26:rage",
+        "30:crunch",
+        "32:screech",
+        "38:razorleaf",
+        "42:dragonrage",
+        "48:thrash",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:toxic",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:bubblebeam",
+        "tm:watergun",
+        "tm:strength",
+        "tm:solarbeam",
+        "tm:hyperbeam",
+        "tm:submission",
+        "tm:counter",
+        "tm:seismictoss",
+        "tm:rage",
+        "tm:substitute",
+        "tm:surf",
+        "tm:megadrain",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:bide",
+        "tm:metronome",
+        "tm:skullbash",
+        "tm:rest"
+    ],
+    "labels": [
+        "gen1beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.crocky.desc",
+        "spaceworldmons.species.betakanto.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 50,
+    "weight": 50,
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

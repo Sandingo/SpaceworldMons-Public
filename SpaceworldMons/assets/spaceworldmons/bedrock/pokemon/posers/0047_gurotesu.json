@@ -1,0 +1,105 @@
+{
+    "portraitScale": 2,
+    "portraitTranslation": [-1.2, -1.5, 0],
+    "profileScale": 0.8,
+    "profileTranslation": [0, 0.3, 0],
+    "rootBone": "gurotesu",
+    "animations": {
+        "cry": "q.bedrock_stateful('gurotesu', 'blink')",
+		"recoil": "q.bedrock_stateful('gurotesu', 'blink')",
+        "faint": "q.bedrock_stateful('gurotesu', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "NONE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gurotesu', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('gurotesu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('gurotesu', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gurotesu', 'water_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('gurotesu', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('gurotesu', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gurotesu', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('gurotesu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('gurotesu', 'blink')"
+            ]
+        },
+		"floating": {
+            "poseName": "floating",
+            "poseTypes": ["FLOAT", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gurotesu', 'water_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('gurotesu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('gurotesu', 'blink')"
+            ]
+        },
+		"swimming": {
+            "poseName": "swimming",
+            "poseTypes": ["SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gurotesu', 'water_swim')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('gurotesu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('gurotesu', 'blink')"
+            ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('gurotesu', 'sleep')"
+            ],
+            "transformTicks": 10
+        }
+	}
+}

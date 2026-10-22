@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:hitmontop-beta",
+    "speciesId": "cobblemon:hitmontop",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

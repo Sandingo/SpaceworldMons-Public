@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:quadragon",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0003_quadragon",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0003_quadragon/quadragon.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0003_quadragon/quadragon_shiny.png"
+    }
+  ]
+}

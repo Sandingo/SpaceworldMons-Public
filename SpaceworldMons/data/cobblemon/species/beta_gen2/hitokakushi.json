@@ -1,0 +1,205 @@
+{
+    "implemented": true,
+    "name": "Hitokakushi",
+    "nationalPokedexNumber": 51,
+    "primaryType": "ghost",
+    "abilities": [
+        "levitate",
+        "h:shadowtag"
+    ],
+    "baseStats": {
+        "hp": 85,
+        "attack": 30,
+        "defence": 80,
+        "special_attack": 65,
+        "special_defence": 85,
+        "speed": 90
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 147,
+    "experienceGroup": "fast",
+    "eggCycles": 25,
+    "eggGroups": [
+        "amorphous"
+    ],
+    "behaviour": {
+        "moving": {
+            "fly": {
+                "canFly": true
+            },
+            "swim": {
+                "avoidsWater": true
+            },
+            "walk": {
+                "canWalk": false
+            }
+        },
+        "herd": {
+            "maxSize": "2",
+            "toleratedLeaders": [{
+                    "pokemon": "gastly",
+                    "tier": 1
+                }, {
+                    "pokemon": "misdreavus",
+                    "tier": 1
+                }, {
+                    "pokemon": "shuppet",
+                    "tier": 1
+                }, {
+                    "pokemon": "duskull",
+                    "tier": 1
+                }, {
+                    "pokemon": "hitokakushi",
+                    "tier": 2
+                }, {
+                    "pokemon": "mismagius",
+                    "tier": 2
+                }, {
+                    "pokemon": "fluttermane",
+                    "tier": 2
+                }
+            ]
+        },
+        "resting": {
+            "times": [
+                "any"
+            ],
+            "drowsyChance": 0.0014,
+            "rouseChance": 0.0042
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "drops": {
+        "amount": 3,
+        "entries": [{
+                "item": "minecraft:phantom_membrane",
+                "percentage": 2.5
+            }, {
+                "item": "cobblemon:spell_tag",
+                "percentage": 2.5
+            }, {
+                "item": "cobblemon:kasib_berry",
+                "percentage": 2.5
+            }
+        ]
+    },
+    "moves": [
+        "1:astonish",
+        "1:spite",
+        "7:willowisp",
+        "12:safeguard",
+        "13:painsplit",
+        "19:confuseray",
+        "22:extrasensory",
+        "27:embargo",
+        "33:curse",
+        "38:perishsong",
+        "41:futuresight",
+        "49:purify",
+        "53:poltergeist",
+        "egg:bestow",
+        "egg:curse",
+        "egg:destinybond",
+        "egg:disable",
+        "tm:allyswitch",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dreameater",
+        "tm:endure",
+        "tm:explosion",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:flamecharge",
+        "tm:flamethrower",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:hex",
+        "tm:imprison",
+        "tm:incinerate",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:mysticalfire",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:psychic",
+        "tm:reflect",
+        "tm:rest",
+        "tm:roleplay",
+        "tm:safeguard",
+        "tm:scaryface",
+        "tm:shadowball",
+        "tm:skillswap",
+        "tm:sleeptalk",
+        "tm:spite",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:darkpulse",
+        "tutor:flamethrower",
+        "tutor:foulplay",
+        "tutor:magiccoat",
+        "tutor:mysticalfire",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:roleplay",
+        "tutor:shadowball",
+        "tutor:skillswap",
+        "tutor:sleeptalk",
+        "tutor:spite",
+        "tutor:telekinesis",
+        "tutor:trick",
+        "legacy:attract",
+        "legacy:confide",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:toxic"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.hitokakushi.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 0.9,
+        "height": 1.6,
+        "fixed": false
+    },
+    "baseFriendship": 30,
+    "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+    },
+    "height": 5,
+    "weight": 3,
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

@@ -1,0 +1,110 @@
+{
+    "implemented": true,
+    "name": "Evolotto",
+    "nationalPokedexNumber": 71,
+    "primaryType": "Normal",
+    "abilities": [
+        "innerfocus"
+    ],
+    "baseStats": {
+        "hp": 35,
+        "attack": 35,
+        "defence": 35,
+        "special_attack": 35,
+        "special_defence": 35,
+        "speed": 35
+    },
+    "catchRate": 30,
+    "maleRatio": -1,
+    "shoulderMountable": true,
+    "baseExperienceYield": 74,
+    "experienceGroup": "erratic",
+    "eggCycles": 40,
+    "eggGroups": [
+        "undiscovered"
+    ],
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4",
+            "canSeeSky": false,
+            "times": [
+                "any"
+            ],
+            "drowsyChance": 0.0014,
+            "rouseChance": 0.0042
+        },
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendSelf": false,
+            "willDefendOwner": true,
+            "willFlee": true
+        }
+    },
+    "drops": {
+        "amount": 2,
+        "entries": [{
+                "item": "cobblemon:oran_berry"
+            }
+        ]
+    },
+    "moves": [
+        "1:endure",
+        "5:protect",
+        "7:facade",
+        "15:rest",
+        "16:sleeptalk",
+        "23:substitute",
+        "75:refresh",
+        "80:helpinghand",
+        "90:healbell",
+        "95:batonpass"
+    ],
+    "labels": [
+        "gen3beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.evolotto.desc",
+        "spaceworldmons.species.betahoenn.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 0.4,
+        "height": 0.4,
+        "fixed": false
+    },
+    "baseFriendship": 35,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+    },
+    "height": 4,
+    "weight": 80,
+    "evolutions": [{
+            "id": "evolotto",
+            "variant": "level_up",
+            "result": "random",
+            "consumeHeldItem": false,
+            "optional": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "friendship",
+                    "amount": 160
+                }
+            ]
+        }
+    ],
+    "aspects": [
+        
+    ],
+    "cannotDynamax": false
+}

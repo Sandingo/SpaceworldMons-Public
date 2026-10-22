@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:komainu",
+    "speciesId": "cobblemon:komainu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

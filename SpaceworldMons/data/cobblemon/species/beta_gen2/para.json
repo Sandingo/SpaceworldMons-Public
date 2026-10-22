@@ -1,0 +1,154 @@
+{
+    "implemented": true,
+    "name": "Para",
+    "nationalPokedexNumber": 37,
+    "primaryType": "bug",
+    "abilities": [
+        "harvest",
+        "dryskin",
+        "h:damp"
+    ],
+    "baseStats": {
+        "hp": 30,
+        "attack": 60,
+        "defence": 45,
+        "special_attack": 45,
+        "special_defence": 45,
+        "speed": 20
+    },
+    "catchRate": 190,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 70,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "bug",
+        "grass"
+    ],
+    "behaviour": {
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "light": "0-4",
+            "willSleepOnBed": true,
+            "times": [
+                "any"
+            ],
+            "drowsyChance": 0.0014,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": "2",
+            "toleratedLeaders": [{
+                    "pokemon": "para",
+                    "tier": 1
+                }, {
+                    "pokemon": "paras",
+                    "tier": 2
+                }, {
+                    "pokemon": "parasect",
+                    "tier": 3
+                }
+            ]
+        },
+        "combat": {
+            "willDefendOwner": true
+        }
+    },
+    "drops": {
+        "amount": 3,
+        "entries": [{
+                "item": "minecraft:red_mushroom",
+                "quantityRange": "0-2"
+            }, {
+                "item": "cobblemon:coba_berry",
+                "percentage": 2.5
+            }
+        ]
+    },
+
+    "moves": [
+        "1:scratch",
+        "8:stunspore",
+        "12:leechlife",
+        "16:visegrip",
+        "17:numbpincer",
+        "19:spore",
+        "26:slash",
+        "33:growth",
+        "39:gigadrain",
+        "egg:rockslash",
+        "egg:counter",
+        "egg:fellstinger",
+        "egg:flail",
+        "egg:leechseed",
+        "egg:naturalgift",
+        "egg:pursuit",
+        "egg:rototiller",
+        "egg:sweetscent",
+        "egg:scatterspores",
+        "tm:swordsdance",
+        "tm:toxic",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:rage",
+        "tm:gigadrain",
+        "tm:solarbeam",
+        "tm:dig",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:bide",
+        "tm:skullbash",
+        "tm:rest",
+        "tm:substitute",
+        "tm:cut",
+        "tm:rockslash",
+        "tm:brightmoss"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.para.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 0.5,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 5,
+    "weight": 48,
+    "evolutions": [{
+            "id": "para_paras",
+            "variant": "level_up",
+            "result": "paras",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 12
+                }
+            ]
+        }
+    ],
+    "aspects": [],
+    "cannotDynamax": false
+}

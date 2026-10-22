@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:monja",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0114_monja",
+      "model": "spaceworldmons:monja.geo",
+      "texture": "spaceworldmons:textures/pokemon/0114_monja/monja.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0114_monja/monja_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0114_monja/monja_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

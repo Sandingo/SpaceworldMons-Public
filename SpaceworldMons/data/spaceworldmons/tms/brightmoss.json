@@ -1,0 +1,19 @@
+{
+  "moveName": "brightmoss",
+  "obtainMethods": [
+    {
+      "variant": "cobblemon:default"
+    }
+  ],
+  "type": "normal",
+  "recipe": [
+    {
+      "item": "cobblemon:grass_gem",
+      "count": 1
+    },
+    {
+      "item": "cobblemon:luminous_moss",
+      "count": 1
+    }
+  ]
+}

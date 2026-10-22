@@ -1,0 +1,234 @@
+{
+    "implemented": true,
+    "name": "Mameja",
+    "nationalPokedexNumber": 95,
+    "primaryType": "grass",
+    "secondaryType": "dragon",
+    "abilities": [
+        "quickfeet",
+        "weakarmor",
+        "h:seedsower"
+    ],
+    "baseStats": {
+        "hp": 90,
+        "attack": 90,
+        "defence": 110,
+        "special_attack": 80,
+        "special_defence": 70,
+        "speed": 95
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 221,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "grass",
+        "dragon"
+    ],
+    "behaviour": {
+        "moving": {
+            "walk": {
+                "walkSpeed": 0.26
+            },
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "light": "0-4",
+            "depth": "comatose",
+            "times": [
+                "any"
+            ],
+            "drowsyChance": 0.0014,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": "2",
+            "toleratedLeaders": [{
+                    "pokemon": "mameja",
+                    "tier": 1
+                }
+            ]
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "drops": {
+        "amount": 2,
+        "entries": [{
+                "tag": "minecraft:chicken_food",
+                "percentage": 5
+            }, {
+                "item": "cobblemon:shuca_berry",
+                "percentage": 5
+            }, {
+                "item": "cobblemon:rindo_berry",
+                "percentage": 5
+            }, {
+                "item": "cobblemon:galarica_nuts",
+                "percentage": 10
+            }
+        ]
+    },
+    "moves": [
+        "1:absorb",
+        "1:recycle",
+        "1:twister",
+        "1:razorleaf",
+        "1:leechseed",
+        "1:powerwhip",
+        "1:bulletseed",
+        "4:vinewhip",
+        "8:defensecurl",
+        "12:ingrain",
+        "14:grassknot",
+        "20:bodypress",
+        "24:dragontail",
+        "26:flowershield",
+        "28:gigadrain",
+        "30:slam",
+        "32:seedbomb",
+        "36:shellsmash",
+        "38:floralhealing",
+        "40:dragonrush",
+        "44:woodhammer",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulletseed",
+        "tm:captivate",
+        "tm:confide",
+        "tm:cut",
+        "tm:doubleteam",
+        "tm:dragondance",
+        "tm:dragonpulse",
+        "tm:dracometeor",
+        "tm:encore",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:flash",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:grassyglide",
+        "tm:grassyterrain",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:leafstorm",
+        "tm:leechlife",
+        "tm:lunge",
+        "tm:magicalleaf",
+        "tm:naturalgift",
+        "tm:naturepower",
+        "tm:outrage",
+        "tm:pounce",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:scaryface",
+        "tm:secretpower",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:terablast",
+        "tm:thief",
+        "tm:toxic",
+        "tm:trailblaze",
+        "tm:weatherball",
+        "tm:brightmoss",
+        "tutor:acid",
+        "tutor:attract",
+        "tutor:bide",
+        "tutor:bind",
+        "tutor:bodyslam",
+        "tutor:curse",
+        "tutor:cut",
+        "tutor:doubleedge",
+        "tutor:doubleteam",
+        "tutor:endure",
+        "tutor:facade",
+        "tutor:flash",
+        "tutor:frustration",
+        "tutor:gigadrain",
+        "tutor:growth",
+        "tutor:headbutt",
+        "tutor:hiddenpower",
+        "tutor:hyperbeam",
+        "tutor:knockoff",
+        "tutor:leechlife",
+        "tutor:megadrain",
+        "tutor:mimic",
+        "tutor:powerwhip",
+        "tutor:protect",
+        "tutor:rage",
+        "tutor:razorleaf",
+        "tutor:reflect",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:seedbomb",
+        "tutor:sleeppowder",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:solarbeam",
+        "tutor:stunspore",
+        "tutor:substitute",
+        "tutor:suckerpunch",
+        "tutor:sunnyday",
+        "tutor:swagger",
+        "tutor:sweetscent",
+        "tutor:swordsdance",
+        "tutor:synthesis",
+        "tutor:takedown",
+        "tutor:toxic",
+        "tutor:vinewhip",
+        "tutor:worryseed",
+        "tutor:wrap"
+    ],
+    "labels": [
+        "gen6beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.mameja.desc",
+        "spaceworldmons.species.betakalos.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 0.7,
+        "height": 1.9,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 17,
+    "weight": 155,
+    "preEvolution": "chomame",
+    "evolutions": [],
+    "aspects": [
+
+    ],
+    "cannotDynamax": false
+}

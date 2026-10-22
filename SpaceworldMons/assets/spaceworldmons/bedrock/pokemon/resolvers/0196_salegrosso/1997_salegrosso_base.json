@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:salegrosso",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0196_salegrosso",
+      "model": "spaceworldmons:salegrosso.geo",
+      "texture": "spaceworldmons:textures/pokemon/0196_salegrosso/salegrosso.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0196_salegrosso/salegrosso_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0196_salegrosso/salegrosso_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

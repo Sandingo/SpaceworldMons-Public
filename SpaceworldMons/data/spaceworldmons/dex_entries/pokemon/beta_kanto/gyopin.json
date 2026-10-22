@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:gyopin",
+    "speciesId": "cobblemon:gyopin",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

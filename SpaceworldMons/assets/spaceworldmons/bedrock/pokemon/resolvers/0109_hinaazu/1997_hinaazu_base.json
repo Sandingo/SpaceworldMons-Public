@@ -1,0 +1,38 @@
+
+{
+  "species": "cobblemon:hinaazu",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0109_hinaazu",
+      "model": "spaceworldmons:hinaazu.geo",
+      "texture": "spaceworldmons:textures/pokemon/0109_hinaazu/hinaazu_male.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0109_hinaazu/hinaazu_male_shiny.png"
+    },
+	{
+      "aspects": ["female"],
+      "texture": "spaceworldmons:textures/pokemon/0109_hinaazu/hinaazu_female.png"
+    },
+	{
+      "aspects": ["female", "shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0109_hinaazu/hinaazu_female_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0109_hinaazu/hinaazu_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

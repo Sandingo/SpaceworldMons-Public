@@ -1,0 +1,36 @@
+{
+    "species": "cobblemon:omega",
+    "order": 1997,
+    "variations": [{
+            "aspects": [],
+            "poser": "spaceworldmons:0007_omega",
+            "model": "spaceworldmons:omega.geo",
+            "texture": "spaceworldmons:textures/pokemon/0007_omega/omega.png",
+            "layers": [{
+                    "name": "emissive",
+                    "texture": "spaceworldmons:textures/pokemon/0007_omega/omega_emissive.png",
+                    "emissive": "true"
+                }, {
+                    "name": "dome",
+                    "texture": "spaceworldmons:textures/pokemon/0007_omega/dome.png",
+                    "translucent": true
+                }
+            ]
+        }, {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "spaceworldmons:textures/pokemon/0007_omega/omega_shiny.png"
+        }, {
+            "aspects": [
+                "alpha_eyes"
+            ],
+            "layers": [{
+                    "name": "alpha_eyes",
+                    "texture": "spaceworldmons:textures/pokemon/0007_omega/omega_alpha.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

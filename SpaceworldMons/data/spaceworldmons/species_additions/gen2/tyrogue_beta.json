@@ -1,0 +1,132 @@
+{
+  "target": "cobblemon:tyrogue",
+  "features": [
+    "beta"
+  ],
+  "forms": [
+    {
+      "implemented": true,
+      "name": "Beta",
+      "height": 5,
+      "weight": 210,
+      "pokedex": [
+        "spaceworldmons.species.tyrogue-beta.desc",
+        "spaceworldmons.species.betajohto.desc"
+      ],
+      "labels": [
+        "gen2"
+      ],
+      "aspects": [
+        "beta"
+      ],
+      "baseStats": {
+        "hp": 30,
+        "attack": 80,
+        "defence": 33,
+        "special_attack": 15,
+        "special_defence": 70,
+        "speed": 67
+      },
+      "shoulderMountable": true,
+      "baseScale": 0.55,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1,
+        "fixed": false
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": true,
+          "light": "0-4",
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "herd": {
+          "maxSize": 2,
+          "toleratedLeaders": [
+            {
+              "pokemon": "tyrogue alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "hitmonchan",
+              "tier": 1
+            },
+            {
+              "pokemon": "hitmonlee",
+              "tier": 1
+            },
+            {
+              "pokemon": "hitmontop",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.3
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "evolutions": [
+        {
+          "id": "tyrogue-beta_hitmonchan",
+          "variant": "level_up",
+          "result": "hitmonchan",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "cometpunch",
+            "drainpunch"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 15
+            }
+          ]
+        },
+        {
+          "id": "tyrogue-beta_hitmonlee",
+          "variant": "level_up",
+          "result": "hitmonlee",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "doublekick",
+            "brickbreak"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 15
+            }
+          ]
+        },
+        {
+          "id": "tyrogue-beta_hitmontop-beta",
+          "variant": "level_up",
+          "result": "hitmontop beta",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "rollingkick",
+            "triplekick"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

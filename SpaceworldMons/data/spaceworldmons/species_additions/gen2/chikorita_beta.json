@@ -1,0 +1,71 @@
+{
+    "target": "cobblemon:chikorita",
+    "features": ["beta"],
+    "forms": [{
+            "implemented": true,
+            "name": "Beta",
+            "primaryType": "grass",
+            "baseStats": {
+                "hp": 45,
+                "attack": 49,
+                "defence": 49,
+                "special_attack": 65,
+                "special_defence": 65,
+                "speed": 45
+            },
+            "shoulderMountable": true,
+            "baseExperienceYield": 64,
+            "experienceGroup": "medium_slow",
+            "eggCycles": 20,
+            "drops": {
+                "amount": 1,
+                "entries": [{
+                        "item": "cobblemon:miracle_seed",
+                        "percentage": 5.0
+                    }
+                ]
+            },
+            "labels": [
+                "gen2",
+                "starter",
+                "customized_official"
+            ],
+            "aspects": ["beta"],
+            "pokedex": [
+                "spaceworldmons.species.chikorita-beta.desc",
+                "spaceworldmons.species.betajohto.desc"
+            ],
+            "baseScale": 0.6,
+            "hitbox": {
+                "width": 0.7,
+                "height": 1.1,
+                "fixed": false
+            },
+            "baseFriendship": 50,
+            "evYield": {
+                "hp": 0,
+                "attack": 0,
+                "defence": 0,
+                "special_attack": 0,
+                "special_defence": 1,
+                "speed": 0
+            },
+            "height": 9,
+            "weight": 64,
+            "evolutions": [{
+                    "id": "chikorita_hanamogura",
+                    "variant": "level_up",
+                    "result": "hanamogura",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [{
+                            "variant": "level",
+                            "minLevel": 16
+                        }
+                    ]
+                }
+            ],
+            "cannotDynamax": false
+        }
+    ]
+}

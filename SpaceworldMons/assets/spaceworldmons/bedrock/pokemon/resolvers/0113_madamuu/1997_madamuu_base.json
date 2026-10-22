@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:madamuu",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0113_madamuu",
+      "model": "spaceworldmons:madamuu.geo",
+      "texture": "spaceworldmons:textures/pokemon/0113_madamuu/madamuu.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0113_madamuu/madamuu_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0113_madamuu/madamuu_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

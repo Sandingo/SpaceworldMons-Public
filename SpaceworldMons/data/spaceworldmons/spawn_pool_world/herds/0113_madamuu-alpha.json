@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "madamuu-alpha-1",
+            "presets": [
+                "natural",
+                "treetop",
+                "wild"
+            ],
+            "type": "pokemon-herd",
+            "context": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "cobblemon:medicinal_leek"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "madamuu held_item=cobblemon:flying_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "farfetchd",
+                    "weight": 80.0,
+                    "levelRange": "13-38",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

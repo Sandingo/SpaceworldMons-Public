@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:kanbok",
+    "speciesId": "cobblemon:kanbok",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

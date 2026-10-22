@@ -1,0 +1,95 @@
+{
+    "portraitScale": 2,
+    "portraitTranslation": [0, 0.1, 0],
+    "profileScale": 0.95,
+    "profileTranslation": [0, 0.4, 0],
+    "rootBone": "kyonpan",
+    "animations": {
+        "cry": "q.bedrock_stateful('kyonpan', 'blink')",
+        "recoil": "q.bedrock_stateful('kyonpan', 'blink')",
+        "faint": "q.bedrock_stateful('kyonpan', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('kyonpan', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kyonpan', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('kyonpan', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('kyonpan', 'air_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kyonpan', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('kyonpan', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('kyonpan', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kyonpan', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('kyonpan', 'blink')"
+            ]
+        },
+        "hovering": {
+            "poseName": "hovering",
+            "poseTypes": ["HOVER"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('kyonpan', 'air_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kyonpan', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('kyonpan', 'blink')"
+            ]
+        },
+        "flying": {
+            "poseName": "flying",
+            "poseTypes": ["FLY"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('kyonpan', 'air_fly')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kyonpan', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('kyonpan', 'blink')"
+            ]
+        }
+	}
+}

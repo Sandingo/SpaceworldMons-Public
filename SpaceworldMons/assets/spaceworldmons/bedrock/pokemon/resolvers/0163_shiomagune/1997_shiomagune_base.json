@@ -1,0 +1,23 @@
+{
+    "species": "cobblemon:shiomagune",
+    "order": 1997,
+    "variations": [{
+            "aspects": [],
+            "poser": "spaceworldmons:0163_shiomagune",
+            "model": "spaceworldmons:shiomagune.geo",
+            "texture": "spaceworldmons:textures/pokemon/0163_shiomagune/shiomagune.png",
+            "layers": []
+        }, {
+            "aspects": ["shiny"],
+            "texture": "spaceworldmons:textures/pokemon/0163_shiomagune/shiomagune_shiny.png"
+        }, {
+            "aspects": ["alpha_eyes"],
+            "layers": [{
+                    "name": "alpha_eyes",
+                    "texture": "spaceworldmons:textures/pokemon/0163_shiomagune/shiomagune_alpha.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

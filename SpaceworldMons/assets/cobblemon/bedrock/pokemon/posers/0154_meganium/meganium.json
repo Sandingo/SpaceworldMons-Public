@@ -1,0 +1,107 @@
+{
+    "portraitScale": 1.2,
+    "portraitTranslation": [-0.7, 2.4, 0],
+    "profileScale": 0.43,
+    "profileTranslation": [0, 1.12, 0],
+    "rootBone": "meganium",
+    "animations": {
+        "cry": "q.bedrock_stateful('meganium', 'cry')",
+        "recoil": "q.bedrock_stateful('meganium', 'blink')",
+        "faint": "q.bedrock_stateful('meganium', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('meganium', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('meganium', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('meganium', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('meganium', 'battle_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('meganium', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('meganium', 'blink')"
+            ]
+        },
+        "walk": {
+            "poseName": "walk",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('meganium', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('meganium', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('meganium', 'blink')"
+            ]
+        },
+        "run": {
+            "poseName": "run",
+            "poseTypes": ["WALK"],
+            "isBattle": false,
+            "condition": "!q.in_air && q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('meganium', 'ground_run')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('meganium', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('meganium', 'blink')"
+            ]
+        },
+        "jump": {
+            "poseTypes": ["STAND", "WALK"],
+            "condition": "q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('meganium', 'ride_jump')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('meganium', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('meganium', 'blink')"
+            ],
+            "transformTicks": 3,
+            "transformToTicks": 3
+        },
+        "sleep": {
+            "poseName": "sleep",
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('meganium', 'sleep')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('meganium', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10
+        }
+    }
+}

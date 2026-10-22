@@ -1,0 +1,54 @@
+
+{
+  "species": "cobblemon:psykou",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0189_psykou",
+      "model": "spaceworldmons:psykou.geo",
+      "texture": "spaceworldmons:textures/pokemon/0189_psykou/psykou.png",
+      "layers": [
+        {
+          "name": "ectoplasm",
+          "texture": "spaceworldmons:textures/pokemon/0189_psykou/ectoplasm.png",
+		  "translucent": true
+        },
+		{
+          "name": "eyes_nerves",
+          "texture": "spaceworldmons:textures/pokemon/0189_psykou/eyes_nerves.png",
+		  "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0189_psykou/psykou_shiny.png",
+	  "layers": [
+        {
+          "name": "ectoplasm",
+          "texture": "spaceworldmons:textures/pokemon/0189_psykou/ectoplasm_shiny.png",
+		  "translucent": true
+        },
+		{
+          "name": "eyes_nerves",
+          "texture": "spaceworldmons:textures/pokemon/0189_psykou/eyes_nerves_shiny.png",
+		  "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0189_psykou/psykou_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
+

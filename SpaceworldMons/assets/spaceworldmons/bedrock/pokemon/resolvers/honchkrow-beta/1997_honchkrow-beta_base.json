@@ -1,0 +1,15 @@
+{
+    "species": "cobblemon:honchkrow",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "cobblemon:honchkrow",
+            "model": "spaceworldmons:honchkrow-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/honchkrow-beta/honchkrow.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/honchkrow-beta/honchkrow_shiny.png"
+        }
+    ]
+}

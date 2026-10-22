@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:tsubomitto",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0118_tsubomitto",
+      "model": "spaceworldmons:tsubomitto.geo",
+      "texture": "spaceworldmons:textures/pokemon/0118_tsubomitto/tsubomitto.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0118_tsubomitto/tsubomitto_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0118_tsubomitto/tsubomitto_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

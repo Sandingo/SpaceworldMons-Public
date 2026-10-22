@@ -1,0 +1,27 @@
+{
+    "species": "cobblemon:gabite",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:gabite-beta",
+            "model": "spaceworldmons:gabite-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/gabite-beta/gabite.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/gabite-beta/gabite_shiny.png"
+        },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/gabite-beta/gabite_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

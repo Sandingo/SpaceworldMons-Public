@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:kotora",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0038_kotora",
+      "model": "spaceworldmons:kotora.geo",
+      "texture": "spaceworldmons:textures/pokemon/0038_kotora/kotora.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0038_kotora/kotora_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0038_kotora/kotora_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

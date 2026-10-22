@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:sunorora",
+    "speciesId": "cobblemon:sunorora",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

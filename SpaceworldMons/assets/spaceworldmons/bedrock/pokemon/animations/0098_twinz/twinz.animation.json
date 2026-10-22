@@ -1,0 +1,192 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.twinz.ground_idle": {
+			"loop": true,
+			"bones": {
+				"bodies": {
+					"rotation": [0, 0, "query.anim_time * 90"]
+				},
+				"body_left": {
+					"rotation": ["math.cos(query.anim_time * 90) * 15", "math.sin(query.anim_time * 90) * 15", "-query.anim_time * 90"]
+				},
+				"torso_left": {
+					"rotation": [0, 0, "-math.sin(query.anim_time * 90) * 15"]
+				},
+				"jaw_left": {
+					"rotation": ["15 - math.sin(query.anim_time * 180 - 180) * 15", 0, 0]
+				},
+				"tail_left": {
+					"rotation": ["math.cos(query.anim_time * 90 - 0.3) * 15", "math.sin(query.anim_time * 90 - 0.3) * 15", 0]
+				},
+				"tail1_left": {
+					"rotation": ["math.cos(query.anim_time * 90 - 0.6) * 15", "math.sin(query.anim_time * 90 - 0.6) * 15", 0]
+				},
+				"tail2_left": {
+					"rotation": ["math.cos(query.anim_time * 90 - 0.9) * 15", "math.sin(query.anim_time * 90 - 0.9) * 15", 0]
+				},
+				"tail3_left": {
+					"rotation": ["math.cos(query.anim_time * 90 - 1.2) * 15", "math.sin(query.anim_time * 90 - 1.2) * 15", 0]
+				},
+				"tail4_left": {
+					"rotation": ["math.cos(query.anim_time * 90 - 1.5) * 15", "math.sin(query.anim_time * 90 - 1.5) * 15", 0]
+				},
+				"body_right": {
+					"rotation": ["-math.cos(query.anim_time * 90) * 15", "-math.sin(query.anim_time * 90) * 15", "-query.anim_time * 90"]
+				},
+				"torso_right": {
+					"rotation": [0, 0, "-math.sin(query.anim_time * 90) * 15"]
+				},
+				"jaw_right": {
+					"rotation": ["15 - math.sin(query.anim_time * 180) * 15", 0, 0]
+				},
+				"tail_right": {
+					"rotation": ["-math.cos(query.anim_time * 90 - 0.3) * 15", "-math.sin(query.anim_time * 90 - 0.3) * 15", 0]
+				},
+				"tail1_right": {
+					"rotation": ["-math.cos(query.anim_time * 90 - 0.6) * 15", "-math.sin(query.anim_time * 90 - 0.6) * 15", 0]
+				},
+				"tail2_right": {
+					"rotation": ["-math.cos(query.anim_time * 90 - 0.9) * 15", "-math.sin(query.anim_time * 90 - 0.9) * 15", 0]
+				},
+				"tail3_right": {
+					"rotation": ["-math.cos(query.anim_time * 90 - 1.2) * 15", "-math.sin(query.anim_time * 90 - 1.2) * 15", 0]
+				},
+				"tail4_right": {
+					"rotation": ["-math.cos(query.anim_time * 90 - 1.5) * 15", "-math.sin(query.anim_time * 90 - 1.5) * 15", 0]
+				}
+			}
+		},
+		"animation.twinz.ground_walk": {
+			"loop": true,
+			"bones": {
+				"bodies": {
+					"rotation": [0, 0, "query.anim_time * 90"]
+				},
+				"body_left": {
+					"rotation": ["math.cos(query.anim_time * 90) * 15", "math.sin(query.anim_time * 90) * 15", "-query.anim_time * 90"],
+					"position": [0, "math.sin(query.anim_time * 180) * 2.5", "math.cos(query.anim_time * 180) * 2.5"]
+				},
+				"torso_left": {
+					"rotation": [0, 0, "-math.sin(query.anim_time * 90) * 15"]
+				},
+				"jaw_left": {
+					"rotation": ["15 - math.sin(query.anim_time * 180 - 180) * 15", 0, 0]
+				},
+				"tail_left": {
+					"rotation": ["math.cos(query.anim_time * 90 - 0.3) * 7.5", "math.sin(query.anim_time * 90 - 0.3) * 7.5", 0]
+				},
+				"tail1_left": {
+					"rotation": ["math.cos(query.anim_time * 90 - 0.6) * 7.5", "math.sin(query.anim_time * 90 - 0.6) * 7.5", 0]
+				},
+				"tail2_left": {
+					"rotation": ["math.cos(query.anim_time * 90 - 0.9) * 7.5", "math.sin(query.anim_time * 90 - 0.9) * 7.5", 0]
+				},
+				"tail3_left": {
+					"rotation": ["math.cos(query.anim_time * 90 - 1.2) * 7.5", "math.sin(query.anim_time * 90 - 1.2) * 7.5", 0]
+				},
+				"tail4_left": {
+					"rotation": ["math.cos(query.anim_time * 90 - 1.5) * 7.5", "math.sin(query.anim_time * 90 - 1.5) * 7.5", 0]
+				},
+				"body_right": {
+					"rotation": ["-math.cos(query.anim_time * 90) * 15", "-math.sin(query.anim_time * 90) * 15", "-query.anim_time * 90"],
+					"position": [0, "-math.sin(query.anim_time * 180) * 5", "math.cos(query.anim_time * 180) * 5"]
+				},
+				"torso_right": {
+					"rotation": [0, 0, "-math.sin(query.anim_time * 90) * 15"]
+				},
+				"jaw_right": {
+					"rotation": ["15 - math.sin(query.anim_time * 180) * 15", 0, 0]
+				},
+				"tail_right": {
+					"rotation": ["-math.cos(query.anim_time * 90 - 0.3) * 7.5", "-math.sin(query.anim_time * 90 - 0.3) * 7.5", 0]
+				},
+				"tail1_right": {
+					"rotation": ["-math.cos(query.anim_time * 90 - 0.6) * 7.5", "-math.sin(query.anim_time * 90 - 0.6) * 7.5", 0]
+				},
+				"tail2_right": {
+					"rotation": ["-math.cos(query.anim_time * 90 - 0.9) * 7.5", "-math.sin(query.anim_time * 90 - 0.9) * 7.5", 0]
+				},
+				"tail3_right": {
+					"rotation": ["-math.cos(query.anim_time * 90 - 1.2) * 7.5", "-math.sin(query.anim_time * 90 - 1.2) * 7.5", 0]
+				},
+				"tail4_right": {
+					"rotation": ["-math.cos(query.anim_time * 90 - 1.5) * 7.5", "-math.sin(query.anim_time * 90 - 1.5) * 7.5", 0]
+				}
+			}
+		},
+		"animation.twinz.hold_item": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"jaw_right": {
+					"rotation": [25, 0, 0]
+				}
+			}
+		},
+		"animation.twinz.blink": {
+			"animation_length": 0.4167,
+			"bones": {
+				"eyelid_left_left": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.1667": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, -0.1]
+						},
+						"0.25": {
+							"pre": [0, 0, -0.1],
+							"post": [0, 0, 0]
+						}
+					}
+				},
+				"eyelid_right_left": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, -0.1]
+						},
+						"0.1667": {
+							"pre": [0, 0, -0.1],
+							"post": [0, 0, 0]
+						}
+					}
+				},
+				"eyelid_left_right": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, -0.1]
+						},
+						"0.3333": {
+							"pre": [0, 0, -0.1],
+							"post": [0, 0, 0]
+						}
+					}
+				},
+				"eyelid_right_right": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.3333": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, -0.1]
+						},
+						"0.4167": {
+							"pre": [0, 0, -0.1],
+							"post": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.twinz.cry": {
+			"animation_length": 0.0417,
+			"sound_effects": {
+				"0.0417": {
+					"effect": "spaceworldmons:pokemon.twinz.cry"
+				}
+			}
+		}
+	}
+}

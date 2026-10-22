@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:chikorita-beta",
+    "speciesId": "cobblemon:chikorita",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

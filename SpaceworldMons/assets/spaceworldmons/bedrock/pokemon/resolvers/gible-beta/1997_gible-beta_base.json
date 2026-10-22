@@ -1,0 +1,27 @@
+{
+    "species": "cobblemon:gible",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:gible-beta",
+            "model": "spaceworldmons:gible-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/gible-beta/gible.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/gible-beta/gible_shiny.png"
+        },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/gible-beta/gible_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

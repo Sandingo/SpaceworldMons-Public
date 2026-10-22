@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:barunda",
+    "speciesId": "cobblemon:barunda",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:wolfman",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0093_wolfman",
+      "model": "spaceworldmons:wolfman.geo",
+      "texture": "spaceworldmons:textures/pokemon/0093_wolfman/wolfman.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0093_wolfman/wolfman_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0093_wolfman/wolfman_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

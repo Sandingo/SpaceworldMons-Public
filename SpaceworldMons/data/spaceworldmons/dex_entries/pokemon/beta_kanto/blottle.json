@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:blottle",
+    "speciesId": "cobblemon:blottle",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

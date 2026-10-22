@@ -1,0 +1,23 @@
+{
+  "moveName": "uproot",
+  "obtainMethods": [
+    {
+      "variant": "cobblemon:default"
+    }
+  ],
+  "type": "normal",
+  "recipe": [
+    {
+      "item": "cobblemon:normal_gem",
+      "count": 4
+    },
+    {
+      "item": "cobblemon:grass_gem",
+      "count": 1
+    },
+    {
+      "item": "cobblemon:big_root",
+      "count": 1
+    }
+  ]
+}

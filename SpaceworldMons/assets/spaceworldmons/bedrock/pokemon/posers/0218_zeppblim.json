@@ -1,0 +1,60 @@
+{
+  "portraitScale": 0.9,
+  "portraitTranslation": [-0.6, 1.8, 0],
+  "profileScale": 0.4,
+  "profileTranslation": [0, 1.2, 0],
+  "rootBone": "zeppblim",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.4, 0],
+    "seat_1_reverse": [0, 0.4, 0]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.4, 0],
+    "seat_1_reverse": [0, 0.4, 0]
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('zeppblim', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "portrait": {
+      "poseTypes": ["PORTRAIT", "PROFILE"],
+      "condition": "!q.is_ridden",
+      "isBattle": false,
+      "animations": ["q.look('waist_rotation', O.5, 0.5)", "q.bedrock('zeppblim', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('zeppblim', 'blink')"]
+    },
+    "hover": {
+      "poseTypes": ["HOVER", "STAND", "FLOAT", "NONE"],
+      "transformTicks": 10,
+      "condition": "!q.is_ridden",
+      "animations": [
+        "q.look('waist_rotation', 0.5, 0.5)",
+        "q.bedrock('zeppblim', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('zeppblim', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY", "SWIM", "WALK"],
+      "transformTicks": 10,
+      "condition": "!q.is_ridden",
+      "animations": [
+        "q.look('waist_rotation', 0.5, 0.5)",
+        "q.bedrock('zeppblim', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('zeppblim', 'blink')"]
+    },
+    "ride-fly": {
+      "poseTypes": ["HOVER", "STAND", "FLOAT", "NONE", "FLY", "SWIM", "WALK"],
+      "condition": "q.is_ridden && q.has_entity",
+      "transformTicks": 10,
+      "animations": [
+        "q.bedrock('zeppblim', 'air_idle')",
+        "q.bedrock('zeppblim', 'ride_air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('zeppblim', 'blink')"]
+    }
+  }
+}

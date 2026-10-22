@@ -1,0 +1,52 @@
+{
+    "portraitScale": 1.7,
+    "portraitTranslation": [0.2, -0.2, 0],
+    "profileScale": 0.9,
+    "profileTranslation": [0, 0.4, 0],
+	"rootBone": "totta",
+    "animations": {
+        "cry": "q.bedrock_stateful('totta', 'cry')",
+        "recoil": "q.bedrock_stateful('totta', 'blink')",
+        "faint": "q.bedrock_stateful('totta', 'faint')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.bedrock('totta', 'ground_idle')"
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('totta', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.bedrock('totta', 'battle_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('totta', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+				"q.look('head')",
+                "q.bedrock('totta', 'ground_walk')"
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('totta', 'blink')"
+            ]
+        }
+    }
+}

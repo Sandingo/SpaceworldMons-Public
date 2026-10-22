@@ -1,0 +1,65 @@
+{
+  "pokemon.plux.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/plux/plux_cry", "volume": 1.1 } ]
+  },
+  "pokemon.madamuu.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/madamuu/madamuu_cry", "volume": 0.8 } ]
+  },
+  "pokemon.tsubomitto.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/tsubomitto/tsubomitto_cry", "volume": 0.8 } ]
+  },
+  "pokemon.gorochu.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/gorochu/gorochu_cry", "volume": 0.6 } ]
+  },
+  "pokemon.animon.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/animon/animon_cry", "volume": 0.6 } ]
+  },
+  "pokemon.evolotto.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/evolotto/evolotto_cry", "volume": 0.9 } ]
+  },  
+  "pokemon.evolotto.faint": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/evolotto/evolotto_faint", "volume": 0.9 } ]
+  },
+  "pokemon.psykou.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/psykou/psykou_cry", "volume": 0.7 } ]
+  },
+  "pokemon.psyking.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/psyking/psyking_cry", "volume": 0.7 } ]
+  },
+  "pokemon.hakogame.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/hakogame/hakogame_cry", "volume": 0.7 } ]
+  },
+  "pokemon.kaburion.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/kaburion/kaburion_cry", "volume": 0.7 } ]
+  },
+    "pokemon.marill-beta.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/marill/marill-beta_cry", "volume": 0.25 } ]
+  },
+    "pokemon.azumarill-beta.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/azumarill/azumarill-beta_cry", "volume": 0.25 } ]
+  },
+    "pokemon.twinz.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/twinz/twinz_cry", "volume": 0.5 } ]
+  },
+    "pokemon.calfaraf.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/calfaraf/calfaraf_cry", "volume": 0.5 } ]
+  },
+    "pokemon.bomushika.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/bomushika/bomushika_cry", "volume": 0.5 } ]
+  },
+    "pokemon.scizor.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/scizor/scizor_cry", "volume": 0.5 } ]
+  },
+    "pokemon.tyrogue-beta.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/tyrogue/tyrogue_cry", "volume": 0.5 } ]
+  },
+    "pokemon.hitmontop-beta.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/hitmontop/hitmontop_cry", "volume": 0.5 } ]
+  },
+    "pokemon.raitora.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/raitora/raitora_cry", "volume": 0.5 } ]
+  },
+    "pokemon.archaeon.cry": {
+    "sounds": [ { "name": "spaceworldmons:pokemon/archaeon/archaeon_cry", "volume": 0.5 } ]
+  }
+}

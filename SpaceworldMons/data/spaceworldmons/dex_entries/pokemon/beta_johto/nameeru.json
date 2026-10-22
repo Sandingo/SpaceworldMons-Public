@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:nameeru",
+    "speciesId": "cobblemon:nameeru",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

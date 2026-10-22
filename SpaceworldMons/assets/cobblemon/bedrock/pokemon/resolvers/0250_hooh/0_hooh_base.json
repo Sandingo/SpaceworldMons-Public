@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:hooh",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hooh",
+      "model": "cobblemon:ho_oh.geo",
+      "texture": "cobblemon:textures/pokemon/0250_hooh/ho_oh.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0250_hooh/ho_oh_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0250_hooh/ho_oh_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0250_hooh/ho_oh_emissive_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-gold_armor"
+      ],
+      "layers": [
+        {
+          "name": "golden",
+          "texture": "cobblemon:textures/pokemon/0250_hooh/ho_oh_golden.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-netherite_armor"
+      ],
+      "layers": [
+        {
+          "name": "spacegold",
+          "texture": "cobblemon:textures/pokemon/0250_hooh/ho_oh_spacegold.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0250_hooh/ho_oh_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

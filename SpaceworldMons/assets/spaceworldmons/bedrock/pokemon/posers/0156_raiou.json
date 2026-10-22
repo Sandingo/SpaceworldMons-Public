@@ -1,0 +1,30 @@
+{
+    "portraitScale": 1.2,
+    "portraitTranslation": [-0.9,1.3,0],
+    "profileScale": 0.5,
+    "profileTranslation": [0,1,0],
+    "rootBone": "raiou",
+    "poses": {
+        "battle-standing": {
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": ["q.bedrock('raiou', 'battle_idle')"],
+            "quirks": ["q.bedrock_quirk('raiou', 'blink')"]
+        },
+        "standing": {
+            "poseName": "standing",
+            "isBattle": false,
+            "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+            "animations": ["q.bedrock('raiou', 'ground_idle')"],
+            "quirks": ["q.bedrock_quirk('raiou', 'blink')"]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "animations": [
+                "q.bedrock('raiou', 'ground_walk')"
+            ],
+            "quirks": ["q.bedrock_quirk('raiou', 'blink')"]
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:mameja",
+    "speciesId": "cobblemon:mameja",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

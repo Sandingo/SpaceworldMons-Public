@@ -1,0 +1,33 @@
+{
+    "parent": "cobblemon:recipes/held",
+    "criteria": {
+        "has_item": {
+            "conditions": {
+                "items": [{
+                        "items": [
+                            "cobblemon:ground_gem"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "spaceworldmons:fossil_shard"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_item",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "spaceworldmons:fossil_shard"
+        ]
+    }
+}

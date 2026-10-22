@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:sunown",
+    "speciesId": "cobblemon:sunown",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

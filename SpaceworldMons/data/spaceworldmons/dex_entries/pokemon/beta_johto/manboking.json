@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:manboking",
+    "speciesId": "cobblemon:manboking",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

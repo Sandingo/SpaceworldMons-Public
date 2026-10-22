@@ -1,0 +1,137 @@
+{
+    "implemented": true,
+    "name": "Zuruzu",
+    "nationalPokedexNumber": 76,
+    "primaryType": "rock",
+    "abilities": [
+        "shedskin",
+        "h:unburden"
+    ],
+    "baseStats": {
+        "hp": 45,
+        "attack": 50,
+        "defence": 75,
+        "special_attack": 55,
+        "special_defence": 65,
+        "speed": 60
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 62,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "monster",
+        "dragon"
+    ],
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:shed_shell",
+                "percentage": 10.0
+            }
+        ]
+    },
+    "moves": [
+        "1:pound",
+        "1:leer",
+        "3:sandattack",
+        "8:headbutt",
+        "12:detect",
+        "15:quickguard",
+        "18:assurance",
+        "21:rockthrow",
+        "24:slam",
+        "27:doubleteam",
+        "30:rockslide",
+        "33:screech",
+        "36:endeavor",
+        "39:headsmash",
+        "egg:takedown",
+        "egg:doublekick",
+        "egg:dragonbreath",
+        "egg:nightslash",
+        "egg:slash",
+        "egg:counter",
+        "egg:detect",
+        "egg:fakeout",
+        "egg:rockslash",
+        "tm:rockslash",
+        "tm:protect",
+        "tm:takedown",
+        "tm:mudslap",
+        "tm:scaryface",
+        "tm:thief",
+        "tm:facade",
+        "tm:bulldoze",
+        "tm:rocktomb",
+        "tm:fling",
+        "tm:endure",
+        "tm:sandstorm",
+        "tm:dig",
+        "tm:zenheadbutt",
+        "tm:bodyslam",
+        "tm:firepunch",
+        "tm:thunderpunch",
+        "tm:sleeptalk",
+        "tm:rockblast",
+        "tm:stompingtantrum",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:swordsdance",
+        "tm:ironhead",
+        "tm:substitute",
+        "tm:crunch",
+        "tm:dragonpulse",
+        "tm:stealthrock",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:stoneedge",
+        "tm:roar",
+        "tm:smackdown",
+        "tm:uproar",
+        "tm:doubleedge",
+        "tm:endeavor",
+        "tm:curse",
+        "tm:dragoncheer"
+    ],
+    "labels": [
+        "gen3beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.zuruzu.desc",
+        "spaceworldmons.species.betahoenn.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 0.5,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 50,
+    "weight": 50,
+    "evolutions": [{
+            "id": "zuruzu-archaeon",
+            "variant": "level_up",
+            "result": "archaeon",
+            "consumeHeldItem": false,
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 32
+                }
+            ]
+        }
+    ],
+    "aspects": [],
+    "cannotDynamax": false
+}

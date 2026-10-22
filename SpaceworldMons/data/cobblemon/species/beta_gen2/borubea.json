@@ -1,0 +1,176 @@
+{
+    "implemented": true,
+    "name": "Borubea",
+    "nationalPokedexNumber": 22,
+    "primaryType": "fire",
+    "abilities": [
+        "blaze",
+        "h:guts"
+    ],
+    "baseStats": {
+        "hp": 63,
+        "attack": 70,
+        "defence": 65,
+        "special_attack": 76,
+        "special_defence": 55,
+        "speed": 76
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 142,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "field"
+    ],
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "moving": {
+            "walk": {
+                "walkSpeed": 0.25
+            },
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        },
+        "herd": {
+            "maxSize": "2",
+            "toleratedLeaders": [{
+                    "pokemon": "teddiursa",
+                    "tier": 1
+                }, {
+                    "pokemon": "cubchoo",
+                    "tier": 1
+                }, {
+                    "pokemon": "beartic",
+                    "tier": 2
+                }, {
+                    "pokemon": "honoguma",
+                    "tier": 2
+                }, {
+                    "pokemon": "ursaring",
+                    "tier": 3
+                }, {
+                    "pokemon": "borubea",
+                    "tier": 3
+                }, {
+                    "pokemon": "ursaluna bloodmoon=false",
+                    "tier": 4
+                }, {
+                    "pokemon": "dainabea",
+                    "tier": 4
+                }, {
+                    "pokemon": "ursaluna bloodmoon",
+                    "tier": 5
+                }
+            ]
+        }
+    },
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:charcoal_stick",
+                "percentage": 25.0
+            }
+        ]
+    },
+    "moves": [
+        "1:scratch",
+        "1:leer",
+        "1:ember",
+        "11:sandattack",
+        "18:bite",
+        "24:scaryface",
+        "29:flamewheel",
+        "35:furyswipes",
+        "41:rest",
+        "48:slash",
+        "54:flamethrower",
+        "egg:feintattack",
+        "egg:foresight",
+        "egg:furyswipes",
+        "egg:quickattack",
+        "egg:reversal",
+        "egg:submission",
+        "egg:thrash",
+        "tm:shadowball",
+        "tm:headbutt",
+        "tm:curse",
+        "tm:rollout",
+        "tm:roar",
+        "tm:toxic",
+        "tm:rocksmash",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:endure",
+        "tm:irontail",
+        "tm:return",
+        "tm:megahorn",
+        "tm:dig",
+        "tm:mudslap",
+        "tm:doubleteam",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:fireblast",
+        "tm:swift",
+        "tm:defensecurl",
+        "tm:rest",
+        "tm:furycutter",
+        "tm:cut",
+        "tm:strength",
+        "tm:flamethrower"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.borubea.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 0.8,
+    "hitbox": {
+        "width": 1.2,
+        "height": 1.3,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 10,
+    "weight": 326,
+    "preEvolution": "honoguma",
+    "evolutions": [{
+            "id": "borubea_dainabea",
+            "variant": "level_up",
+            "result": "dainabea",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 32
+                }
+            ]
+        }
+    ],
+    "aspects": [],
+    "cannotDynamax": false
+}

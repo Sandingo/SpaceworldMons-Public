@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:gorillaimo",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0002_gorillaimo",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0002_gorillaimo/gorillaimo.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0002_gorillaimo/gorillaimo_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:sunoun",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0161_sunoun",
+      "model": "spaceworldmons:sunoun.geo",
+      "texture": "spaceworldmons:textures/pokemon/0161_sunoun/sunoun.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0161_sunoun/sunoun_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0161_sunoun/sunoun_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

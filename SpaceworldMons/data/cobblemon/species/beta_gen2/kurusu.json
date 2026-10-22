@@ -1,0 +1,182 @@
+{
+    "implemented": true,
+    "name": "Kurusu",
+    "nationalPokedexNumber": 24,
+    "primaryType": "water",
+    "abilities": [
+        "torrent",
+        "h:swiftswim"
+    ],
+    "baseStats": {
+        "hp": 55,
+        "attack": 48,
+        "defence": 57,
+        "special_attack": 62,
+        "special_defence": 57,
+        "speed": 35
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": true,
+    "baseExperienceYield": 66,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "monster",
+        "water_1"
+    ],
+    "behaviour": {
+        "moving": {
+            "walk": {
+                "walkSpeed": 0.15
+            },
+            "swim": {
+                "canBreatheUnderwater": true,
+                "swimSpeed": "0.2"
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": "4",
+            "toleratedLeaders": [{
+                    "pokemon": "seel",
+                    "tier": 1
+                }, {
+                    "pokemon": "spheal",
+                    "tier": 1
+                }, {
+                    "pokemon": "popplio",
+                    "tier": 2
+                }, {
+                    "pokemon": "dewgong",
+                    "tier": 3
+                }, {
+                    "pokemon": "sealeo",
+                    "tier": 3
+                }, {
+                    "pokemon": "kurusu",
+                    "tier": 3
+                }, {
+                    "pokemon": "brionne",
+                    "tier": 4
+                }, {
+                    "pokemon": "walrein",
+                    "tier": 5
+                }, {
+                    "pokemon": "akua",
+                    "tier": 6
+                }, {
+                    "pokemon": "primarina",
+                    "tier": 6
+                }, {
+                    "pokemon": "akueria",
+                    "tier": 7
+                }, {
+                    "pokemon": "manaphy",
+                    "tier": 8
+                }
+            ]
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:mystic_water",
+                "percentage": 5.0
+            }
+        ]
+    },
+    "moves": [
+        "1:pound",
+        "1:growl",
+        "7:watergun",
+        "12:mist",
+        "17:powdersnow",
+        "22:encore",
+        "28:bubblebeam",
+        "33:haze",
+        "38:aurorabeam",
+        "44:protect",
+        "49:hydropump",
+        "egg:takedown",
+        "egg:amnesia",
+        "egg:ancientpower",
+        "egg:disable",
+        "egg:encore",
+        "egg:perishsong",
+        "egg:psybeam",
+        "tm:waterfall",
+        "tm:headbutt",
+        "tm:curse",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:blizzard",
+        "tm:icywind",
+        "tm:protect",
+        "tm:raindance",
+        "tm:endure",
+        "tm:irontail",
+        "tm:return",
+        "tm:megahorn",
+        "tm:dig",
+        "tm:mudslap",
+        "tm:doubleteam",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:rest",
+        "tm:attract",
+        "tm:surf",
+        "tm:whirlpool",
+        "tm:icebeam"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.kurusu.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 0.8,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 8,
+    "weight": 140,
+    "evolutions": [{
+            "id": "kurusu_akua",
+            "variant": "level_up",
+            "result": "akua",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 18
+                }
+            ]
+        }
+    ],
+    "aspects": [],
+    "cannotDynamax": false
+}

@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:eevee",
+  "evolutions": [
+    {
+      "id": "eevee_umbreon-beta",
+      "variant": "level_up",
+      "result": "umbreon beta",
+      "consumeHeldItem": false,
+      "learnableMoves": ["smog"],
+      "requirements": [
+        {
+          "variant": "negate",
+          "inner": {
+            "variant": "friendship",
+            "amount": 21
+          }
+        }
+      ]
+    }
+  ]
+}

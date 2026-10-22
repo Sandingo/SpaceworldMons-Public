@@ -1,0 +1,185 @@
+{
+    "implemented": true,
+    "name": "Manboking",
+    "nationalPokedexNumber": 33,
+    "primaryType": "water",
+    "abilities": [
+        "hydration",
+        "reckless",
+        "h:lightningrod"
+    ],
+    "baseStats": {
+        "hp": 125,
+        "attack": 90,
+        "defence": 75,
+        "special_attack": 95,
+        "special_defence": 85,
+        "speed": 40
+    },
+    "catchRate": 90,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 171,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 5,
+    "eggGroups": [
+        "water_2",
+        "amorphous"
+    ],
+    "behaviour": {
+        "moving": {
+            "walk": {
+                "avoidsLand": true
+            },
+            "swim": {
+                "swimSpeed": 0.3,
+                "canBreatheUnderwater": true
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": "9",
+            "toleratedLeaders": [{
+                    "pokemon": "alomomola",
+                    "tier": 1
+                }, {
+                    "pokemon": "molambino",
+                    "tier": 1
+                }, {
+                    "pokemon": "solamola",
+                    "tier": 2
+                }, {
+                    "pokemon": "manboking",
+                    "tier": 3
+                }, {
+                    "pokemon": "manaphy",
+                    "tier": 4
+                }
+            ]
+        },
+        "combat": {
+            "willDefendSelf": false,
+            "willDefendOwner": true,
+            "willFlee": true
+        }
+    },
+    "drops": {
+        "amount": 3,
+        "entries": [{
+                "item": "minecraft:cod"
+            }, {
+                "item": "minecraft:bone_meal",
+                "percentage": 10.0
+            }, {
+                "item": "cobblemon:deep_sea_scale",
+                "percentage": 10.0
+            }
+        ]
+    },
+  "riding": {
+    "behaviours": {
+      "LIQUID": {
+        "key": "cobblemon:liquid/submarine",
+        "rideSounds": [],
+        "hitboxBreachPercentage": 0.9,
+        "stats": {
+          "ACCELERATION": "35-70",
+          "JUMP": "10-30",
+          "SKILL": "25-55",
+          "SPEED": "35-65",
+          "STAMINA": "30-60"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  },
+    "moves": [
+        "1:hornattack",
+        "1:tackle",
+        "1:growl",
+        "1:bubble",
+        "1:defensecurl",
+        "10:takedown",
+        "15:supersonic",
+        "19:bubblebeam",
+        "24:screech",
+        "28:slam",
+        "33:acidarmor",
+        "37:confuseray",
+        "39:raindance",
+        "44:doubleedge",
+        "47:thunderbolt",
+        "51:hydropump",
+        "57:megahorn",
+        "59:horndrill",
+        "egg:acupressure",
+        "egg:aquatail",
+        "egg:haze",
+        "egg:mudslap",
+        "egg:psybeam",
+        "egg:headsmash",
+        "egg:skullbash",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:endure",
+        "tm:return",
+        "tm:megaphone",
+        "tm:mudslap",
+        "tm:doubleteam",
+        "tm:swift",
+        "tm:defensecurl",
+        "tm:rest",
+        "tm:surf",
+        "tm:waterfall",
+        "tm:whirlpool",
+        "tm:hail",
+        "tm:facade",
+        "tm:scald",
+        "tm:swordsdance",
+        "tm:sleeptalk",
+        "tm:swagger",
+        "tm:substitute"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.manboking.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 1.5,
+    "hitbox": {
+        "width": 2,
+        "height": 1.4,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 42,
+    "weight": 932,
+    "preEvolution": "solamola",
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

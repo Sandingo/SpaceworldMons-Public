@@ -1,0 +1,90 @@
+{
+    "implemented": false,
+    "name": "Buhi",
+    "nationalPokedexNumber": 5,
+    "primaryType": "normal",
+    "secondaryType": "ghost",
+    "abilities": [
+        "clearbody",
+        "h:cursedbody"
+    ],
+    "baseStats": {
+        "hp": 58,
+        "attack": 97,
+        "defence": 40,
+        "special_attack": 53,
+        "special_defence": 53,
+        "speed": 112
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 107,
+    "experienceGroup": "fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "amorphous"
+    ],
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:oran_berry",
+                "percentage": 50.0
+            }
+        ]
+    },
+    "moves": [
+        "1:psywave",
+        "1:scratch",
+        "28:confuseray",
+        "32:feintattack",
+        "34:furyswipes",
+        "37:psybeam",
+        "45:slash",
+        "tm:toxic",
+        "tm:rage",
+        "tm:megadrain",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:psychic",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:bide",
+        "tm:swift",
+        "tm:dreameater",
+        "tm:rest",
+        "tm:psywave",
+        "tm:explosion",
+        "tm:substitute",
+        "tm:dazzlinggleam",
+        "tm:payday",
+        "tm:takedown"
+    ],
+    "labels": [
+        "gen1beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.buhi.desc",
+        "spaceworldmons.species.betakanto.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 50,
+    "weight": 50,
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

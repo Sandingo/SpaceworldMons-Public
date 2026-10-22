@@ -1,0 +1,28 @@
+{
+    "portraitScale": 2.0,
+    "portraitTranslation": [-0.4, 0.65, 0],
+    "profileScale": 0.8,
+    "profileTranslation": [0, 0.55, 0],
+    "rootBone": "nameeru",
+    "poses": {
+        "battle-standing": {
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": ["q.look('head')", "q.bedrock('nameeru', 'ground_idle')"],
+            "blinks": ["q.bedrock_blink('nameeru', 'blink')"]
+        },
+        "standing": {
+            "poseName": "standing",
+            "isBattle": false,
+            "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+            "animations": ["q.look('head')", "q.bedrock('nameeru', 'ground_idle')"],
+            "blinks": ["q.bedrock_blink('nameeru', 'blink')"]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "animations": ["q.look('head')", "q.bedrock('nameeru', 'ground_walk')"],
+            "blinks": ["q.bedrock_blink('nameeru', 'blink')"]
+        }
+    }
+}

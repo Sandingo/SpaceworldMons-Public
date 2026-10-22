@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:dainabea",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0079_dainabea",
+      "model": "spaceworldmons:dainabea.geo",
+      "texture": "spaceworldmons:textures/pokemon/0079_dainabea/dainabea.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0079_dainabea/dainabea_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0079_dainabea/dainabea_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

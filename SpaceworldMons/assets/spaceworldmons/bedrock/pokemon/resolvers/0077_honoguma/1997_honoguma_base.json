@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:honoguma",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0077_honoguma",
+      "model": "spaceworldmons:honoguma.geo",
+      "texture": "spaceworldmons:textures/pokemon/0077_honoguma/honoguma.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0077_honoguma/honoguma_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0077_honoguma/honoguma_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

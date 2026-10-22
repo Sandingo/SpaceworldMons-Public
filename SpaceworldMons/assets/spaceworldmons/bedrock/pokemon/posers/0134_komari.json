@@ -1,0 +1,71 @@
+{
+    "portraitScale": 1.7,
+    "portraitTranslation": [0, 0, 0],
+    "profileScale": 0.7,
+    "profileTranslation": [0, 0.7, 0],
+	"rootBone": "komari",
+    "animations": {
+        "cry": "q.bedrock_stateful('komari', 'cry')",
+        "recoil": "q.bedrock_stateful('komari', 'blink')",
+        "faint": "q.bedrock_stateful('komari', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('komari', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('komari', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('komari', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('komari', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('komari', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('komari', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('komari', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('komari', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('komari', 'blink')"
+            ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('komari', 'sleep')"
+            ],
+            "transformTicks": 10
+        }
+    }
+}

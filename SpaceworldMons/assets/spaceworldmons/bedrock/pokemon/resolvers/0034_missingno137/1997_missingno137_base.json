@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:missingno137",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0034_missingno137",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0034_missingno137/missingno137.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0034_missingno137/missingno137_shiny.png"
+    }
+  ]
+}

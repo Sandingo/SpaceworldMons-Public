@@ -1,0 +1,8 @@
+{
+    "entryId": "cobblemon:basculin",
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": ["Beta"]
+        }
+    ]
+}

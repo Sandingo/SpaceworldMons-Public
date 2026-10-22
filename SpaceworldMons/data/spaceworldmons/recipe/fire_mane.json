@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [{
+            "item": "minecraft:blaze_powder"
+        },
+        [{
+                "item": "minecraft:coal"
+            }, {
+                "item": "minecraft:charcoal"
+            }
+        ], {
+            "item": "cobblemon:fire_gem"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:music_disc_13",
+        "components": {
+            "minecraft:custom_model_data": 19976,
+            "minecraft:item_name": "{\"translate\":\"item.spaceworldmons.fire_mane\", \"italic\":false}",
+            "minecraft:lore": [
+                "{\"translate\":\"tooltip.spaceworldmons.fire_mane\", \"color\":\"gray\", \"italic\":false}"
+            ],
+            "cobblemon:held_item_effect": {
+                "showdownId": "fire_mane",
+                "consumed": false
+            },
+            "!minecraft:jukebox_playable": {},
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

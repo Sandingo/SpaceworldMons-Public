@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:hanamogura",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0066_hanamogura",
+      "model": "spaceworldmons:hanamogura.geo",
+      "texture": "spaceworldmons:textures/pokemon/0066_hanamogura/hanamogura.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0066_hanamogura/hanamogura_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0066_hanamogura/hanamogura_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

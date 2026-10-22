@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:jaranra",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0115_jaranra",
+      "model": "spaceworldmons:jaranra.geo",
+      "texture": "spaceworldmons:textures/pokemon/0115_jaranra/jaranra.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0115_jaranra/jaranra_shiny.png"
+    }
+  ]
+}

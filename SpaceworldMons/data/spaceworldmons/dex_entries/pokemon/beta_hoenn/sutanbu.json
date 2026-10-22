@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:sutanbu",
+    "speciesId": "cobblemon:sutanbu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

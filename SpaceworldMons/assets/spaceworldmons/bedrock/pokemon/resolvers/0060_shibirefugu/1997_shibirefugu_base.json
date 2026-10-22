@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:shibirefugu",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0060_shibirefugu",
+      "model": "spaceworldmons:shibirefugu.geo",
+      "texture": "spaceworldmons:textures/pokemon/0060_shibirefugu/shibirefugu.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0060_shibirefugu/shibirefugu_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0060_shibirefugu/shibirefugu_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:murkrow-beta",
+    "speciesId": "cobblemon:murkrow",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

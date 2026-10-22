@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:archaeon",
+    "speciesId": "cobblemon:archaeon",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

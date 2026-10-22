@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:cryithan",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0028_cryithan",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0028_cryithan/cryithan.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0028_cryithan/cryithan_shiny.png"
+    }
+  ]
+}

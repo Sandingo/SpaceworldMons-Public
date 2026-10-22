@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:girafarig-beta",
+    "speciesId": "cobblemon:girafarig",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

@@ -1,0 +1,234 @@
+{
+    "implemented": true,
+    "name": "Kanbok",
+    "nationalPokedexNumber": 64,
+    "primaryType": "grass",
+    "secondaryType": "water",
+    "abilities": [
+        "chlorophyll",
+        "hydration",
+        "h:drizzle"
+    ],
+    "baseStats": {
+        "hp": 89,
+        "attack": 54,
+        "defence": 93,
+        "special_attack": 62,
+        "special_defence": 77,
+        "speed": 21
+    },
+    "catchRate": 255,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 61,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "monster",
+        "grass"
+    ],
+    "behaviour": {
+        "herd": {
+            "maxSize": "6",
+            "toleratedLeaders": [{
+                    "pokemon": "tropius",
+                    "tier": 1
+                }, {
+                    "pokemon": "aurorus",
+                    "tier": 2
+                }
+            ]
+        },
+        "moving": {
+            "walk": {
+                "walkSpeed": 0.147
+            },
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:nanab_berry",
+                "quantityRange": "0-2"
+            }
+        ]
+    },
+    "moves": [
+        "1:growth",
+        "1:watersport",
+        "1:razorleaf",
+        "1:bestow",
+        "4:sweetscent",
+        "8:stomp",
+        "12:sprinkler",
+        "14:magicalleaf",
+        "19:raindance",
+        "28:wideguard",
+        "34:selfdestruct",
+        "39:bodyslam",
+        "44:explosion",
+        "48:synthesis",
+        "54:hydropump",
+        "egg:curse",
+        "egg:dragondance",
+        "egg:dragonhammer",
+        "egg:headbutt",
+        "egg:leafblade",
+        "egg:leechseed",
+        "egg:naturalgift",
+        "egg:scald",
+        "egg:slam",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brutalswing",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:curse",
+        "tm:cut",
+        "tm:defog",
+        "tm:doubleedge",
+        "tm:dragondance",
+        "tm:dragonpulse",
+        "tm:dragontail",
+        "tm:earthquake",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:flash",
+        "tm:fly",
+        "tm:furycutter",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:grassyterrain",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:hurricane",
+        "tm:hyperbeam",
+        "tm:leafblade",
+        "tm:leafstorm",
+        "tm:leaftornado",
+        "tm:magicalleaf",
+        "tm:naturalgift",
+        "tm:naturepower",
+        "tm:outrage",
+        "tm:petalblizzard",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:roar",
+        "tm:rocksmash",
+        "tm:safeguard",
+        "tm:seedbomb",
+        "tm:silverwind",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:solarblade",
+        "tm:spite",
+        "tm:steelwing",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:trailblaze",
+        "tm:twister",
+        "tm:uturn",
+        "tm:worryseed",
+        "tm:zenheadbutt",
+        "tutor:bulldoze",
+        "tutor:calmmind",
+        "tutor:defog",
+        "tutor:dragonpulse",
+        "tutor:energyball",
+        "tutor:furycutter",
+        "tutor:gigadrain",
+        "tutor:gigaimpact",
+        "tutor:helpinghand",
+        "tutor:hyperbeam",
+        "tutor:magicalleaf",
+        "tutor:outrage",
+        "tutor:rest",
+        "tutor:rocksmash",
+        "tutor:roost",
+        "tutor:seedbomb",
+        "tutor:sleeptalk",
+        "tutor:spite",
+        "tutor:stompingtantrum",
+        "tutor:synthesis",
+        "tutor:worryseed",
+        "tutor:zenheadbutt",
+        "legacy:attract",
+        "legacy:captivate",
+        "legacy:confide",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:mimic",
+        "legacy:mudslap",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:toxic"
+    ],
+
+    "labels": [
+        "gen3beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.kanbok.desc",
+        "spaceworldmons.species.betahoenn.desc"
+    ],
+    "baseScale": 1.1,
+    "hitbox": {
+        "width": 0.6,
+        "height": 1.1,
+        "fixed": false
+    },
+    "baseFriendship": 80,
+    "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 14,
+    "weight": 700,
+    "evolutions": [{
+            "id": "kanbok_tropius",
+            "variant": "level_up",
+            "result": "tropius",
+            "consumeHeldItem": false,
+            "learnableMoves": ["rapiddescent"],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 25
+                }
+            ]
+        }
+    ],
+    "aspects": [],
+    "cannotDynamax": false
+}

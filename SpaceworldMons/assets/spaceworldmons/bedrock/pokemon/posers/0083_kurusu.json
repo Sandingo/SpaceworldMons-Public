@@ -1,0 +1,86 @@
+{
+    "portraitScale": 1.5,
+    "portraitTranslation": [-0.2, 0, 0],
+    "profileScale": 0.65,
+    "profileTranslation": [0, 0.75, 0],
+    "rootBone": "kurusu",
+    "animations": {
+        "cry": "q.bedrock_stateful('kurusu', 'blink')",
+        "recoil": "q.bedrock_stateful('kurusu', 'blink')",
+        "faint": "q.bedrock_stateful('kurusu', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('kurusu', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kurusu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('kurusu', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('kurusu', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kurusu', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('kurusu', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('kurusu', 'ground_walk')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kurusu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('kurusu', 'blink')"
+            ]
+        },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": ["q.look('head')", "q.bedrock('kurusu', 'shoulder_left')"],
+      "quirks": ["q.bedrock_quirk('kurusu', 'blink')"],
+      "transformedParts": [
+	{ "part": "body",
+	  "position": [3, 3, 2],
+	  "rotation": [0, 0, 10],
+	  "scale": [0.9, 0.9, 0.9]}
+	]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": ["q.look('head')", "q.bedrock('kurusu', 'shoulder_right')"],
+      "quirks": ["q.bedrock_quirk('kurusu', 'blink')"],
+      "transformedParts": [
+	{ "part": "body",
+	  "position": [-3, 3, 2],
+	  "rotation": [0, 0, -10],
+	  "scale": [0.9, 0.9, 0.9]}
+	]
+    	}
+    }
+}

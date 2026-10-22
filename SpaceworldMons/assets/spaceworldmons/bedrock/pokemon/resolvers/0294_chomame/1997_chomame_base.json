@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:chomame",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0294_chomame",
+      "model": "spaceworldmons:chomame.geo",
+      "texture": "spaceworldmons:textures/pokemon/0294_chomame/chomame.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "spaceworldmons:textures/pokemon/0294_chomame/chomame.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0294_chomame/chomame_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

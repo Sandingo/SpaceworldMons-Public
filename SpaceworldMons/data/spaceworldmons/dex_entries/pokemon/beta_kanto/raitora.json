@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:raitora",
+    "speciesId": "cobblemon:raitora",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

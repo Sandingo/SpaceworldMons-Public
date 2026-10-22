@@ -1,0 +1,264 @@
+{
+    "implemented": true,
+    "name": "Gaillow",
+    "nationalPokedexNumber": 85,
+    "primaryType": "normal",
+    "secondaryType": "flying",
+    "abilities": [
+        "guts",
+        "guts",
+        "h:scrappy"
+    ],
+    "baseStats": {
+        "hp": 80,
+        "attack": 105,
+        "defence": 80,
+        "special_attack": 80,
+        "special_defence": 60,
+        "speed": 130
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 236,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 15,
+    "eggGroups": [
+        "flying"
+    ],
+    "drops": {
+        "amount": 5,
+        "entries": [{
+                "item": "minecraft:feather",
+                "quantityRange": "1-4"
+            }, {
+                "item": "minecraft:chicken"
+            }, {
+                "item": "cobblemon:sharp_beak",
+                "percentage": 5.0
+            }, {
+                "item": "cobblemon:charti_berry",
+                "percentage": 10.0
+            }
+        ]
+    },
+    "riding": {
+        "behaviours": {
+            "AIR": {
+                "key": "cobblemon:air/bird",
+                "rideSounds": [{
+                        "muffleEnabled": true,
+                        "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                        "playForNonPassengers": false,
+                        "playForPassengers": true,
+                        "soundLocation": "cobblemon:ride.loop.wind.stereo",
+                        "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+                    }, {
+                        "muffleEnabled": true,
+                        "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                        "playForNonPassengers": true,
+                        "playForPassengers": false,
+                        "soundLocation": "cobblemon:ride.loop.wind.mono",
+                        "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+                    }, {
+                        "muffleEnabled": true,
+                        "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                        "playForNonPassengers": false,
+                        "playForPassengers": true,
+                        "soundLocation": "cobblemon:ride.loop.plumage.stereo",
+                        "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+                    }, {
+                        "muffleEnabled": true,
+                        "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                        "playForNonPassengers": true,
+                        "playForPassengers": false,
+                        "soundLocation": "cobblemon:ride.loop.plumage.mono",
+                        "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+                    }
+                ],
+                "stats": {
+                    "ACCELERATION": "45-70",
+                    "JUMP": "55-80",
+                    "SKILL": "35-65",
+                    "SPEED": "30-65",
+                    "STAMINA": "25-40"
+                }
+            },
+            "LAND": {
+                "key": "cobblemon:land/horse",
+                "rideSounds": [],
+                "canJump": false,
+                "canSprint": false,
+                "stats": {
+                    "ACCELERATION": "10-40",
+                    "JUMP": "10-40",
+                    "SKILL": "80-100",
+                    "SPEED": "10-40",
+                    "STAMINA": "10-40"
+                }
+            }
+        },
+        "seats": [{
+                "locator": "seat_1"
+            }
+        ]
+    },
+    "behaviour": {
+        "moving": {
+            "fly": {
+                "canFly": true
+            },
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": 3,
+            "toleratedLeaders": [{
+                    "pokemon": "gaillow",
+                    "tier": 1
+                }
+            ]
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "moves": [
+        "1:pluck",
+        "1:peck",
+        "1:growl",
+        "1:focusenergy",
+        "1:quickattack",
+        "1:airslash",
+        "1:bravebird",
+        "13:wingattack",
+        "17:doubleteam",
+        "21:aerialace",
+        "27:quickguard",
+        "33:agility",
+        "45:endeavor",
+        "57:reversal",
+        "60:finalgambit",
+        "62:hurricane",
+        "egg:boomburst",
+        "egg:mirrormove",
+        "egg:pursuit",
+        "egg:rage",
+        "egg:refresh",
+        "egg:supersonic",
+        "egg:whirlwind",
+        "tm:aerialace",
+        "tm:agility",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:assurance",
+        "tm:batonpass",
+        "tm:bravebird",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dualwingbeat",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:fly",
+        "tm:focusenergy",
+        "tm:gigaimpact",
+        "tm:heatwave",
+        "tm:hurricane",
+        "tm:hyperbeam",
+        "tm:laserfocus",
+        "tm:mudslap",
+        "tm:ominouswind",
+        "tm:pluck",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:reversal",
+        "tm:roost",
+        "tm:skyattack",
+        "tm:sleeptalk",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:tailwind",
+        "tm:terablast",
+        "tm:thief",
+        "tm:twister",
+        "tm:uturn",
+        "tm:workup",
+        "tm:windride",
+        "tutor:aerialace",
+        "tutor:aircutter",
+        "tutor:defog",
+        "tutor:dualwingbeat",
+        "tutor:endeavor",
+        "tutor:focusenergy",
+        "tutor:gigaimpact",
+        "tutor:heatwave",
+        "tutor:hyperbeam",
+        "tutor:laserfocus",
+        "tutor:mudslap",
+        "tutor:ominouswind",
+        "tutor:rest",
+        "tutor:roost",
+        "tutor:skyattack",
+        "tutor:sleeptalk",
+        "tutor:tailwind",
+        "tutor:twister",
+        "legacy:attract",
+        "legacy:captivate",
+        "legacy:confide",
+        "legacy:counter",
+        "legacy:doubleedge",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:mimic",
+        "legacy:naturalgift",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:swift",
+        "legacy:toxic",
+        "special:featherdance"
+    ],
+    "labels": [
+        "gen4beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.gaillow.desc",
+        "spaceworldmons.species.betasinnoh.desc"
+    ],
+    "baseScale": 0.9,
+    "hitbox": {
+        "width": 0.8,
+        "height": 1.3,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+    },
+    "height": 8,
+    "weight": 298,
+    "evolutions": [],
+    "aspects": [],
+    "preEvolution": "swellow",
+    "cannotDynamax": false
+}

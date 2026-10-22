@@ -1,0 +1,61 @@
+{
+    "portraitScale": 2,
+    "portraitTranslation": [0, -1, 0],
+    "profileScale": 1.5,
+    "profileTranslation": [0, -0.5, 0],
+    "rootBone": "wolfman",
+    "animations": {
+        "blink": "q.bedrock_stateful('wolfman', 'blink')",
+        "recoil": "q.bedrock_stateful('wolfman', 'blink')",
+        "faint": "q.bedrock_stateful('wolfman', 'faint')"
+    },
+    "poses": {
+		"standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.bedrock('wolfman', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('wolfman', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('wolfman', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.bedrock('wolfman', 'battle_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('wolfman', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('wolfman', 'blink')"
+            ]
+        },
+		"walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.bedrock('wolfman', 'ground_walk')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('wolfman', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('wolfman', 'blink')"
+            ]
+        }
+    }
+}

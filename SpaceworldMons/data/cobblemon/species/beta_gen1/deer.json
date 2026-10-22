@@ -1,0 +1,93 @@
+{
+    "implemented": false,
+    "name": "Deer",
+    "nationalPokedexNumber": 12,
+    "primaryType": "normal",
+    "abilities": [
+        "runaway",
+        "h:noguard"
+    ],
+    "baseStats": {
+        "hp": 85,
+        "attack": 110,
+        "defence": 95,
+        "special_attack": 90,
+        "special_defence": 80,
+        "speed": 60
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 211,
+    "experienceGroup": "slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "amorphous"
+    ],
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:oran_berry",
+                "percentage": 50.0
+            }
+        ]
+    },
+    "moves": [
+        "1:tackle",
+        "14:sandattack",
+        "16:jumpkick",
+        "25:metalclaw",
+        "39:agility",
+        "45:thrash",
+        "49:irontail",
+        "egg:smartstrike",
+        "egg:megahorn",
+        "tm:toxic",
+        "tm:horndrill",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:psychic",
+        "tm:strength",
+        "tm:hyperbeam",
+        "tm:rage",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:earthquake",
+        "tm:fissure",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:bide",
+        "tm:psywave",
+        "tm:skullbash",
+        "tm:rest",
+        "tm:substitute"
+    ],
+    "labels": [
+        "gen1beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.deer.desc",
+        "spaceworldmons.species.betakanto.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 50,
+    "weight": 50,
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

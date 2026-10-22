@@ -1,0 +1,118 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/music_disc_13"
+    },
+    "overrides": [{
+            "model": "spaceworldmons:item/stimulus_orb",
+            "predicate": {
+                "custom_model_data": 19971
+            }
+        }, {
+            "model": "spaceworldmons:item/mystic_petal",
+            "predicate": {
+                "custom_model_data": 19972
+            }
+        }, {
+            "model": "spaceworldmons:item/talisman_tag",
+            "predicate": {
+                "custom_model_data": 19973
+            }
+        }, {
+            "model": "spaceworldmons:item/electric_pouch",
+            "predicate": {
+                "custom_model_data": 19974
+            }
+        }, {
+            "model": "spaceworldmons:item/gross_garbage",
+            "predicate": {
+                "custom_model_data": 19975
+            }
+        }, {
+            "model": "spaceworldmons:item/fire_mane",
+            "predicate": {
+                "custom_model_data": 19976
+            }
+        }, {
+            "model": "spaceworldmons:item/champion_belt",
+            "predicate": {
+                "custom_model_data": 19977
+            }
+        }, {
+            "model": "spaceworldmons:item/serpent_scale",
+            "predicate": {
+                "custom_model_data": 19978
+            }
+        }, {
+            "model": "spaceworldmons:item/fossil_shard",
+            "predicate": {
+                "custom_model_data": 19979
+            }
+        }, {
+            "model": "spaceworldmons:item/five_yen_coin",
+            "predicate": {
+                "custom_model_data": 199710
+            }
+        }, {
+            "model": "spaceworldmons:item/tough_stone",
+            "predicate": {
+                "custom_model_data": 199711
+            }
+        }, {
+            "model": "spaceworldmons:item/wobbly_bloon",
+            "predicate": {
+                "custom_model_data": 199712
+            }
+        }, {
+            "model": "spaceworldmons:item/white_feather",
+            "predicate": {
+                "custom_model_data": 199713
+            }
+        }, {
+            "model": "spaceworldmons:item/strange_water",
+            "predicate": {
+                "custom_model_data": 199714
+            }
+        }, {
+            "model": "spaceworldmons:item/ice_bikini",
+            "predicate": {
+                "custom_model_data": 199715
+            }
+        }, {
+            "model": "spaceworldmons:item/guard_thread",
+            "predicate": {
+                "custom_model_data": 199716
+            }
+        }, {
+            "model": "spaceworldmons:item/confuse_claw",
+            "predicate": {
+                "custom_model_data": 199717
+            }
+        }, {
+            "model": "spaceworldmons:item/strange_power",
+            "predicate": {
+                "custom_model_data": 199718
+            }
+        }, {
+            "model": "spaceworldmons:item/steel_shell",
+            "predicate": {
+                "custom_model_data": 199719
+            }
+        }, {
+            "model": "spaceworldmons:item/counter_cuff",
+            "predicate": {
+                "custom_model_data": 199720
+            }
+        }, {
+            "model": "spaceworldmons:item/wisdom_orb",
+            "predicate": {
+                "custom_model_data": 199721
+            }
+        }, {
+            "model": "spaceworldmons:item/berserk_gene",
+            "predicate": {
+                "custom_model_data": 199722
+            }
+        }
+    ]
+}

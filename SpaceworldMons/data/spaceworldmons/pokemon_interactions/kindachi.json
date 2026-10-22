@@ -1,0 +1,56 @@
+{
+  "requirements": [
+    {
+      "variant": "properties",
+      "target": "kindachi"
+    }
+  ],
+  "interactions": [
+    {
+      "grouping": "cobblemon:bucket",
+      "cooldown": "0",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "minecraft:water_bucket"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "shrink_item"
+        },
+        {
+          "variant": "give_item",
+          "item": "minecraft:bucket"
+        },
+        {
+          "variant": "play_sound",
+          "sound": "minecraft:block.fire.extinguish"
+        }
+      ]
+    },
+    {
+      "grouping": "cobblemon:bucket",
+      "cooldown": "0",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "minecraft:potion"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "shrink_item"
+        },
+        {
+          "variant": "give_item",
+          "item": "minecraft:glass_bottle"
+        },
+        {
+          "variant": "play_sound",
+          "sound": "minecraft:block.fire.extinguish"
+        }
+      ]
+    }
+  ]
+}

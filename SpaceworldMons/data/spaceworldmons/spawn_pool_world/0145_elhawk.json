@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "elhawk-1",
+      "pokemon": "elhawk",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65-95",
+      "weight": 0.05,
+      "weightMultiplier": {
+        "multiplier": 4,
+        "condition": {
+          "isPokeSnack": true
+        }
+      },
+      "condition": {
+        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_peak",
+          "#cobblemon:is_sky"
+        ],
+        "isRaining": false
+      }
+    }
+  ]
+}

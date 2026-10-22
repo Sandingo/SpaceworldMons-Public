@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:jabetta",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0022_jabetta",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0022_jabetta/jabetta.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0022_jabetta/jabetta_shiny.png"
+    }
+  ]
+}

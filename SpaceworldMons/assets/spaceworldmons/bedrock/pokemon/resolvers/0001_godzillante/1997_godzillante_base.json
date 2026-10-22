@@ -1,0 +1,15 @@
+{
+    "species": "cobblemon:godzillante",
+    "order": 1997,
+    "variations": [{
+            "aspects": [],
+            "poser": "spaceworldmons:0001_godzillante",
+            "model": "spaceworldmons:phm.geo",
+            "texture": "spaceworldmons:textures/pokemon/0001_godzillante/godzillante.png",
+            "layers": []
+        }, {
+            "aspects": ["shiny"],
+            "texture": "spaceworldmons:textures/pokemon/0001_godzillante/godzillante_shiny.png"
+        }
+    ]
+}

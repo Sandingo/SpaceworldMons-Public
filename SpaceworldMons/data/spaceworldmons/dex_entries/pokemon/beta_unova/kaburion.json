@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:kaburion",
+    "speciesId": "cobblemon:kaburion",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

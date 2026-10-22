@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:rizagan",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0198_rizagan",
+      "model": "spaceworldmons:rizagan.geo",
+      "texture": "spaceworldmons:textures/pokemon/0198_rizagan/rizagan.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0198_rizagan/rizagan_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0198_rizagan/rizagan_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

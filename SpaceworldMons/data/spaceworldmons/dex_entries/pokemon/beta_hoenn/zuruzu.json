@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:zuruzu",
+    "speciesId": "cobblemon:zuruzu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

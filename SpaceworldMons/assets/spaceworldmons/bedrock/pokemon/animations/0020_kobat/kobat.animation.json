@@ -1,0 +1,55 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.kobat.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, "math.sin(query.anim_time * 720) * 1", 0]
+				},
+				"wing_right": {
+					"rotation": [5, "-math.sin(query.anim_time * 720) * 20", "math.sin(query.anim_time * 720) * -20"]
+				},
+				"wing_left": {
+					"rotation": [5, "-math.sin(query.anim_time * 720) * -20", "math.sin(query.anim_time * 720) * 20"]
+				}
+			}
+		},
+		"animation.kobat.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": ["-math.cos(query.anim_time * 720) * -1", "math.sin(query.anim_time * 720) * -1", 0]
+				},
+				"wing_right": {
+					"rotation": [15, "-math.sin(query.anim_time * 720) * 20", "math.sin(query.anim_time * 720) * -20"]
+				},
+				"wing_left": {
+					"rotation": [15, "-math.sin(query.anim_time * 720) * -20", "math.sin(query.anim_time * 720) * 20"]
+				}
+			}
+		},
+		"animation.kobat.twitch": {
+			"animation_length": 0.125,
+			"bones": {
+				"torso": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 0, -5],
+						"0.0833": [0, 0, 0],
+						"0.125": [0, 0, 5]
+					}
+				}
+			}
+		},
+		"animation.kobat.hold_item": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": [7.5, 0, 0],
+					"position": [0, -2, 1]
+				}
+			}
+		}
+	}
+}

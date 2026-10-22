@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:ponku",
+    "speciesId": "cobblemon:ponku",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

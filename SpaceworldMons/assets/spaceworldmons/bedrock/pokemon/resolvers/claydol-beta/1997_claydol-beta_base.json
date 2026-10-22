@@ -1,0 +1,15 @@
+{
+    "species": "cobblemon:claydol",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "cobblemon:claydol",
+            "model": "spaceworldmons:claydol-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/claydol-beta/claydol.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/claydol-beta/claydol_shiny.png"
+        }
+    ]
+}

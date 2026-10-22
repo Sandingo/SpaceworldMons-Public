@@ -1,0 +1,89 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "jollibird-alpha-1",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_peak"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_volcanic"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "jollibird held_item=cobblemon:ice_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "delibird",
+                    "weight": 80.0,
+                    "levelRange": "8-33",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "jollibird-alpha-2",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "neededNearbyBlocks": [
+                    "aether:present"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "jollibird held_item=cobblemon:ice_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "delibird",
+                    "weight": 80.0,
+                    "levelRange": "8-33",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

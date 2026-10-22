@@ -1,0 +1,11 @@
+{
+    "target": "cobblemon:raichu",
+    "evolutions": [{
+            "id": "raichu_gorochu",
+            "variant": "trade",
+            "result": "gorochu",
+            "consumeHeldItem": false,
+            "requirements": []
+        }
+    ]
+}

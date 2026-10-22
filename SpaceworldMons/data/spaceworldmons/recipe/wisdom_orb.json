@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "T": {
+      "item": "minecraft:tinted_glass"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "ATA",
+    "TET",
+    "ATA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:music_disc_13",
+    "components": {
+      "minecraft:custom_model_data": 199721,
+      "minecraft:item_name": "{\"translate\":\"item.spaceworldmons.wisdom_orb\", \"italic\":false}",
+      "minecraft:lore": [
+        "{\"translate\":\"tooltip.spaceworldmons.wisdom_orb\", \"color\":\"gray\", \"italic\":false}"
+      ],
+      "cobblemon:held_item_effect": {
+        "showdownId": "wisdom_orb",
+        "consumed": false
+      },
+      "!minecraft:jukebox_playable": {},
+      "minecraft:rarity": "common",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

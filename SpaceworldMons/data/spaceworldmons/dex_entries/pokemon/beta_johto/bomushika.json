@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:bomushika",
+    "speciesId": "cobblemon:bomushika",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

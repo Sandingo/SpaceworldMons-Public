@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:evolotto",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0160_evolotto",
+      "model": "spaceworldmons:evolotto.geo",
+      "texture": "spaceworldmons:textures/pokemon/0160_evolotto/evolotto.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0160_evolotto/evolotto_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0160_evolotto/evolotto_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

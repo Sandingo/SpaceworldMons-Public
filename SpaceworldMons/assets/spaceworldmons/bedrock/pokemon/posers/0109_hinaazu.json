@@ -1,0 +1,61 @@
+{
+    "portraitScale": 1.4,
+    "portraitTranslation": [-0.2, 0, 0],
+    "profileScale": 1,
+    "profileTranslation": [0, 0.2, 0],
+	"rootBone": "hinaazu",
+    "animations": {
+        "cry": "q.bedrock_stateful('hinaazu', 'blink')",
+        "recoil": "q.bedrock_stateful('hinaazu', 'blink')",
+        "faint": "q.bedrock_stateful('hinaazu', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.bedrock('hinaazu', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('hinaazu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('hinaazu', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.bedrock('hinaazu', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('hinaazu', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('hinaazu', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.bedrock('hinaazu', 'ground_walk')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('hinaazu', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('hinaazu', 'blink')"
+            ]
+        }
+    }
+}

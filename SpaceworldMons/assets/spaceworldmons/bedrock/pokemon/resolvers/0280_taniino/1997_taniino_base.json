@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:taniino",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0280_taniino",
+      "model": "spaceworldmons:taniino.geo",
+      "texture": "spaceworldmons:textures/pokemon/0280_taniino/taniino.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0280_taniino/taniino_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0280_taniino/taniino_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

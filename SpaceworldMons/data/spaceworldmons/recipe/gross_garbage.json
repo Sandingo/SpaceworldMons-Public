@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [{
+            "item": "minecraft:rotten_flesh"
+        }, {
+            "item": "minecraft:poisonous_potato"
+        }, {
+            "item": "cobblemon:poison_gem"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:music_disc_13",
+        "components": {
+            "minecraft:custom_model_data": 19975,
+            "minecraft:item_name": "{\"translate\":\"item.spaceworldmons.gross_garbage\", \"italic\":false}",
+            "minecraft:lore": [
+                "{\"translate\":\"tooltip.spaceworldmons.gross_garbage\", \"color\":\"gray\", \"italic\":false}"
+            ],
+            "cobblemon:held_item_effect": {
+                "showdownId": "gross_garbage",
+                "consumed": false
+            },
+            "!minecraft:jukebox_playable": {},
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

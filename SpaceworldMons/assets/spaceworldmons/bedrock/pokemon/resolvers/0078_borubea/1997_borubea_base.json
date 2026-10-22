@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:borubea",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0078_borubea",
+      "model": "spaceworldmons:borubea.geo",
+      "texture": "spaceworldmons:textures/pokemon/0078_borubea/borubea.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0078_borubea/borubea_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0078_borubea/borubea_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

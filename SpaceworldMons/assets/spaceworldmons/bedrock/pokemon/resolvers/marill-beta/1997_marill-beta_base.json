@@ -1,0 +1,15 @@
+{
+    "species": "cobblemon:marill",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:marill-beta",
+            "model": "spaceworldmons:marill-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/marill-beta/marill.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/marill-beta/marill_shiny.png"
+        }
+    ]
+}

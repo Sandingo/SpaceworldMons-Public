@@ -1,0 +1,9 @@
+{
+    "type": "cobblemon:simple_pokedex_def",
+    "id": "spaceworldmons:beta_kalos",
+    "sortOrder": 2001,
+    "entries": [
+        "spaceworldmons:chomame",
+        "spaceworldmons:mameja"
+    ]
+}

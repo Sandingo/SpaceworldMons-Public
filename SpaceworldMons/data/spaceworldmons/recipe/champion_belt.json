@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " g ",
+        "KGK",
+        " K "
+    ],
+    "key": {
+        "K": {
+            "item": "minecraft:dried_kelp"
+        },
+        "G": {
+            "item": "minecraft:gold_ingot"
+        },
+        "g": {
+            "item": "cobblemon:fighting_gem"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:music_disc_13",
+        "components": {
+            "minecraft:custom_model_data": 19977,
+            "minecraft:item_name": "{\"translate\":\"item.spaceworldmons.champion_belt\", \"italic\":false}",
+            "minecraft:lore": [
+                "{\"translate\":\"tooltip.spaceworldmons.champion_belt\", \"color\":\"gray\", \"italic\":false}"
+            ],
+            "cobblemon:held_item_effect": {
+                "showdownId": "champion_belt",
+                "consumed": false
+            },
+            "!minecraft:jukebox_playable": {},
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

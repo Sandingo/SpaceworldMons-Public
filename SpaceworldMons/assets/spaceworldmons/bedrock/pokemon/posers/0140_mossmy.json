@@ -1,0 +1,73 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [
+    0,
+    -0.3,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0.28,
+    0
+  ],
+  "rootBone": "mossmy",
+  "animations": {
+    "cry": "q.bedrock_stateful('mossmy', 'cry')",
+    "recoil": "q.bedrock_stateful('mossmy', 'blink')",
+    "faint": "q.bedrock_stateful('mossmy', 'blink')"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "condition": "!q.in_air",
+      "animations": [
+	"bedrock(mossmy, ground_idle)",
+        "q.look('head')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('mossmy', 'blink')"
+      ]
+    },
+    "battle-standing": {
+      "poseName": "battle_standing",
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+	"bedrock(mossmy, ground_idle)",
+        "q.look('head')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mossmy', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "isBattle": false,
+      "condition": "!q.in_air && !q.is_sprinting",
+      "animations": [
+	"bedrock(mossmy, ground_walk)",
+        "q.look('head')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('mossmy', 'blink')"
+      ]
+    }
+  }
+}

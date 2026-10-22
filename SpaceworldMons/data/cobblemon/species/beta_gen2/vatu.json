@@ -1,0 +1,256 @@
+{
+    "implemented": true,
+    "name": "Vatu",
+    "nationalPokedexNumber": 30,
+    "primaryType": "psychic",
+    "secondaryType": "flying",
+    "abilities": [
+        "vitalspirit",
+        "earlybird",
+        "h:magicbounce"
+    ],
+    "baseStats": {
+        "hp": 55,
+        "attack": 75,
+        "defence": 55,
+        "special_attack": 95,
+        "special_defence": 55,
+        "speed": 105
+    },
+    "catchRate": 125,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 115,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "flying"
+    ],
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "depth": "comatose",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": "9",
+            "toleratedLeaders": [{
+                    "pokemon": "natu",
+                    "tier": 1
+                }, {
+                    "pokemon": "vatu",
+                    "tier": 2
+                }, {
+                    "pokemon": "xatu",
+                    "tier": 3
+                }
+            ]
+        },
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendOwner": true
+        }
+    },
+    "drops": {
+        "amount": 3,
+        "entries": [{
+                "item": "minecraft:feather",
+                "quantityRange": "0-1"
+            }, {
+                "item": "minecraft:chicken"
+            }, {
+                "item": "cobblemon:wise_glasses",
+                "percentage": 2.5
+            }, {
+                "item": "cobblemon:persim_berry",
+                "percentage": 2.5
+            }
+        ]
+    },
+    "moves": [
+        "1:peck",
+        "1:leer",
+        "1:luckychant",
+        "5:storedpower",
+        "10:teleport",
+        "14:tailwind",
+        "17:confuseray",
+        "20:nightshade",
+        "24:mysticalfire",
+        "27:psychoshift",
+        "34:powerswap",
+        "37:guardswap",
+        "37:psychic",
+        "42:wish",
+        "45:synchronize",
+        "47:futuresight",
+        "egg:drillpeck",
+        "egg:featherdance",
+        "egg:feintattack",
+        "egg:mefirst",
+        "egg:miracleeye",
+        "egg:quickattack",
+        "egg:refresh",
+        "egg:roost",
+        "egg:simplebeam",
+        "egg:suckerpunch",
+        "egg:synchronoise",
+        "tm:aerialace",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:allyswitch",
+        "tm:batonpass",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:dreameater",
+        "tm:dualwingbeat",
+        "tm:endure",
+        "tm:expandingforce",
+        "tm:facade",
+        "tm:featherdance",
+        "tm:flash",
+        "tm:futuresight",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:guardswap",
+        "tm:haze",
+        "tm:heatwave",
+        "tm:imprison",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:magicroom",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:painsplit",
+        "tm:pluck",
+        "tm:powerswap",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:psyshock",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:roost",
+        "tm:shadowball",
+        "tm:signalbeam",
+        "tm:silverwind",
+        "tm:skillswap",
+        "tm:skyattack",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:steelwing",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:twister",
+        "tm:uturn",
+        "tm:zenheadbutt",
+        "tm:windride",
+        "tutor:aerialace",
+        "tutor:aircutter",
+        "tutor:allyswitch",
+        "tutor:calmmind",
+        "tutor:dazzlinggleam",
+        "tutor:dualwingbeat",
+        "tutor:expandingforce",
+        "tutor:gigadrain",
+        "tutor:heatwave",
+        "tutor:magiccoat",
+        "tutor:magicroom",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:roost",
+        "tutor:shadowball",
+        "tutor:signalbeam",
+        "tutor:skillswap",
+        "tutor:skyattack",
+        "tutor:sleeptalk",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:tailwind",
+        "tutor:telekinesis",
+        "tutor:trick",
+        "tutor:twister",
+        "tutor:zenheadbutt",
+        "legacy:attract",
+        "legacy:captivate",
+        "legacy:confide",
+        "legacy:curse",
+        "legacy:detect",
+        "legacy:doubleedge",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:mimic",
+        "legacy:naturalgift",
+        "legacy:nightmare",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:toxic"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.vatu.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 0.8,
+        "height": 1.3,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+    },
+    "height": 9,
+    "weight": 90,
+    "evolutions": [{
+            "id": "vatu_xatu",
+            "variant": "level_up",
+            "result": "xatu",
+            "consumeHeldItem": false,
+            "learnableMoves": [
+                "airslash"
+            ],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 25
+                }
+            ]
+        }
+    ],
+    "aspects": [],
+    "cannotDynamax": false,
+    "preEvolution": "natu"
+}

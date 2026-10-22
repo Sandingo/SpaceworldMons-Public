@@ -1,0 +1,101 @@
+{
+  "portraitScale": 1.79,
+  "portraitTranslation": [
+    -0.32,
+    -0.99,
+    0
+  ],
+  "profileScale": 0.77,
+  "profileTranslation": [
+    -0.03,
+    0.55,
+    0
+  ],
+  "rootBone": "mitsuboshi",
+  "animations": {
+    "cry": "q.bedrock_stateful('mitsuboshi', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head', 0.8, 0.8)",
+        "q.bedrock('mitsuboshi', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mitsuboshi', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "FLOAT"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head', 0.8, 0.8)",
+        "q.bedrock('mitsuboshi', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mitsuboshi', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head', 0.8, 0.8)",
+        "q.bedrock('mitsuboshi', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mitsuboshi', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseName": "hover",
+      "poseTypes": [
+        "HOVER"
+      ],
+      "animations": [
+        "q.look('head', 0.8, 0.8)",
+        "q.bedrock('mitsuboshi', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mitsuboshi', 'blink')"
+      ]
+    },
+    "fly": {
+      "poseName": "fly",
+      "poseTypes": [
+        "FLY"
+      ],
+      "animations": [
+        "q.look('head', 0.8, 0.8)",
+        "q.bedrock('mitsuboshi', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mitsuboshi', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseName": "sleep",
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('mitsuboshi', 'sleep')"
+      ]
+    }
+  }
+}

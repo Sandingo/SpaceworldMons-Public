@@ -1,0 +1,188 @@
+{
+    "implemented": true,
+    "name": "Dainabea",
+    "nationalPokedexNumber": 23,
+    "primaryType": "fire",
+    "abilities": [
+        "blaze",
+        "h:guts"
+    ],
+    "baseStats": {
+        "hp": 85,
+        "attack": 103,
+        "defence": 85,
+        "special_attack": 95,
+        "special_defence": 70,
+        "speed": 96
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 209,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "field"
+    ],
+    "riding": {
+        "behaviours": {
+            "LAND": {
+                "key": "cobblemon:land/horse",
+                "rideSounds": [],
+                "stats": {
+                    "ACCELERATION": "50-70",
+                    "JUMP": "35-55",
+                    "SKILL": "20-35",
+                    "SPEED": "40-65",
+                    "STAMINA": "65-85"
+                }
+            }
+        },
+        "seats": [{
+                "locator": "seat_1"
+            }
+        ]
+    },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "moving": {
+            "walk": {
+                "walkSpeed": 0.3
+            },
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        },
+        "herd": {
+            "maxSize": "2",
+            "toleratedLeaders": [{
+                    "pokemon": "teddiursa",
+                    "tier": 1
+                }, {
+                    "pokemon": "cubchoo",
+                    "tier": 1
+                }, {
+                    "pokemon": "beartic",
+                    "tier": 2
+                }, {
+                    "pokemon": "honoguma",
+                    "tier": 2
+                }, {
+                    "pokemon": "ursaring",
+                    "tier": 3
+                }, {
+                    "pokemon": "borubea",
+                    "tier": 3
+                }, {
+                    "pokemon": "ursaluna bloodmoon=false",
+                    "tier": 4
+                }, {
+                    "pokemon": "dainabea",
+                    "tier": 4
+                }, {
+                    "pokemon": "ursaluna bloodmoon",
+                    "tier": 5
+                }
+            ]
+        }
+    },
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:charcoal_stick",
+                "percentage": 50.0
+            }
+        ]
+    },
+    "moves": [
+        "1:scratch",
+        "1:leer",
+        "1:ember",
+        "1:sandattack",
+        "18:bite",
+        "24:scaryface",
+        "29:flamewheel",
+        "35:furyswipes",
+        "42:rest",
+        "50:slash",
+        "58:flamethrower",
+        "egg:feintattack",
+        "egg:foresight",
+        "egg:furyswipes",
+        "egg:quickattack",
+        "egg:reversal",
+        "egg:submission",
+        "egg:thrash",
+        "tm:shadowball",
+        "tm:dynamicpunch",
+        "tm:headbutt",
+        "tm:curse",
+        "tm:rollout",
+        "tm:roar",
+        "tm:toxic",
+        "tm:rocksmash",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:endure",
+        "tm:irontail",
+        "tm:earthquake",
+        "tm:return",
+        "tm:megahorn",
+        "tm:dig",
+        "tm:mudslap",
+        "tm:doubleteam",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:fireblast",
+        "tm:swift",
+        "tm:defensecurl",
+        "tm:thunderpunch",
+        "tm:rest",
+        "tm:firepunch",
+        "tm:furycutter",
+        "tm:cut",
+        "tm:strength",
+        "tm:flamethrower"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.dainabea.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1.7,
+        "height": 1.7,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 18,
+    "weight": 988,
+    "preEvolution": "borubea",
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

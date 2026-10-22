@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "pattern": [],
+    "key": {},
+    "ingredients": [{
+            "item": "minecraft:terracotta"
+        }, {
+            "item": "cobblemon:ground_gem"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:music_disc_13",
+        "components": {
+            "minecraft:custom_model_data": 19979,
+            "minecraft:item_name": "{\"translate\":\"item.spaceworldmons.fossil_shard\", \"italic\":false}",
+            "minecraft:lore": [
+                "{\"translate\":\"tooltip.spaceworldmons.fossil_shard\", \"color\":\"gray\", \"italic\":false}"
+            ],
+            "cobblemon:held_item_effect": {
+                "showdownId": "fossil_shard",
+                "consumed": false
+            },
+            "!minecraft:jukebox_playable": {},
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

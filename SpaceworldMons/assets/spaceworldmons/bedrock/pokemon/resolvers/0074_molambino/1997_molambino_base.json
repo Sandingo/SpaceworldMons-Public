@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:molambino",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0074_molambino",
+      "model": "spaceworldmons:molambino.geo",
+      "texture": "spaceworldmons:textures/pokemon/0074_molambino/molambino.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0074_molambino/molambino_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0074_molambino/molambino_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

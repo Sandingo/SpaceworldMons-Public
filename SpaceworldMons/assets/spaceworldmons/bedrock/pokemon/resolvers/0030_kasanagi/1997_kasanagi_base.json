@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:kasanagi",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0030_kasanagi",
+      "model": "spaceworldmons:kasanagi.geo",
+      "texture": "spaceworldmons:textures/pokemon/0030_kasanagi/kasanagi.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0030_kasanagi/kasanagi_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0030_kasanagi/kasanagi_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

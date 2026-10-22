@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:hinaazu",
+    "speciesId": "cobblemon:hinaazu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

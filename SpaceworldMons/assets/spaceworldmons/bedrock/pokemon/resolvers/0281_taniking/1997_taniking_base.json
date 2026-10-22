@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:taniking",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0281_taniking",
+      "model": "spaceworldmons:taniking.geo",
+      "texture": "spaceworldmons:textures/pokemon/0281_taniking/taniking.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0281_taniking/taniking_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0281_taniking/taniking_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

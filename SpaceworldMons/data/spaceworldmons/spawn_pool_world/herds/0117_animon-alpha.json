@@ -1,0 +1,121 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "animon-alpha-1",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "context": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 5.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "animon held_item=cobblemon:steel_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "ditto",
+                    "weight": 80.0,
+                    "levelRange": "1-100",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "animon-alpha-2",
+            "pokemon": "animon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "context": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 5.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "animon held_item=cobblemon:steel_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "ditto",
+                    "weight": 80.0,
+                    "levelRange": "1-100",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "animon-alpha-3",
+            "pokemon": "animon",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon-herd",
+            "context": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "animon held_item=cobblemon:steel_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "ditto",
+                    "weight": 80.0,
+                    "levelRange": "1-100",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

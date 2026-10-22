@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:kobat",
+    "speciesId": "cobblemon:kobat",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

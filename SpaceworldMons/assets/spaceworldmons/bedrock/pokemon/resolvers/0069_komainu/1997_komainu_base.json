@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:komainu",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0069_komainu",
+      "model": "spaceworldmons:komainu.geo",
+      "texture": "spaceworldmons:textures/pokemon/0069_komainu/komainu.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0069_komainu/komainu_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0069_komainu/komainu_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

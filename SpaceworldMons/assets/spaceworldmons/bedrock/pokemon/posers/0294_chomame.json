@@ -1,0 +1,70 @@
+{
+    "portraitScale": 2,
+    "portraitTranslation": [0, -0.5, 0],
+    "profileScale": 1,
+    "profileTranslation": [0, 0.2, 0],
+    "rootBone": "chomame",
+    "animations": {
+        "blink": "q.bedrock_stateful('chomame', 'blink')",
+        "recoil": "q.bedrock_stateful('chomame', 'blink')",
+        "faint": "q.bedrock_stateful('chomame', 'faint')"
+    },
+    "poses": {
+		"standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.bedrock('chomame', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('chomame', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('chomame', 'blink')",
+				"q.bedrock_quirk('chomame', 'quirk_idle')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.bedrock('chomame', 'battle_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('chomame', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('chomame', 'blink')"
+            ]
+        },
+		"walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.bedrock('chomame', 'ground_walk')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('chomame', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('chomame', 'blink')"
+            ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('chomame', 'sleep')"
+            ],
+            "transformTicks": 10
+        }
+    }
+}

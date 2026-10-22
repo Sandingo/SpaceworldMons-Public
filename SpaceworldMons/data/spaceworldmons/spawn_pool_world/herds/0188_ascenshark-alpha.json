@@ -1,0 +1,77 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "ascenshark-alpha-1",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "context": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 40.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "ascenshark held_item=cobblemon:psychic_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "ascenshark",
+                    "weight": 80.0,
+                    "levelRange": "46-52",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 2,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "ascenshark-alpha-2",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "context": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "timeRange": "night",
+                "neededNearbyBlocks": [
+                    "minecraft:wheat"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "ascenshark held_item=cobblemon:psychic_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "ascenshark",
+                    "weight": 80.0,
+                    "levelRange": "46-52",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 2,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "species": "cobblemon:escavalier",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "cobblemon:escavalier",
+            "model": "spaceworldmons:escavalier-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/escavalier-beta/escavalier.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/escavalier-beta/escavalier_shiny.png"
+        }
+    ]
+}

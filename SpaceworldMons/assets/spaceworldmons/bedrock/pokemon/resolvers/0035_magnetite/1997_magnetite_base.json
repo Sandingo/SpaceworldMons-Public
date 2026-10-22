@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:magnetite",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0035_magnetite",
+      "model": "spaceworldmons:magnetite.geo",
+      "texture": "spaceworldmons:textures/pokemon/0035_magnetite/magnetite.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0035_magnetite/magnetite_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0035_magnetite/magnetite_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

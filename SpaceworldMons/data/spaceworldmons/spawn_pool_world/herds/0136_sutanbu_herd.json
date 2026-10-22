@@ -1,0 +1,42 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sutanbu-herd-1",
+      "levelRange": "18-46",
+      "maxHerdSize": 3,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 12,
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "18-46",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "sutanbu",
+          "weight": 70
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+    "implemented": true,
+    "name": "Gorotora",
+    "nationalPokedexNumber": 16,
+    "primaryType": "electric",
+    "abilities": [
+        "static",
+        "thickfat",
+        "h:strongjaw"
+    ],
+    "baseStats": {
+        "hp": 90,
+        "attack": 105,
+        "defence": 75,
+        "special_attack": 115,
+        "special_defence": 85,
+        "speed": 80
+    },
+    "catchRate": 30,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 275,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "field"
+    ],
+    "behaviour": {
+        "moving": {
+            "walk": {
+                "walkSpeed": 0.4
+            },
+            "swim": {
+                "swimSpeed": 0.4,
+                "avoidsWater": true
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": "5",
+            "toleratedLeaders": [{
+                    "pokemon": "gorotora",
+                    "tier": 1
+                }, {
+                    "pokemon": "raikou",
+                    "tier": 2
+                }
+            ]
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "drops": {
+        "amount": 2,
+        "entries": [{
+                "item": "cobblemon:quick_claw",
+                "percentage": 10.0
+            }, {
+                "item": "cobblemon:shuca_berry",
+                "percentage": 10.0
+            }
+        ]
+    },
+    "moves": [
+        "1:tackle",
+        "1:tailwhip",
+        "6:thundershock",
+        "10:bite",
+        "15:thunderwave",
+        "19:roar",
+        "24:spark",
+        "28:takedown",
+        "33:agility",
+        "37:crunch",
+        "42:thunderbolt",
+        "45:playrough",
+        "46:slash",
+        "egg:discharge",
+        "egg:doubleedge",
+        "egg:flamecharge",
+        "egg:howl",
+        "egg:sandattack",
+        "tm:attract",
+        "tm:charm",
+        "tm:crunch",
+        "tm:cut",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:electroball",
+        "tm:endure",
+        "tm:facade",
+        "tm:firefang",
+        "tm:flash",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:mudslap",
+        "tm:payday",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:rollout",
+        "tm:round",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:snore",
+        "tm:strength",
+        "tm:substitute",
+        "tm:swagger",
+        "tm:swift",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:zapcannon",
+        "tutor:risingvoltage"
+    ],
+    "labels": [
+        "gen1beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.gorotora.desc",
+        "spaceworldmons.species.betakanto.desc"
+    ],
+    "baseScale": 1.3,
+    "hitbox": {
+        "width": 1.6,
+        "height": 1.6,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 21,
+    "weight": 1370,
+    "riding": {
+        "behaviours": {
+            "LAND": {
+                "key": "cobblemon:land/horse",
+                "rideSounds": [],
+                "stats": {
+                    "ACCELERATION": "45-60",
+                    "JUMP": "45-100",
+                    "SKILL": "15-45",
+                    "SPEED": "45-70",
+                    "STAMINA": "65-85"
+                }
+            }
+        },
+        "seats": [{
+                "locator": "seat_1"
+            }
+        ]
+    },
+    "preEvolution": "raitora",
+    "evolutions": [],
+    "aspects": [
+        
+    ],
+    "cannotDynamax": false
+}

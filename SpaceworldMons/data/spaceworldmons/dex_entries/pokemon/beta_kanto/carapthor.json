@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:carapthor",
+    "speciesId": "cobblemon:carapthor",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

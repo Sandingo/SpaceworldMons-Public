@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:hakogame",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0172_hakogame",
+      "model": "spaceworldmons:hakogame.geo",
+      "texture": "spaceworldmons:textures/pokemon/0172_hakogame/hakogame.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0172_hakogame/hakogame_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0172_hakogame/hakogame_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

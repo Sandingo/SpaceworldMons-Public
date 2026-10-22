@@ -1,0 +1,53 @@
+
+{
+  "species": "cobblemon:psyking",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0190_psyking",
+      "model": "spaceworldmons:psyking.geo",
+      "texture": "spaceworldmons:textures/pokemon/0190_psyking/psyking.png",
+      "layers": [
+        {
+          "name": "ectoplasm",
+          "texture": "spaceworldmons:textures/pokemon/0190_psyking/ectoplasm.png",
+		  "translucent": true
+        },
+		{
+          "name": "eyes_nerves",
+          "texture": "spaceworldmons:textures/pokemon/0190_psyking/eyes_nerves.png",
+		  "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0190_psyking/psyking_shiny.png",
+	  "layers": [
+        {
+          "name": "ectoplasm",
+          "texture": "spaceworldmons:textures/pokemon/0190_psyking/ectoplasm_shiny.png",
+		  "translucent": true
+        },
+		{
+          "name": "eyes_nerves",
+          "texture": "spaceworldmons:textures/pokemon/0190_psyking/eyes_nerves_shiny.png",
+		  "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0190_psyking/psyking_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

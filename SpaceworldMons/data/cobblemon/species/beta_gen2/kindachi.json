@@ -1,0 +1,206 @@
+{
+    "implemented": true,
+    "name": "Kindachi",
+    "nationalPokedexNumber": 56,
+    "primaryType": "dark",
+    "secondaryType": "normal",
+    "abilities": [
+        "dryskin",
+        "insomnia",
+        "h:flamebody"
+    ],
+    "baseStats": {
+        "hp": 65,
+        "attack": 96,
+        "defence": 62,
+        "special_attack": 85,
+        "special_defence": 70,
+        "speed": 105
+    },
+    "behaviour": {
+        "herd": {
+            "maxSize": "3"
+        },
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendSelf": false,
+            "willDefendOwner": false,
+            "willFlee": true
+        }
+    },
+    "lightingData": {
+        "lightLevel": 10,
+        "liquidGlowMode": "LAND"
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 94,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "field"
+    ],
+    "drops": {
+        "amount": 4,
+        "entries": [{
+                "item": "minecraft:oak_log",
+                "quantityRange": "1-3"
+            }, {
+                "item": "minecraft:stick",
+                "quantityRange": "1-3"
+            }, {
+                "item": "minecraft:charcoal"
+            }, {
+                "item": "cobblemon:roseli_berry",
+                "percentage": 5
+            }
+        ]
+    },
+    "moves": [
+        "1:leer",
+        "1:scratch",
+        "1:substitute",
+        "4:torment",
+        "8:honeclaws",
+        "12:furyswipes",
+        "16:scaryface",
+        "17:feintattack",
+        "20:taunt",
+        "22:pursuit",
+        "24:knockoff",
+        "28:faketears",
+        "32:agility",
+        "36:imprison",
+        "40:thief",
+        "41:embargo",
+        "44:nastyplot",
+        "45:punishment",
+        "50:foulplay",
+        "egg:captivate",
+        "egg:copycat",
+        "egg:counter",
+        "egg:darkpulse",
+        "egg:detect",
+        "egg:extrasensory",
+        "egg:memento",
+        "egg:snatch",
+        "egg:suckerpunch",
+        "tm:aerialace",
+        "tm:agility",
+        "tm:assurance",
+        "tm:attract",
+        "tm:bounce",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:confuseray",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:embargo",
+        "tm:encore",
+        "tm:endure",
+        "tm:facade",
+        "tm:faketears",
+        "tm:fling",
+        "tm:foulplay",
+        "tm:frustration",
+        "tm:grassknot",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:honeclaws",
+        "tm:hypervoice",
+        "tm:imprison",
+        "tm:incinerate",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:painsplit",
+        "tm:payback",
+        "tm:protect",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:revenge",
+        "tm:roar",
+        "tm:round",
+        "tm:scaryface",
+        "tm:secretpower",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:snarl",
+        "tm:snore",
+        "tm:spite",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:thief",
+        "tm:torment",
+        "tm:toxic",
+        "tm:trick",
+        "tm:uproar",
+        "tm:uturn",
+        "tutor:bounce",
+        "tutor:burningjealousy",
+        "tutor:covet",
+        "tutor:darkpulse",
+        "tutor:foulplay",
+        "tutor:hypervoice",
+        "tutor:knockoff",
+        "tutor:lashout",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:trick",
+        "tutor:uproar"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.kindachi.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 0.6,
+    "hitbox": {
+        "width": 0.7,
+        "height": 1.3,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+    },
+    "height": 4,
+    "weight": 199,
+    "evolutions": [],
+    "aspects": [
+        
+    ],
+    "cannotDynamax": false
+}

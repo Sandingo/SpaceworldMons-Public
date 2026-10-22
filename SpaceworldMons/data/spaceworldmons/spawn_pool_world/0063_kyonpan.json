@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "kyonpan-1",
+            "pokemon": "kyonpan",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "2-12",
+            "weight": 0.25,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#c:is_mountain/peak"
+                ]
+            }
+        }, {
+            "id": "kyonpan-2",
+            "pokemon": "kyonpan",
+            "presets": [
+                "ancient_city"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "27-34",
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+  "implemented": true,
+  "name": "Koma-Inu",
+  "nationalPokedexNumber": 60,
+  "primaryType": "rock",
+  "secondaryType": "flying",
+  "abilities": [
+    "pressure",
+    "h:windrider"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 110,
+    "defence": 90,
+    "special_attack": 154,
+    "special_defence": 90,
+    "speed": 106
+  },
+  "behaviour": {
+    "combat": {
+      "willDefendOwner": true,
+      "willDefendSelf": true,
+      "willFlee": false
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      },
+      "walk": {
+        "walkSpeed": 0.4
+      }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 340,
+  "experienceGroup": "slow",
+  "eggCycles": 120,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "2-4"
+      },
+      {
+        "item": "cobblemon:hard_stone"
+      }
+    ]
+  },
+  "moves": [
+    "1:fissure",
+    "1:whirlwind",
+    "1:weatherball",
+    "1:gust",
+    "1:extremespeed",
+    "1:punishment",
+    "1:ancientpower",
+    "1:naturalgift",
+    "9:bite",
+    "18:safeguard",
+    "24:roar",
+    "27:calmmind",
+    "36:tailwind",
+    "42:crunch",
+    "45:recover",
+    "54:aeroblast",
+    "63:defog",
+    "72:rockslash",
+    "81:futuresight",
+    "90:skyattack",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:ancientpower",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:ironhead",
+    "tm:outrage",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:smartstrike",
+    "tm:snarl",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:wildcharge",
+    "tm:rockhead",
+    "tm:windride"
+  ],
+  "labels": [
+    "gen2beta",
+    "legendary"
+  ],
+  "pokedex": [
+    "spaceworldmons.species.komainu.desc",
+    "spaceworldmons.species.betajohto.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 2.8,
+    "height": 2.5,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 1,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 1980,
+  "evolutions": [],
+  "aspects": [],
+  "cannotDynamax": false
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:weirduck",
+    "speciesId": "cobblemon:weirduck",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

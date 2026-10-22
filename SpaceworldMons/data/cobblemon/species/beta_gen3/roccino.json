@@ -1,0 +1,231 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 80,
+    "name": "Roccino",
+    "primaryType": "rock",
+    "abilities": [
+        "rockhead",
+        "solidrock",
+        "h:rockypayload"
+    ],
+    "baseStats": {
+        "hp": 75,
+        "attack": 110,
+        "defence": 65,
+        "special_attack": 55,
+        "special_defence": 65,
+        "speed": 105
+    },
+    "catchRate": 190,
+    "maleRatio": 0.5,
+    "baseExperienceYield": 72,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 15,
+    "eggGroups": [
+        "field",
+        "mineral"
+    ],
+    "behaviour": {
+        "entityInteract": {
+            "avoidedByCreeper": true,
+            "avoidedByPhantom": true
+        },
+        "herd": {
+            "maxSize": "6",
+            "toleratedLeaders": [{
+                    "pokemon": "rockruff",
+                    "tier": 1
+                }, {
+                    "pokemon": "electrike",
+                    "tier": 2
+                }, {
+                    "pokemon": "roccino",
+                    "tier": 2
+                }, {
+                    "pokemon": "lycanroc",
+                    "tier": 3
+                }, {
+                    "pokemon": "salegrosso",
+                    "tier": 3
+                }, {
+                    "pokemon": "manectric mega=false",
+                    "tier": 3
+                }, {
+                    "pokemon": "manectric mega",
+                    "tier": 4
+                }
+            ]
+        },
+        "resting": {
+            "willSleepOnBed": true,
+            "times": [
+                "night"
+            ],
+            "drowsyChance": 0.0033,
+            "rouseChance": 0.0042
+        },
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "drops": {
+        "amount": 4,
+        "entries": [{
+                "item": "minecraft:calcite",
+                "quantityRange": "0-2"
+            }, {
+                "item": "minecraft:rotten_flesh",
+                "quantityRange": "0-1"
+            }, {
+                "item": "cobblemon:hard_stone",
+                "percentage": 2.5
+            }, {
+                "item": "cobblemon:passho_berry",
+                "percentage": 2.5
+            }
+        ]
+    },
+    "moves": [
+        "1:tackle",
+        "1:leer",
+        "4:sandattack",
+        "8:doubleteam",
+        "12:rockthrow",
+        "16:howl",
+        "20:bite",
+        "24:rocktomb",
+        "28:roar",
+        "32:rockslide",
+        "36:crunch",
+        "40:scaryface",
+        "44:stealthrock",
+        "45:rockhead",
+        "48:stoneedge",
+        "egg:crushclaw",
+        "egg:endeavor",
+        "egg:lastresort",
+        "egg:odorsleuth",
+        "egg:suckerpunch",
+        "egg:thrash",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:charm",
+        "tm:covet",
+        "tm:crunch",
+        "tm:dig",
+        "tm:doubleedge",
+        "tm:doubleteam",
+        "tm:earthpower",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:firefang",
+        "tm:helpinghand",
+        "tm:hypervoice",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:lastresort",
+        "tm:rockhead",
+        "tm:mudslap",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:roar",
+        "tm:rockclimb",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:scaryface",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:stealthrock",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:thunderfang",
+        "tm:trailblaze",
+        "tm:zenheadbutt",
+        "tutor:bulldoze",
+        "tutor:covet",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:firefang",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:irontail",
+        "tutor:lastresort",
+        "tutor:mudslap",
+        "tutor:playrough",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:sleeptalk",
+        "tutor:snarl",
+        "tutor:stealthrock",
+        "tutor:stompingtantrum",
+        "tutor:stoneedge",
+        "tutor:suckerpunch",
+        "tutor:thunderfang",
+        "tutor:zenheadbutt"
+    ],
+    "labels": [
+        "gen3beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.roccino.desc",
+        "spaceworldmons.species.betahoenn.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 0.9,
+        "height": 1.1,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 9,
+    "weight": 265,
+    "evolutions": [{
+            "id": "roccino_salegrosso",
+            "variant": "level_up",
+            "result": "salegrosso",
+            "consumeHeldItem": false,
+            "learnableMoves": [
+                "saltcure"
+            ],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 37
+                }
+            ]
+        }
+    ],
+    "aspects": [
+        
+    ]
+}

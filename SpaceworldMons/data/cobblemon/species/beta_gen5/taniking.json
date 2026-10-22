@@ -1,0 +1,231 @@
+{
+    "implemented": true,
+    "name": "Taniking",
+    "nationalPokedexNumber": 93,
+    "primaryType": "bug",
+    "secondaryType": "water",
+    "abilities": [
+        "dryskin",
+        "shellarmor",
+        "h:oblivious"
+    ],
+    "baseStats": {
+        "hp": 105,
+        "attack": 70,
+        "defence": 123,
+        "special_attack": 84,
+        "special_defence": 87,
+        "speed": 40
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 196,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "bug"
+    ],
+    "behaviour": {
+        "moving": {
+            "swim": {
+                "canBreatheUnderwater": true,
+                "swimSpeed": "0.2"
+            },
+            "walk": {
+                "avoidsLand": false
+            }
+        },
+        "herd": {
+            "maxSize": "6",
+            "toleratedLeaders": [{
+                    "pokemon": "poliwag",
+                    "tier": 1
+                }, {
+                    "pokemon": "tympole",
+                    "tier": 2
+                }, {
+                    "pokemon": "poliwhirl",
+                    "tier": 3
+                }, {
+                    "pokemon": "tanisu",
+                    "tier": 3
+                }, {
+                    "pokemon": "palpitoad",
+                    "tier": 4
+                }, {
+                    "pokemon": "poliwrath",
+                    "tier": 5
+                }, {
+                    "pokemon": "taniino",
+                    "tier": 5
+                }, {
+                    "pokemon": "politoed",
+                    "tier": 6
+                }, {
+                    "pokemon": "seismitoad",
+                    "tier": 6
+                }, {
+                    "pokemon": "taniking",
+                    "tier": 7
+                }
+            ]
+        },
+        "resting": {
+            "willSleepOnBed": true,
+            "times": [
+                "day"
+            ],
+            "drowsyChance": 0.0033,
+            "rouseChance": 0.0042
+        },
+        "combat": {
+            "willDefendOwner": true
+        }
+    },
+    "drops": {
+        "amount": 3,
+        "entries": [{
+                "item": "minecraft:slime_ball",
+                "quantityRange": "2-4"
+            }, {
+                "item": "cobblemon:shell_bell",
+                "percentage": 10
+            }, {
+                "item": "cobblemon:persim_berry",
+                "percentage": 10
+            }
+        ]
+    },
+    "moves": [
+        "1:tackle",
+        "1:watergun",
+        "1:shelter",
+        "1:protect",
+        "14:mudslap",
+        "17:waterpulse",
+        "23:soak",
+        "28:bodyslam",
+        "33:signalbeam",
+        "36:wideguard",
+        "39:flail",
+        "40:raindance",
+        "46:recover",
+        "52:powertrick",
+        "65:hydropump",
+        "egg:mist",
+        "egg:icebeam",
+        "egg:mudslap",
+        "egg:mudsport",
+        "egg:refresh",
+        "egg:snore",
+        "egg:waterpulse",
+        "egg:shellsmash",
+        "egg:superpower",
+        "tm:afteryou",
+        "tm:strugglebug",
+        "tm:dive",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:focuspunch",
+        "tm:gastroacid",
+        "tm:gigaimpact",
+        "tm:hail",
+        "tm:hydropump",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:infestation",
+        "tm:knockoff",
+        "tm:liquidation",
+        "tm:lowkick",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:muddywater",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:payback",
+        "tm:poisonjab",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:snore",
+        "tm:stealthrock",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:substitute",
+        "tm:bodyslam",
+        "tm:surf",
+        "tm:terablast",
+        "tm:bugbuzz",
+        "tm:skittersmack",
+        "tm:bodypress",
+        "tm:waterpulse",
+        "tm:weatherball",
+        "tm:superpower",
+        "tutor:afteryou",
+        "tutor:bounce",
+        "tutor:strugglebug",
+        "tutor:dive",
+        "tutor:drainpunch",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:focuspunch",
+        "tutor:gastroacid",
+        "tutor:gigaimpact",
+        "tutor:hyperbeam",
+        "tutor:hypervoice",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:knockoff",
+        "tutor:liquidation",
+        "tutor:lowkick",
+        "tutor:mudslap",
+        "tutor:poisonjab",
+        "tutor:rest",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:snore",
+        "tutor:waterpulse",
+        "tutor:skittersmack",
+        "tutor:stealthrock",
+        "tutor:stompingtantrum",
+        "tutor:superpower"
+    ],
+    "labels": [
+        "gen5beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.taniking.desc",
+        "spaceworldmons.species.betaunova.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1,
+        "height": 1.5,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+    },
+    "height": 13,
+    "weight": 760,
+    "preEvolution": "taniino",
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

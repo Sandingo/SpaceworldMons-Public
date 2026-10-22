@@ -1,0 +1,245 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 79,
+    "name": "Psyking",
+    "primaryType": "psychic",
+    "abilities": [
+        "strongjaw",
+        "psychicsurge",
+        "h:levitate"
+    ],
+    "baseStats": {
+        "hp": 48,
+        "attack": 125,
+        "defence": 115,
+        "special_attack": 65,
+        "special_defence": 65,
+        "speed": 100
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "baseExperienceYield": 172,
+    "experienceGroup": "slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "field",
+        "amorphous"
+    ],
+    "behaviour": {
+        "entityInteract": {
+            "avoidedBySkeleton": true
+        },
+        "herd": {
+            "maxSize": "6",
+            "toleratedLeaders": [{
+                    "pokemon": "poochyena",
+                    "tier": 1
+                }, {
+                    "pokemon": "houndour",
+                    "tier": 2
+                }, {
+                    "pokemon": "psykou",
+                    "tier": 2
+                }, {
+                    "pokemon": "mightyena",
+                    "tier": 3
+                }, {
+                    "pokemon": "psyking",
+                    "tier": 3
+                }, {
+                    "pokemon": "houndoom mega=false",
+                    "tier": 3
+                }, {
+                    "pokemon": "houndoom mega",
+                    "tier": 4
+                }
+            ]
+        },
+        "resting": {
+            "willSleepOnBed": true,
+            "times": [
+                "day"
+            ],
+            "drowsyChance": 0.0033,
+            "rouseChance": 0.0042
+        },
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "drops": {
+        "amount": 3,
+        "entries": [{
+                "item": "minecraft:bone",
+                "quantityRange": "0-2"
+            }, {
+                "item": "cobblemon:kasib_berry",
+                "percentage": 10
+            }
+        ]
+    },
+    "moves": [
+        "1:tackle",
+        "1:sandattack",
+        "1:bite",
+        "1:odorsleuth",
+        "1:thief",
+        "1:snarl",
+        "1:crunch",
+        "1:firefang",
+        "1:thunderfang",
+        "1:icefang",
+        "1:psychicfangs",
+        "1:frustration",
+        "13:howl",
+        "13:spark",
+        "13:leer",
+        "16:roar",
+        "20:swagger",
+        "24:psychocut",
+        "28:scaryface",
+        "36:taunt",
+        "44:yawn",
+        "48:zenheadbutt",
+        "52:suckerpunch",
+        "56:psychicterrain",
+        "56:electricterrain",
+        "60:synchronize",
+        "egg:astonish",
+        "egg:covet",
+        "egg:electrify",
+        "egg:mefirst",
+        "egg:poisonfang",
+        "tm:assurance",
+        "tm:aurasphere",
+        "tm:beatup",
+        "tm:bodyslam",
+        "tm:charm",
+        "tm:covet",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:doubleedge",
+        "tm:embargo",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:expandingforce",
+        "tm:facade",
+        "tm:firefang",
+        "tm:foulplay",
+        "tm:futuresight",
+        "tm:gigaimpact",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:icefang",
+        "tm:imprison",
+        "tm:incinerate",
+        "tm:irontail",
+        "tm:laserfocus",
+        "tm:lashout",
+        "tm:mudslap",
+        "tm:nastyplot",
+        "tm:payback",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psybeam",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicnoise",
+        "tm:psychicterrain",
+        "tm:psychup",
+        "tm:psyshock",
+        "tm:raindance",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:roar",
+        "tm:rocksmash",
+        "tm:scaryface",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:snatch",
+        "tm:spite",
+        "tm:strength",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:superfang",
+        "tm:swagger",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:thief",
+        "tm:throatchop",
+        "tm:thunderfang",
+        "tm:torment",
+        "tm:trailblaze",
+        "tm:uproar",
+        "tutor:covet",
+        "tutor:darkpulse",
+        "tutor:endeavor",
+        "tutor:firefang",
+        "tutor:foulplay",
+        "tutor:gigaimpact",
+        "tutor:helpinghand",
+        "tutor:hyperbeam",
+        "tutor:hypervoice",
+        "tutor:icefang",
+        "tutor:irontail",
+        "tutor:laserfocus",
+        "tutor:lashout",
+        "tutor:mudslap",
+        "tutor:playrough",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rocksmash",
+        "tutor:shadowball",
+        "tutor:sleeptalk",
+        "tutor:snarl",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:superfang",
+        "tutor:throatchop",
+        "tutor:thunderfang",
+        "tutor:uproar"
+    ],
+    "labels": [
+        "gen3beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.psyking.desc",
+        "spaceworldmons.species.betahoenn.desc"
+    ],
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 1.2,
+        "height": 1.4,
+        "fixed": false
+    },
+    "baseFriendship": 25,
+    "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 10,
+    "weight": 340,
+    "preEvolution": "psykou",
+    "evolutions": [],
+    "aspects": [
+        
+    ]
+}

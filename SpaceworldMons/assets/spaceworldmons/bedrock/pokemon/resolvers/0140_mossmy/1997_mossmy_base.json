@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:mossmy",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0140_mossmy",
+      "model": "spaceworldmons:mossmy.geo",
+      "texture": "spaceworldmons:textures/pokemon/0140_mossmy/mossmy.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0140_mossmy/mossmy_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0140_mossmy/mossmy_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

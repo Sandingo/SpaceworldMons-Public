@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:nameeru",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0121_nameeru",
+      "model": "spaceworldmons:nameeru.geo",
+      "texture": "spaceworldmons:textures/pokemon/0121_nameeru/nameeru.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0121_nameeru/nameeru_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0121_nameeru/nameeru_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

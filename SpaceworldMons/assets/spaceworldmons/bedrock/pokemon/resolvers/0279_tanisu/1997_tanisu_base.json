@@ -1,0 +1,31 @@
+
+{
+  "species": "cobblemon:tanisu",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0279_tanisu",
+      "model": "spaceworldmons:tanisu.geo",
+      "texture": "spaceworldmons:textures/pokemon/0279_tanisu/tanisu.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0279_tanisu/tanisu_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0279_tanisu/tanisu_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
+

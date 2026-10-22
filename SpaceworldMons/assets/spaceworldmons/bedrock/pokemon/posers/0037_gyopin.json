@@ -1,0 +1,112 @@
+{
+    "portraitScale": 2.4,
+    "portraitTranslation": [0, -1.6, 0],
+    "profileScale": 1.3,
+    "profileTranslation": [0, -0.3, 0],
+    "rootBone": "gyopin",
+    "animations": {
+        "cry": "q.bedrock_stateful('gyopin', 'blink')",
+        "recoil": "q.bedrock_stateful('gyopin', 'blink')",
+        "faint": "q.bedrock_stateful('gyopin', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "NONE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gyopin', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('gyopin', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('gyopin', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gyopin', 'ground_battle_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('gyopin', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('gyopin', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gyopin', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('gyopin', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('gyopin', 'blink')"
+            ]
+        },
+		"floating": {
+            "poseName": "floating",
+            "poseTypes": ["FLOAT", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gyopin', 'water_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('gyopin', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('gyopin', 'blink')"
+            ]
+        },
+        "battle-floating": {
+            "poseName": "battle_floating",
+            "poseTypes": ["FLOAT"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gyopin', 'water_battle_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('gyopin', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('gyopin', 'blink')"
+            ]
+        },
+		"swimming": {
+            "poseName": "swimming",
+            "poseTypes": ["SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gyopin', 'water_swim')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('gyopin', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('gyopin', 'blink')"
+            ]
+        }
+	}
+}

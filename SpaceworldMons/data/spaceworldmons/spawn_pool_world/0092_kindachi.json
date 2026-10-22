@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "kindachi-1",
+            "pokemon": "kindachi",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "17-31",
+            "weight": 15,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#c:is_mountain"
+                ]
+            }
+        }
+    ]
+}

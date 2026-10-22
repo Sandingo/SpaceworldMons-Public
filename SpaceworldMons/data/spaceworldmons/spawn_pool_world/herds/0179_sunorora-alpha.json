@@ -1,0 +1,46 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sunorora-alpha-1",
+      "levelRange": "37-100",
+      "maxHerdSize": 7,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 60,
+      "bucket": "boss",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_glacial",
+          "#cobblemon:is_tundra"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "pokemon": "sunorora held_item=cobblemon:ice_gem alpha=true",
+          "weight": 30
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "37-51",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "pokemon": "sunorora",
+          "weight": 135
+        }
+      ]
+    }
+  ]
+}

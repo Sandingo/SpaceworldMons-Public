@@ -1,0 +1,51 @@
+{
+    "portraitScale": 1.86,
+    "portraitTranslation": [-0.35, 0.84, 0],
+    "profileScale": 0.63,
+    "profileTranslation": [0.0, 0.76, 0.0],
+    "rootBone": "gabite",
+    "animations": {
+        "cry": "q.bedrock_stateful('gabite-beta', 'cry')",
+        "recoil": "q.bedrock_stateful('gabite-beta', 'blink')",
+        "faint": "q.bedrock_stateful('gabite-beta', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.bedrock('gabite-beta', 'ground_idle')"
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('gabite-beta', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.bedrock('gabite-beta', 'battle_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('gabite-beta', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.bedrock('gabite-beta', 'ground_walk')"
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('gabite-beta', 'blink')"
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:ribbito",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0024_ribbito",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0024_ribbito/ribbito.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0024_ribbito/ribbito_shiny.png"
+    }
+  ]
+}

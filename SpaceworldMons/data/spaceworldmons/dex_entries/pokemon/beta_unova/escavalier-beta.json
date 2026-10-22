@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:escavalier-beta",
+    "speciesId": "cobblemon:escavalier",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

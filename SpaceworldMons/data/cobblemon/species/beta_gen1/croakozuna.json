@@ -1,0 +1,68 @@
+{
+    "implemented": false,
+    "name": "Croakozuna",
+    "nationalPokedexNumber": 1,
+    "primaryType": "normal",
+    "abilities": [
+        "stench",
+        "drizzle",
+        "h:speedboost"
+    ],
+    "baseStats": {
+        "hp": 50,
+        "attack": 50,
+        "defence": 50,
+        "special_attack": 50,
+        "special_defence": 50,
+        "speed": 50
+    },
+    "catchRate": 100,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 100,
+    "experienceGroup": "fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "amorphous"
+    ],
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:oran_berry",
+                "percentage": 50.0
+            }
+        ]
+    },
+    "moves": [
+        "1:pound",
+        "egg:takedown",
+        "tm:protect"
+    ],
+    "labels": [
+        "gen1beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.croakozuna.desc",
+        "spaceworldmons.species.betakanto.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 50,
+    "weight": 50,
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

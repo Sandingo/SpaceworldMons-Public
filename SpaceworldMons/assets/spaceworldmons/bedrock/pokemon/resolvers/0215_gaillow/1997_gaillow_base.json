@@ -1,0 +1,27 @@
+{
+  "species": "cobblemon:gaillow",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0215_gaillow",
+      "model": "spaceworldmons:gaillow.geo",
+      "texture": "spaceworldmons:textures/pokemon/0215_gaillow/gaillow.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0215_gaillow/gaillow_shiny.png"
+    },
+    {
+      "aspects": ["alpha_eyes"],
+"layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0215_gaillow/gaillow_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:buhi",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0005_buhi",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0005_buhi/buhi.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0005_buhi/buhi_shiny.png"
+    }
+  ]
+}

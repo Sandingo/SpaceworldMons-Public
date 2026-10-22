@@ -1,0 +1,30 @@
+{
+  "target": "cobblemon:hitmontop",
+  "features": [
+    "beta"
+  ],
+  "forms": [
+    {
+      "implemented": true,
+      "name": "Beta",
+      "height": 16,
+      "weight": 500,
+      "baseScale": 1,
+      "hitbox": {
+        "width": 0.8,
+        "height": 1.2,
+        "fixed": false
+      },
+      "pokedex": [
+        "spaceworldmons.species.hitmontop-beta.desc",
+        "spaceworldmons.species.betajohto.desc"
+      ],
+      "labels": [
+        "gen2"
+      ],
+      "aspects": [
+        "beta"
+      ]
+    }
+  ]
+}

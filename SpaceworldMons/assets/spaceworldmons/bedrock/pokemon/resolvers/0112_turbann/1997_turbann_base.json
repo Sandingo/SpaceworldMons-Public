@@ -1,0 +1,34 @@
+
+{
+  "species": "cobblemon:turbann",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0112_turbann",
+      "model": "spaceworldmons:turbann.geo",
+      "texture": "spaceworldmons:textures/pokemon/0112_turbann/turbann.png",
+      "layers": [{
+          "name": "gem",
+          "texture": "spaceworldmons:textures/pokemon/0112_turbann/turbann_emissive.png",
+		  "emissive": true}]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0112_turbann/turbann_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0112_turbann/turbann_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

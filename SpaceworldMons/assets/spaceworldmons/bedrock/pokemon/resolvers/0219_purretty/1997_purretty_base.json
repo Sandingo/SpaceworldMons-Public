@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:purretty",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0219_purretty",
+      "model": "spaceworldmons:purretty.geo",
+      "texture": "spaceworldmons:textures/pokemon/0219_purretty/purretty.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0219_purretty/purretty_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0219_purretty/purretty_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

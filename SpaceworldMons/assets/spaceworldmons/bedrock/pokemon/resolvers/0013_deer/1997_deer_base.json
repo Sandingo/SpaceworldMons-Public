@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:deer",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0013_deer",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0013_deer/deer.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0013_deer/deer_shiny.png"
+    }
+  ]
+}

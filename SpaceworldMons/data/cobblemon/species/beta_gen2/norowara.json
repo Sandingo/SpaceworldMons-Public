@@ -1,0 +1,232 @@
+{
+    "implemented": true,
+    "name": "Norowara",
+    "nationalPokedexNumber": 53,
+    "primaryType": "Ghost",
+    "secondaryType": "Dark",
+    "abilities": [
+        "cursedbody",
+        "levitate"
+    ],
+    "baseStats": {
+        "hp": 30,
+        "attack": 120,
+        "defence": 60,
+        "special_attack": 120,
+        "special_defence": 60,
+        "speed": 10
+    },
+    "behaviour": {
+        "moving": {
+            "fly": {
+                "canFly": true
+            }
+        }
+    },
+    "catchRate": 75,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 125,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 25,
+    "eggGroups": [
+        "amorphous"
+    ],
+    "behaviour": {
+        "moving": {
+            "fly": {
+                "canFly": true
+            },
+            "swim": {
+                "avoidsWater": true
+            },
+            "walk": {
+                "canWalk": false
+            }
+        },
+        "herd": {
+            "maxSize": "4",
+            "toleratedLeaders": [{
+                    "pokemon": "norowara",
+                    "tier": 1
+                }, {
+                    "pokemon": "kyonpan",
+                    "tier": 2
+                }
+            ]
+        },
+        "resting": {
+            "willSleepOnBed": true,
+            "times": [
+                "day"
+            ],
+            "drowsyChance": 0.0033,
+            "rouseChance": 0.0042
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "drops": {
+        "amount": 2,
+        "entries": [{
+                "item": "minecraft:wheat"
+            }, {
+                "item": "minecraft:iron_ingot",
+                "percentage": 5
+            }
+        ]
+    },
+    "moves": [
+        "1:leechlife",
+        "8:disable",
+        "16:destinybond",
+        "25:spite",
+        "35:confusion",
+        "46:nightshade",
+        "58:substitute",
+        "71:psychic",
+        "85:painsplit",
+        "100:curse",
+        "egg:curse",
+        "egg:destinybond",
+        "egg:imprison",
+        "egg:mefirst",
+        "egg:memento",
+        "egg:nastyplot",
+        "egg:ominouswind",
+        "egg:psychup",
+        "egg:screech",
+        "egg:shadowsneak",
+        "egg:skillswap",
+        "egg:spite",
+        "egg:suckerpunch",
+        "egg:wonderroom",
+        "tm:curse",
+        "tm:defensecurl",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:dynamicpunch",
+        "tm:endure",
+        "tm:frustration",
+        "tm:headbutt",
+        "tm:hiddenpower",
+        "tm:irontail",
+        "tm:nightmare",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sludgebomb",
+        "tm:strength",
+        "tm:swift",
+        "tm:thief",
+        "tm:thunder",
+        "tm:toxic",
+        "tm:zapcannon",
+        "tutor:allyswitch",
+        "tutor:attract",
+        "tutor:confuseray",
+        "tutor:curse",
+        "tutor:darkpulse",
+        "tutor:defensecurl",
+        "tutor:destinybond",
+        "tutor:doubleedge",
+        "tutor:doubleteam",
+        "tutor:dreameater",
+        "tutor:endure",
+        "tutor:flash",
+        "tutor:foulplay",
+        "tutor:frustration",
+        "tutor:growl",
+        "tutor:headbutt",
+        "tutor:healbell",
+        "tutor:hiddenpower",
+        "tutor:hypervoice",
+        "tutor:icywind",
+        "tutor:inferno",
+        "tutor:magiccoat",
+        "tutor:magicroom",
+        "tutor:meanlook",
+        "tutor:mimic",
+        "tutor:nightmare",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:perishsong",
+        "tutor:protect",
+        "tutor:psybeam",
+        "tutor:psychic",
+        "tutor:psychup",
+        "tutor:psywave",
+        "tutor:raindance",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:screech",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:skillswap",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:substitute",
+        "tutor:suckerpunch",
+        "tutor:sunnyday",
+        "tutor:swagger",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thief",
+        "tutor:thunder",
+        "tutor:thunderwave",
+        "tutor:toxic",
+        "tutor:trick",
+        "tutor:uproar",
+        "tutor:wonderroom",
+        "tutor:zapcannon"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.norowara.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 0.85,
+    "hitbox": {
+        "width": 0.6,
+        "height": 1.1,
+        "fixed": false
+    },
+    "baseFriendship": 35,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+    },
+    "height": 7,
+    "weight": 10,
+    "evolutions": [{
+            "id": "norowara_kyonpan",
+            "variant": "level_up",
+            "result": "kyonpan",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 1
+                }
+            ]
+        }
+    ],
+    "aspects": [
+        
+    ],
+    "cannotDynamax": false
+}

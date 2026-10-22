@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:borubea",
+    "speciesId": "cobblemon:borubea",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

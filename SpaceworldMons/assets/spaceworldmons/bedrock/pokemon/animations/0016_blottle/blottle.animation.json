@@ -1,0 +1,303 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.blottle.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, "math.sin(query.anim_time * 180) * 2.5"]
+				},
+				"shell1": {
+					"rotation": [0, 0, "-math.cos(query.anim_time * 180 - 0.2) * 2.5"]
+				},
+				"leftmiddlefoot": {
+					"rotation": ["math.cos(query.anim_time * 180 - 180) * 7.5", 0, 0]
+				},
+				"leftmiddletoe": {
+					"rotation": ["math.cos(query.anim_time * 180 - 180 - 0.2) * 5", 0, 0]
+				},
+				"rightmiddlefoot": {
+					"rotation": ["math.cos(query.anim_time * 180 - 90) * 7.5", 0, 0]
+				},
+				"rightmiddletoe": {
+					"rotation": ["math.cos(query.anim_time * 180 - 90 - 0.2) * 5", 0, 0]
+				},
+				"leftfoot": {
+					"rotation": ["math.cos(query.anim_time * 180 - 270) * 7.5", 0, 0]
+				},
+				"lefttoe": {
+					"rotation": ["math.cos(query.anim_time * 180 - 270 - 0.2) * 5", 0, 0]
+				},
+				"rightfoot": {
+					"rotation": ["math.cos(query.anim_time * 180) * 7.5", 0, 0]
+				},
+				"righttoe": {
+					"rotation": ["math.cos(query.anim_time * 180 - 0.2) * 5", 0, 0]
+				},
+				"leftarm1": {
+					"rotation": [0, 0, "20 - math.sin(query.anim_time * 180 - 0.2) * 5"]
+				},
+				"leftarm2": {
+					"rotation": [0, 0, "-50 + math.cos(query.anim_time * 180 - 0.5) * 7.5"]
+				},
+				"leftarm3": {
+					"rotation": [0, 0, "-50 + math.sin(query.anim_time * 180 - 0.8) * 10"]
+				},
+				"leftarm4": {
+					"rotation": [0, 0, "-20 - math.cos(query.anim_time * 180 - 1.1) * 12.5"]
+				},
+				"lefthand": {
+					"rotation": [0, 0, "35 + math.sin(query.anim_time * 180 - 1.4) * 25"]
+				},
+				"rightarm1": {
+					"rotation": [0, 0, "-20 - math.sin(query.anim_time * 180 - 0.2) * 5"]
+				},
+				"rightarm2": {
+					"rotation": [0, 0, "55 + math.cos(query.anim_time * 180 - 0.5) * 7.5"]
+				},
+				"rightarm3": {
+					"rotation": [0, 0, "50 + math.sin(query.anim_time * 180 - 0.8) * 10"]
+				},
+				"rightarm4": {
+					"rotation": [0, 0, "20 - math.cos(query.anim_time * 180 - 1.1) * 12.5"]
+				},
+				"righthand": {
+					"rotation": [0, 0, "-35 + math.sin(query.anim_time * 180 - 1.4) * 25"]
+				}
+			}
+		},
+		"animation.blottle.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["-22.5 - math.sin(query.anim_time * 360) * 2.5", 0, 0],
+					"position": [0, "-1.25 + math.sin(query.anim_time * 360) * 0.25", "-math.cos(query.anim_time * 360) * 0.5"]
+				},
+				"shell1": {
+					"rotation": ["-math.cos(query.anim_time * 360 - 0.2) * 2.5", 0, 0]
+				},
+				"leftmiddlefoot": {
+					"rotation": [
+						"15 + math.sin(query.anim_time * 360 - 270) * 15",
+						"-math.sin(query.anim_time * 360 - 270) * 15",
+						"-7.5 + math.cos(query.anim_time * 360 - 270) * 15"
+					]
+				},
+				"rightmiddlefoot": {
+					"rotation": [
+						"15 + math.sin(query.anim_time * 360 - 270) * 15",
+						"math.sin(query.anim_time * 360 - 270) * 15",
+						"7.5 - math.cos(query.anim_time * 360 - 270) * 15"
+					]
+				},
+				"leftfoot": {
+					"rotation": [
+						"35 + math.sin(query.anim_time * 360 - 270) * 15",
+						"-math.sin(query.anim_time * 360 - 270) * 15",
+						"-35 + math.cos(query.anim_time * 360 - 270) * 15"
+					]
+				},
+				"rightfoot": {
+					"rotation": [
+						"35 + math.sin(query.anim_time * 360 - 270) * 15",
+						"math.sin(query.anim_time * 360 - 270) * 15",
+						"35 - math.cos(query.anim_time * 360 - 270) * 15"
+					]
+				},
+				"leftarm1": {
+					"rotation": [0, "math.cos(query.anim_time * 360) * 5 ", 0]
+				},
+				"leftarm2": {
+					"rotation": [-7.5, "-50 - math.sin(query.anim_time * 360) * 5 ", 0]
+				},
+				"leftarm3": {
+					"rotation": [0, "-math.cos(query.anim_time * 360) * 15", 0]
+				},
+				"leftarm4": {
+					"rotation": [0, "math.sin(query.anim_time * 360) * 25", 0]
+				},
+				"lefthand": {
+					"rotation": [0, "math.cos(query.anim_time * 360) * 25", 0]
+				},
+				"rightarm1": {
+					"rotation": [0, "math.cos(query.anim_time * 360) * 5 ", 0]
+				},
+				"rightarm2": {
+					"rotation": [-7.5, "50 - math.sin(query.anim_time * 360) * 5 ", 0]
+				},
+				"rightarm3": {
+					"rotation": [0, "-math.cos(query.anim_time * 360) * 15", 0]
+				},
+				"rightarm4": {
+					"rotation": [0, "math.sin(query.anim_time * 360) * 25", 0]
+				},
+				"righthand": {
+					"rotation": [0, "math.cos(query.anim_time * 360) * 25", 0]
+				},
+				"rightarmrot": {
+					"rotation": [30, 45, 15],
+					"position": [0, -1, 0]
+				},
+				"leftarmrot": {
+					"rotation": [30, -45, -15],
+					"position": [0, -1, 0]
+				}
+			}
+		},
+		"animation.blottle.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"shell1": {
+					"rotation": {
+						"0.0": [5, 0, 0],
+						"0.125": [5, 0, 0],
+						"0.1667": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, -3, -2.5],
+						"0.125": [0, -3, -2.5],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.blottle.water_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, "math.cos(query.anim_time * 180) * 5"],
+					"position": ["-math.cos(query.anim_time * 180) * 1", "22-math.sin(query.anim_time * 360) * 1", 0]
+				},
+				"shell1": {
+					"rotation": [5, 0, "math.sin(query.anim_time * 180 -0.2) * 5"],
+					"position": [0, 0.75, -1]
+				},
+				"leftmiddlefoot": {
+					"rotation": [55, 0, 0],
+					"position": [0, 0, 1]
+				},
+				"rightmiddlefoot": {
+					"rotation": [55, 0, 0],
+					"position": [0, 0, 1]
+				},
+				"leftfoot": {
+					"rotation": [55, 0, 0]
+				},
+				"rightfoot": {
+					"rotation": [55, 0, 0]
+				},
+				"leftarm1": {
+					"rotation": [0, 0, "-math.cos(query.anim_time * 180 - 0.2) * 5"]
+				},
+				"leftarm2": {
+					"rotation": [0, 0, "17.5 - math.cos(query.anim_time * 180 - 0.5) * 10"],
+					"position": [-1, 0.25, 0]
+				},
+				"leftarm3": {
+					"rotation": [0, 0, "- math.sin(query.anim_time * 180 - 0.8) * 15"]
+				},
+				"leftarm4": {
+					"rotation": [0, 0, "- math.sin(query.anim_time * 180 - 1.1) * 10"]
+				},
+				"lefthand": {
+					"rotation": [0, 0, "math.cos(query.anim_time * 180 - 1.4) * 25"]
+				},
+				"rightarm1": {
+					"rotation": [0, 0, "-math.cos(query.anim_time * 180 - 0.2) * 5"]
+				},
+				"rightarm2": {
+					"rotation": [0, 0, "-17.5 - math.cos(query.anim_time * 180 - 0.5) * 10"],
+					"position": [1, 0.25, 0]
+				},
+				"rightarm3": {
+					"rotation": [0, 0, "- math.sin(query.anim_time * 180 - 0.8) * 15"]
+				},
+				"rightarm4": {
+					"rotation": [0, 0, "- math.sin(query.anim_time * 180 - 1.1) * 10"]
+				},
+				"righthand": {
+					"rotation": [0, 0, "math.cos(query.anim_time * 180 - 1.4) * 25"]
+				},
+				"leftarmrot": {
+					"rotation": [0, 0, 70]
+				},
+				"rightarmrot": {
+					"rotation": [0, 0, -70]
+				}
+			}
+		},
+		"animation.blottle.water_swim": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [-25, 0, "math.cos(query.anim_time * 180) * 5"],
+					"position": ["-math.cos(query.anim_time * 180) * 1", "22 - math.sin(query.anim_time * 360) * 1", 0]
+				},
+				"shell1": {
+					"rotation": [-2.5, 0, "math.sin(query.anim_time * 180 -0.2) * 5"],
+					"position": [0, 0.75, -1]
+				},
+				"leftmiddlefoot": {
+					"rotation": [55, 0, 0],
+					"position": [0, 0, 1]
+				},
+				"rightmiddlefoot": {
+					"rotation": [55, 0, 0],
+					"position": [0, 0, 1]
+				},
+				"leftfoot": {
+					"rotation": [55, 0, 0]
+				},
+				"rightfoot": {
+					"rotation": [55, 0, 0]
+				},
+				"leftarm1": {
+					"rotation": [0, 0, "-math.cos(query.anim_time * 180 - 0.2) * 5"]
+				},
+				"leftarm2": {
+					"rotation": [0, 0, "17.5 - math.cos(query.anim_time * 180 - 0.5) * 10"],
+					"position": [-1, 0.25, 0]
+				},
+				"leftarm3": {
+					"rotation": [0, 0, "- math.sin(query.anim_time * 180 - 0.8) * 15"]
+				},
+				"leftarm4": {
+					"rotation": [0, 0, "- math.sin(query.anim_time * 180 - 1.1) * 10"]
+				},
+				"lefthand": {
+					"rotation": [0, 0, "math.cos(query.anim_time * 180 - 1.4) * 25"]
+				},
+				"rightarm1": {
+					"rotation": [0, 0, "-math.cos(query.anim_time * 180 - 0.2) * 5"]
+				},
+				"rightarm2": {
+					"rotation": [0, 0, "-17.5 - math.cos(query.anim_time * 180 - 0.5) * 10"],
+					"position": [1, 0.25, 0]
+				},
+				"rightarm3": {
+					"rotation": [0, 0, "- math.sin(query.anim_time * 180 - 0.8) * 15"]
+				},
+				"rightarm4": {
+					"rotation": [0, 0, "- math.sin(query.anim_time * 180 - 1.1) * 10"]
+				},
+				"righthand": {
+					"rotation": [0, 0, "math.cos(query.anim_time * 180 - 1.4) * 25"]
+				},
+				"leftarmrot": {
+					"rotation": [0, -35, 70]
+				},
+				"rightarmrot": {
+					"rotation": [0, 35, -70]
+				}
+			}
+		},
+		"animation.blottle.hold_item": {
+			"loop": true,
+			"bones": {
+				"righthand": {
+					"rotation": [0, 0, -37.5]
+				}
+			}
+		}
+	}
+}

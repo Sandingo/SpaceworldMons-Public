@@ -1,0 +1,178 @@
+{
+    "implemented": true,
+    "name": "Shibirefugu",
+    "nationalPokedexNumber": 29,
+    "primaryType": "water",
+    "secondaryType": "electric",
+    "abilities": [
+        "static",
+        "swiftswim",
+        "h:intimidate"
+    ],
+    "baseStats": {
+        "hp": 90,
+        "attack": 112,
+        "defence": 100,
+        "special_attack": 85,
+        "special_defence": 65,
+        "speed": 75
+    },
+    "behaviour": {
+        "moving": {
+            "walk": {
+                "avoidsLand": true
+            },
+            "swim": {
+                "swimSpeed": 0.3,
+                "canBreatheUnderwater": true
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": "9",
+            "toleratedLeaders": [{
+                    "pokemon": "qwilfish",
+                    "tier": 1
+                }, {
+                    "pokemon": "overqwil",
+                    "tier": 2
+                }, {
+                    "pokemon": "shibirefugu",
+                    "tier": 3
+                }, {
+                    "pokemon": "manaphy",
+                    "tier": 4
+                }
+            ]
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "catchRate": 35,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 190,
+    "baseFriendship": 0,
+    "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "experienceGroup": "medium_fast",
+    "eggCycles": 0,
+    "eggGroups": [
+        "water_2"
+    ],
+    "drops": {
+        "amount": 4,
+        "entries": [{
+                "item": "minecraft:pufferfish"
+            }, {
+                "item": "minecraft:prismarine_shard",
+                "quantityRange": "0-2"
+            }, {
+                "item": "cobblemon:poison_barb",
+                "percentage": 5
+            }
+        ]
+    },
+    "moves": [
+        "1:spikes",
+        "1:tackle",
+        "1:poisonsting",
+        "5:watergun",
+        "9:harden",
+        "9:minimize",
+        "13:thunderwave",
+        "23:spark",
+        "28:selfdestruct",
+        "37:pinmissile",
+        "40:destinybond",
+        "48:hydropump",
+        "50:thunderbolt",
+        "55:wildcharge",
+        "tm:acidspray",
+        "tm:agility",
+        "tm:blizzard",
+        "tm:chillingwater",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:doubleedge",
+        "tm:endure",
+        "tm:facade",
+        "tm:gigaimpact",
+        "tm:gunkshot",
+        "tm:gyroball",
+        "tm:haze",
+        "tm:hex",
+        "tm:hydropump",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:mudshot",
+        "tm:painsplit",
+        "tm:poisonjab",
+        "tm:poisontail",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:reversal",
+        "tm:scaleshot",
+        "tm:scaryface",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:smartstrike",
+        "tm:spikes",
+        "tm:spite",
+        "tm:substitute",
+        "tm:surf",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:throatchop",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:venoshock",
+        "tm:waterfall",
+        "tm:waterpulse"
+    ],
+    "labels": [
+        "gen2beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.shibirefugu.desc",
+        "spaceworldmons.species.betajohto.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1.5,
+        "height": 1.2,
+        "fixed": false
+    },
+    "height": 9,
+    "weight": 82,
+    "preEvolution": "qwilfish",
+    "evolutions": [],
+    "aspects": [
+        
+    ],
+    "cannotDynamax": false
+}

@@ -1,0 +1,313 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "basculin-beta-alpha-1",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "submerged",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "5,6,7"
+            },
+            "herdablePokemon": [{
+                    "pokemon": "basculin beta=true held_item=cobblemon:water_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "basculin beta=true",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin striped=blue",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "basculin-beta-alpha-2",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "submerged",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "1,2,3"
+            },
+            "herdablePokemon": [{
+                    "pokemon": "basculin beta=true held_item=cobblemon:water_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "basculin beta=true",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin striped=blue",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "basculin-beta-alpha-3",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "submerged",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "0,4"
+            },
+            "herdablePokemon": [{
+                    "pokemon": "basculin beta=true held_item=cobblemon:water_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "basculin beta=true",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin striped=blue",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "basculin-beta-alpha-7",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "submerged",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "5,6,7"
+            },
+            "herdablePokemon": [{
+                    "pokemon": "basculin beta=true held_item=cobblemon:water_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "basculin beta=true",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin striped=blue",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "basculin-beta-alpha-8",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "submerged",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "1,2,3"
+            },
+            "herdablePokemon": [{
+                    "pokemon": "basculin beta=true held_item=cobblemon:water_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "basculin beta=true",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin striped=blue",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "basculin-beta-alpha-9",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "submerged",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "0,4"
+            },
+            "herdablePokemon": [{
+                    "pokemon": "basculin beta=true held_item=cobblemon:water_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "basculin beta=true",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin striped=blue",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "basculin",
+                    "weight": 30.0,
+                    "levelRange": "24-43",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [
+    -0.2,
+    -0.7,
+    0
+  ],
+  "profileScale": 0.7,
+  "profileTranslation": [
+    0,
+    0.7,
+    0
+  ],
+  "rootBone": "tyrogue-beta",
+  "animations": {
+    "cry": "q.bedrock_stateful('tyrogue-beta', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tyrogue-beta', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tyrogue-beta', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tyrogue-beta', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tyrogue-beta', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tyrogue-beta', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tyrogue-beta', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('tyrogue-beta', 'sleep')"
+      ]
+    },
+    "shoulder_left": {
+      "poseTypes": [
+        "SHOULDER_LEFT"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tyrogue-beta', 'shoulder_left')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tyrogue-beta', 'blink')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            -1,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": [
+        "SHOULDER_RIGHT"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tyrogue-beta', 'shoulder_right')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tyrogue-beta', 'blink')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            1,
+            1,
+            0
+          ]
+        }
+      ]
+    }
+  }
+}

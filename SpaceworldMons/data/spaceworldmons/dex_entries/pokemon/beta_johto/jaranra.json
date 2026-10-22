@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:jaranra",
+    "speciesId": "cobblemon:jaranra",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

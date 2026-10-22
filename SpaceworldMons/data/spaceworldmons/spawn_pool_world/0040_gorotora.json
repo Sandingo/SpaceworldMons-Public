@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "gorotora-1",
+            "pokemon": "gorotora",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "57-64",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "isThundering": true,
+                "biomes": [
+                    "#cobblemon:is_savanna",
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        }
+    ]
+}

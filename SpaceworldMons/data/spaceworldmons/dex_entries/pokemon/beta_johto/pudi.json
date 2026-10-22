@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:pudi",
+    "speciesId": "cobblemon:pudi",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

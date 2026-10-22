@@ -1,0 +1,146 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hakkeyo.ground_idle": {
+			"loop": true,
+			"bones": {
+				"leg_right": {
+					"rotation": [-75, 45, "-math.sin(query.anim_time * 90) * 2.5"],
+					"position": [-2, -1, -2]
+				},
+				"leg_left": {
+					"rotation": [-75, -45, "-math.sin(query.anim_time * 90) * 2.5"],
+					"position": [2, -1, -2]
+				},
+				"torso": {
+					"rotation": ["math.cos(query.anim_time * 90) * 2.5", "math.sin(query.anim_time * 90) * 2.5", 0],
+					"position": [0, -1.5, 0]
+				},
+				"head": {
+					"rotation": ["-math.cos(query.anim_time * 90) * 2.5", 0, "-math.sin(query.anim_time * 90) * 2.5"]
+				},
+				"arm_left_rot": {
+					"rotation": [0, "math.cos(query.anim_time * 90) * 2.5", "15 - math.cos(query.anim_time * 90) * 2.5"]
+				},
+				"arm_right_rot": {
+					"rotation": [0, "-math.cos(query.anim_time * 90) * 2.5", "-15 + math.cos(query.anim_time * 90) * 2.5"]
+				}
+			}
+		},
+		"animation.hakkeyo.ground_walk": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"leg_right": {
+					"rotation": ["-75 + math.sin(query.anim_time * 360) * 2.5", "45 - math.cos(query.anim_time * 360) * 5", 0],
+					"position": [-2, -1, "-1.5 + math.sin(query.anim_time * 360)"]
+				},
+				"leg_left": {
+					"rotation": ["-75 + math.sin(query.anim_time * 360) * 2.5", "-45 + math.cos(query.anim_time * 360) * 5", 0],
+					"position": [2, -1, "-1.5 + math.sin(query.anim_time * 360)"]
+				},
+				"torso": {
+					"rotation": ["-0.5 + math.cos(query.anim_time * 360) * 2.5", 0, 0],
+					"position": [0, "-1.5 - math.cos(query.anim_time * 360) * 0.25", "math.sin(query.anim_time * 360) * 0.5"]
+				},
+				"head": {
+					"rotation": ["-0.5 + math.sin(query.anim_time * 360) * 2.55", 0, 0],
+					"position": [0, "math.sin(query.anim_time * 360- 0.3) * 0.25", "-math.cos(query.anim_time * 360- 0.3) * 0.25"]
+				},
+				"arm_left_rot": {
+					"rotation": [0, 0, "15 - math.cos(query.anim_time * 360) * 5"],
+					"position": ["0.5 + math.sin(query.anim_time * 360) * 0.5", "0.5 + math.cos(query.anim_time * 360)", 0]
+				},
+				"arm_right_rot": {
+					"rotation": [0, 0, "-15 + math.cos(query.anim_time * 360) * 5"],
+					"position": ["-0.5 - math.sin(query.anim_time * 360) * 0.5", "0.5 + math.cos(query.anim_time * 360) * 1", 0]
+				},
+				"arm_left": {
+					"position": [0, "0+math.sin(q.anim_time*90*12-90)*-0.15", 0]
+				},
+				"hand_right": {
+					"position": [0, "0+math.sin(q.anim_time*90*12-90)*-0.15", 0]
+				}
+			}
+		},
+		"animation.hakkeyo.sleep": {
+			"loop": true,
+			"bones": {
+				"leg_right": {
+					"rotation": [-75, 45, "math.cos(query.anim_time * 90) * 2.5"],
+					"position": [-2, -1, -2]
+				},
+				"leg_left": {
+					"rotation": [-75, -45, "-math.cos(query.anim_time * 90) * 2.5"],
+					"position": [2, -1, -2]
+				},
+				"torso": {
+					"rotation": [" math.cos(query.anim_time * 90) * 2.5", 0, 0],
+					"position": [0, -1.5, 0]
+				},
+				"head": {
+					"rotation": ["10 + math.sin(query.anim_time * 90) * 5", 0, 0]
+				},
+				"eyelid_left": {
+					"position": [0, 0, -0.1]
+				},
+				"eyebrow_left": {
+					"position": [0.5, -2, -0.1]
+				},
+				"eyelid_right": {
+					"position": [0, 0, -0.1]
+				},
+				"eyebrow_right": {
+					"position": [-0.5, -2, -0.1]
+				},
+				"arm_left_rot": {
+					"rotation": [0, 0, "15 - math.cos(query.anim_time * 90) * 2.5"]
+				},
+				"arm_right_rot": {
+					"rotation": [0, 0, "-15 + math.cos(query.anim_time * 90) * 2.5"]
+				}
+			}
+		},
+		"animation.hakkeyo.blink": {
+			"animation_length": 0.125,
+			"bones": {
+				"eyelid_left": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [0, 0, -0.1],
+						"0.125": [0, 0, 0]
+					}
+				},
+				"eyebrow_left": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [0.5, -2, -0.1],
+						"0.125": [0, 0, 0]
+					}
+				},
+				"eyelid_right": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [0, 0, -0.1],
+						"0.125": [0, 0, 0]
+					}
+				},
+				"eyebrow_right": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [-0.5, -2, -0.1],
+						"0.125": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.hakkeyo.hold_item": {
+			"loop": true,
+			"bones": {
+				"hand_right": {
+					"rotation": [0, 0, 7.5]
+				}
+			}
+		}
+	}
+}

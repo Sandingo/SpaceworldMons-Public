@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "A": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "pattern": [
+    "DA ",
+    "ANA",
+    " AD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:music_disc_13",
+    "components": {
+      "minecraft:custom_model_data": 199722,
+      "minecraft:item_name": "{\"translate\":\"item.spaceworldmons.berserk_gene\", \"italic\":false}",
+      "minecraft:lore": [
+        "{\"translate\":\"tooltip.spaceworldmons.berserk_gene\", \"color\":\"gray\", \"italic\":false}"
+      ],
+      "cobblemon:held_item_effect": {
+        "showdownId": "berserk_gene",
+        "consumed": false
+      },
+      "!minecraft:jukebox_playable": {},
+      "minecraft:rarity": "common",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

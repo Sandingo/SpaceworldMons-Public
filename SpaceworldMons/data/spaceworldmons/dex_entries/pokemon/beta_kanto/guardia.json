@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:guardia",
+    "speciesId": "cobblemon:guardia",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

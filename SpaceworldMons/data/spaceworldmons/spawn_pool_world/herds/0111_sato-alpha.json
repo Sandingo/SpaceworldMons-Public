@@ -1,0 +1,46 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "sato-alpha-1",
+            "presets": [
+                "natural",
+                "treetop",
+                "water"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_sky",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "sato held_item=cobblemon:flying_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "sato",
+                    "weight": 80.0,
+                    "levelRange": "1-100",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 12,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

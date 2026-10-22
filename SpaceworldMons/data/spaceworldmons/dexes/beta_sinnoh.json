@@ -1,0 +1,18 @@
+{
+    "type": "cobblemon:simple_pokedex_def",
+    "id": "spaceworldmons:beta_sinnoh",
+    "sortOrder": 1999,
+    "entries": [
+	"spaceworldmons:honchkrow-beta",
+	"spaceworldmons:gible-beta",
+	"spaceworldmons:gabite-beta",
+	"spaceworldmons:garchomp-beta",
+        "spaceworldmons:mikon",
+        "spaceworldmons:jollibird",
+        "spaceworldmons:gaillow",
+	"spaceworldmons:rizagan",
+        "spaceworldmons:punky",
+        "spaceworldmons:purretty",
+        "spaceworldmons:zeppblim"
+    ]
+}

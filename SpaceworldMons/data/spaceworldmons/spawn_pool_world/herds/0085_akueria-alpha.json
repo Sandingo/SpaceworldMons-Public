@@ -1,0 +1,133 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "akueria-alpha-1",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            },
+            "herdablePokemon": [{
+                    "pokemon": "akueria held_item=cobblemon:water_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "kurusu",
+                    "weight": 80.0,
+                    "levelRange": "5-32",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "akua",
+                    "weight": 70.0,
+                    "levelRange": "17-42",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "akueria-alpha-2",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "submerged",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            },
+            "herdablePokemon": [{
+                    "pokemon": "akueria held_item=cobblemon:water_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "kurusu",
+                    "weight": 80.0,
+                    "levelRange": "5-32",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "akua",
+                    "weight": 70.0,
+                    "levelRange": "17-42",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "akueria-alpha-4",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "submerged",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            },
+            "herdablePokemon": [{
+                    "pokemon": "akueria held_item=cobblemon:water_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "kurusu",
+                    "weight": 80.0,
+                    "levelRange": "5-32",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "akua",
+                    "weight": 70.0,
+                    "levelRange": "17-42",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

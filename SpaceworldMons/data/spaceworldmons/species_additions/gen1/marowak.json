@@ -1,0 +1,49 @@
+{
+    "target": "cobblemon:marowak",
+    "behaviour": {
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "herd": {
+            "maxSize": 3,
+            "toleratedLeaders": [{
+                    "pokemon": "marowak alpha",
+                    "tier": 1
+                }, {
+                    "pokemon": "marowak alolan",
+                    "tier": 1
+                }, {
+                    "pokemon": "guardia",
+                    "tier": 2
+                }
+            ]
+        },
+        "resting": {
+            "times": [
+                "day"
+            ],
+            "drowsyChance": 0.0033,
+            "rouseChance": 0.0042
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "evolutions": [{
+            "id": "marowak_guardia",
+            "variant": "level_up",
+            "result": "guardia",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 46
+                }
+            ]
+        }
+    ]
+}

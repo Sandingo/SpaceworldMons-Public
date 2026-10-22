@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:sato",
+    "speciesId": "cobblemon:sato",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:jumpluff-beta",
+    "speciesId": "cobblemon:jumpluff",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

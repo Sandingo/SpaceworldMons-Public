@@ -1,0 +1,54 @@
+{
+    "target": "cobblemon:qwilfish",
+    "behaviour": {
+        "moving": {
+            "walk": {
+                "avoidsLand": true
+            },
+            "swim": {
+                "swimSpeed": 0.3,
+                "canBreatheUnderwater": true
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": 9,
+            "toleratedLeaders": [{
+                    "pokemon": "qwilfish",
+                    "tier": 1
+                }, {
+                    "pokemon": "overqwil",
+                    "tier": 2
+                }, {
+                    "pokemon": "shibirefugu",
+                    "tier": 2
+                }, {
+                    "pokemon": "manaphy",
+                    "tier": 3
+                }
+            ]
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "evolutions": [{
+            "id": "qwilfish_shibirefugu",
+            "variant": "level_up",
+            "result": "shibirefugu",
+            "consumeHeldItem": false,
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 18
+                }
+            ]
+        }
+    ]
+}

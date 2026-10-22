@@ -1,0 +1,44 @@
+{
+    "enabled": false,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "elhawk-alpha-1",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "context": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_peak",
+                    "#cobblemon:is_sky"
+                ],
+                "isRaining": false
+            },
+			"herdablePokemon": [{
+                    "pokemon": "elhawk held_item=cobblemon:flying_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "elhawk",
+                    "weight": 80.0,
+                    "levelRange": "65-95",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 2,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

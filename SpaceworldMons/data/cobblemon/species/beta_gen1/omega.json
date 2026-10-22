@@ -1,0 +1,142 @@
+{
+  "implemented": true,
+  "name": "Omega",
+  "nationalPokedexNumber": 19,
+  "primaryType": "electric",
+  "secondaryType": "steel",
+  "abilities": [
+    "rockhead",
+    "sturdy",
+    "h:heavymetal"
+  ],
+  "baseStats": {
+    "hp": 101,
+    "attack": 106,
+    "defence": 120,
+    "special_attack": 85,
+    "special_defence": 95,
+    "speed": 25
+  },
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 205,
+  "experienceGroup": "slow",
+  "eggCycles": 35,
+  "eggGroups": [
+    "monster",
+    "mineral"
+  ],
+  "lightingData": {
+    "lightLevel": 14,
+    "liquidGlowMode": "LAND"
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "1-2"
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 10
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.2
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "moves": [
+    "1:metalclaw",
+    "1:thundershock",
+    "1:charge",
+    "6:thunderwave",
+    "14:autotomize",
+    "20:spark",
+    "32:flashcannon",
+    "35:bodyslam",
+    "40:discharge",
+    "42:shiftgear",
+    "46:metalsound",
+    "48:slam",
+    "50:irontail",
+    "58:lockon",
+    "64:zapcannon",
+    "66:hyperbeam",
+    "egg:explosion",
+    "egg:electroweb",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:thunderwave",
+    "tm:screech",
+    "tm:rest",
+    "tm:snore",
+    "tm:protect",
+    "tm:sandstorm",
+    "tm:facade",
+    "tm:assurance",
+    "tm:trickroom",
+    "tm:voltswitch",
+    "tm:electricterrain",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:substitute",
+    "tm:endure",
+    "tm:sleeptalk",
+    "tm:uproar",
+    "tm:irondefense",
+    "tm:powergem",
+    "tm:flashcannon",
+    "tm:allyswitch",
+    "tm:wildcharge",
+    "tm:steelbeam",
+    "tm:gyroball",
+    "tm:heavyslam",
+    "tm:strongarm",
+    "tm:ironhead"
+  ],
+  "labels": [
+    "gen1beta"
+  ],
+  "pokedex": [
+    "spaceworldmons.species.omega.desc",
+    "spaceworldmons.species.betakanto.desc"
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 2,
+    "height": 3,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 50,
+  "weight": 50,
+  "evolutions": [],
+  "aspects": [],
+  "cannotDynamax": false
+}

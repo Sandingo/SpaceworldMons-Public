@@ -1,0 +1,525 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bomushika.flame": {
+			"loop": true,
+			"bones": {
+				"flames": {
+					"scale": [
+						"1-Math.cos((query.anim_time) * 50 * 50) * 0.1",
+						"1+Math.cos((query.anim_time) * 50 * 50) * 0.1",
+						"1-Math.cos((query.anim_time) * 50 * 50) * 0.1"
+					]
+				},
+				"flames_battle": {
+					"scale": [
+						"1-Math.cos((query.anim_time) * 50 * 50) * 0.1",
+						"1+Math.cos((query.anim_time) * 50 * 50) * 0.1",
+						"1-Math.cos((query.anim_time) * 50 * 50) * 0.1"
+					]
+				}
+			}
+		},
+		"animation.bomushika.pose": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 130, 0]
+				},
+				"arm_right": {
+					"rotation": [0, 12.5, -55]
+				},
+				"arm_right2": {
+					"rotation": [0, -15, 15]
+				},
+				"hand_right": {
+					"rotation": [0, 0, 17.5]
+				},
+				"hand_right2": {
+					"rotation": [0, 0, 20]
+				},
+				"arm_left": {
+					"rotation": [0, -12.5, 55]
+				},
+				"arm_left2": {
+					"rotation": [0, 15, -15]
+				},
+				"hand_left": {
+					"rotation": [0, 0, -17.5]
+				},
+				"hand_left2": {
+					"rotation": [0, 0, -20]
+				},
+				"tail": {
+					"rotation": [17.5, 0, 0]
+				},
+				"tail2": {
+					"rotation": [25, 0, 0]
+				},
+				"tail3": {
+					"rotation": [15, 0, 0]
+				},
+				"tail4": {
+					"rotation": [22.5, 0, 0]
+				},
+				"tail5": {
+					"rotation": [10, 0, 0]
+				},
+				"neck": {
+					"rotation": [0, -55, 0]
+				},
+				"head": {
+					"rotation": [-55, 0, 0]
+				},
+				"ball": {
+					"position": [-3, 1.5, 0]
+				},
+				"pupil_left": {
+					"position": [0, 0, 0.5]
+				},
+				"ball_spin": {
+					"rotation": [0, 0, 0]
+				},
+				"ball2": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [-15, 0, 0]
+				},
+				"ball_battle": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.bomushika.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, "0+Math.cos((query.anim_time) *50*4)*2"]
+				},
+				"arm_right": {
+					"rotation": [0, 12.5, "-55-Math.cos((query.anim_time) * 50 * 4 ) * 4"]
+				},
+				"arm_right2": {
+					"rotation": [0, -15, 15]
+				},
+				"hand_right": {
+					"rotation": [0, 0, 17.5]
+				},
+				"hand_right2": {
+					"rotation": [0, 0, 20]
+				},
+				"arm_left": {
+					"rotation": [0, -12.5, "55-Math.cos((query.anim_time) *50*4)*4"]
+				},
+				"arm_left2": {
+					"rotation": [0, 15, -15]
+				},
+				"hand_left": {
+					"rotation": [0, 0, -17.5]
+				},
+				"hand_left2": {
+					"rotation": [0, 0, -20]
+				},
+				"tail": {
+					"rotation": ["17.5-Math.cos((query.anim_time) * 50 * 8 ) * 2", 0, "0-Math.cos((query.anim_time) * 50 * 4 ) * 4"]
+				},
+				"tail2": {
+					"rotation": [25, 0, "0-Math.cos((query.anim_time) * 50 * 4 ) * 4"]
+				},
+				"tail3": {
+					"rotation": [15, 0, "0-Math.cos((query.anim_time) * 50 * 4 ) * 4"]
+				},
+				"tail4": {
+					"rotation": [22.5, 0, "0-Math.cos((query.anim_time) * 50 * 4 ) * 4"]
+				},
+				"tail5": {
+					"rotation": [10, 0, "-Math.cos((query.anim_time) * 50 * 4 ) * 4"]
+				},
+				"neck": {
+					"rotation": ["-0-Math.cos((query.anim_time) *50*8)*8", 0, "0+Math.cos((query.anim_time) *50*4)*4"]
+				},
+				"head": {
+					"rotation": ["-40+Math.cos((query.anim_time)*50*8)*4", 0, "-Math.cos((query.anim_time)*50*4)*4"],
+					"position": [0, 0, 0]
+				},
+				"ball": {
+					"rotation": [0, 0, "Math.cos((query.anim_time)*50*12)*5"],
+					"position": [0, -1, -2]
+				},
+				"pupil_left": {
+					"position": [0, 0, -0.5]
+				},
+				"mouse_smile": {
+					"position": [0, 0, -0.5]
+				},
+				"pupil_right": {
+					"position": [0, 0, -0.5]
+				},
+				"ball2": {
+					"rotation": [42.5, 0, 0],
+					"position": [0, 1, -1]
+				},
+				"ball_battle": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.bomushika.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["-0-Math.cos((query.anim_time) *50*8)*2", 0, 0],
+					"position": [0, 0, "0+Math.cos((query.anim_time) *50*8)*1"]
+				},
+				"arm_right": {
+					"rotation": ["-0+Math.cos((query.anim_time) *50*8)*8", "0-Math.cos((query.anim_time) *50*8)*8", -55]
+				},
+				"arm_right2": {
+					"rotation": [0, "0-Math.cos((query.anim_time) *50*8)*8", 15]
+				},
+				"hand_right": {
+					"rotation": [0, 0, 17.5]
+				},
+				"hand_right2": {
+					"rotation": [0, 0, 20]
+				},
+				"arm_left": {
+					"rotation": ["-0+Math.cos((query.anim_time) *50*8)*8", "-0+Math.cos((query.anim_time) *50*8)*8", 55]
+				},
+				"arm_left2": {
+					"rotation": [0, "-0+Math.cos((query.anim_time) *50*8)*8", -15]
+				},
+				"hand_left": {
+					"rotation": [0, 0, -17.5]
+				},
+				"hand_left2": {
+					"rotation": [0, 0, -20]
+				},
+				"tail": {
+					"rotation": ["25-Math.cos((query.anim_time)*50*8)*2", 0, 0]
+				},
+				"tail2": {
+					"rotation": ["27.5-Math.cos((query.anim_time)*50*8)*2", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["15-Math.cos((query.anim_time)*50*8)*4", 0, 0]
+				},
+				"tail4": {
+					"rotation": ["25-Math.cos((query.anim_time)*50*8)*2", 0, 0]
+				},
+				"tail5": {
+					"rotation": ["10-Math.cos((query.anim_time)*50*8)*4", 0, 0]
+				},
+				"neck": {
+					"rotation": ["-0-Math.cos((query.anim_time) *50*8)*8", 0, 0]
+				},
+				"head": {
+					"rotation": ["-40+Math.cos((query.anim_time)*50*8)*4", 0, "-Math.cos((query.anim_time)*50*4)*4"],
+					"position": [0, 0, 0]
+				},
+				"ball": {
+					"rotation": ["-12.5+Math.cos((query.anim_time) *50*12)*6", 0, "0+Math.cos((query.anim_time)*50*12)*2"],
+					"position": [0, -1, -2]
+				},
+				"pupil_left": {
+					"position": [0, 0, -0.5]
+				},
+				"mouse_smile": {
+					"position": [0, 0, -0.5]
+				},
+				"pupil_right": {
+					"position": [0, 0, -0.5]
+				},
+				"ball2": {
+					"rotation": [50, 0, 0],
+					"position": [0, 1, -1]
+				},
+				"ball_battle": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.bomushika.ground_walk_unused": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, 0],
+					"position": [0, 1, 0]
+				},
+				"arm_right": {
+					"rotation": [0, "-0+Math.cos((query.anim_time) *50*8)*8", -70]
+				},
+				"arm_right2": {
+					"rotation": [0, "-0+Math.cos((query.anim_time) *50*8)*8", 15]
+				},
+				"hand_right": {
+					"rotation": [0, 0, 20]
+				},
+				"hand_right2": {
+					"rotation": [0, 0, 30]
+				},
+				"arm_left": {
+					"rotation": [0, "-0+Math.cos((query.anim_time) *50*8)*8", 70]
+				},
+				"arm_left2": {
+					"rotation": [0, "-0+Math.cos((query.anim_time) *50*8)*8", -15]
+				},
+				"hand_left": {
+					"rotation": [0, 0, -20]
+				},
+				"hand_left2": {
+					"rotation": [0, 0, -30]
+				},
+				"tail": {
+					"rotation": [-2.5, 0, 0]
+				},
+				"tail2": {
+					"rotation": [-5, 0, 0]
+				},
+				"tail3": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"tail4": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"tail5": {
+					"rotation": [15, 0, 0]
+				},
+				"neck": {
+					"rotation": ["-0-Math.cos((query.anim_time) *50*8)*8", 0, 0]
+				},
+				"head": {
+					"rotation": ["-40+Math.cos((query.anim_time)*50*8)*4", 0, "-Math.cos((query.anim_time)*50*4)*4"],
+					"position": [0, 0, 0]
+				},
+				"ball": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": ["-12.5+Math.cos((query.anim_time) *50*12)*6", 0, "0+Math.cos((query.anim_time)*50*12)*2"],
+					"position": [0, -1, -2]
+				},
+				"pupil_left": {
+					"position": [0, 0, -0.5]
+				},
+				"mouse_smile": {
+					"position": [0, 0, -0.5]
+				},
+				"pupil_right": {
+					"position": [0, 0, -0.5]
+				}
+			}
+		},
+		"animation.bomushika.battle_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, "120+Math.cos((query.anim_time)*90*7)*2", 0]
+				},
+				"arm_right": {
+					"rotation": [0, "12.5-Math.cos((query.anim_time)*90*7)*2", -55]
+				},
+				"arm_right2": {
+					"rotation": [0, -15, 15]
+				},
+				"hand_right": {
+					"rotation": [0, 0, 17.5]
+				},
+				"hand_right2": {
+					"rotation": [0, 0, 20]
+				},
+				"arm_left": {
+					"rotation": [0, "-12.5-Math.cos((query.anim_time)*90*7)*2", 55]
+				},
+				"arm_left2": {
+					"rotation": [0, 15, -15]
+				},
+				"hand_left": {
+					"rotation": [0, 0, -17.5]
+				},
+				"hand_left2": {
+					"rotation": [0, 0, -20]
+				},
+				"tail": {
+					"rotation": ["17.5-Math.cos((query.anim_time) *90*7)*4", 0, "0-Math.cos((query.anim_time)*45*7)*4"]
+				},
+				"tail2": {
+					"rotation": [25, 0, "0-Math.cos((query.anim_time)*45*7)*4"]
+				},
+				"tail3": {
+					"rotation": [15, 0, "0-Math.cos((query.anim_time)*45*7)*4"]
+				},
+				"tail4": {
+					"rotation": [22.5, 0, "0-Math.cos((query.anim_time)*45*7)*4"]
+				},
+				"tail5": {
+					"rotation": [10, 0, "-Math.cos((query.anim_time)*45*7)*4"]
+				},
+				"neck": {
+					"rotation": ["-0-Math.cos((query.anim_time)*90*7)*4", -50, 0]
+				},
+				"head": {
+					"rotation": ["-40-Math.cos((query.anim_time) *90*7) *10", 0, 0]
+				},
+				"ball": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [0, 0, 0.01]
+				},
+				"pupil_left": {
+					"position": [0, 0, 0.5]
+				},
+				"ball2": {
+					"scale": 0
+				},
+				"pupil_right": {
+					"position": [0, 0, -0.5]
+				},
+				"ball_battle": {
+					"rotation": [0, 70, 0],
+					"position": [0, "0+math.sin(query.anim_time*90*7)*7", 0]
+				},
+				"ball_battle_spin": {
+					"rotation": ["-0+math.mod(q.anim_time*1.5,2)*360", 0, 0]
+				}
+			}
+		},
+		"animation.bomushika.battle_idle_old": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, "120+Math.cos((query.anim_time)*90*7)*2", 0]
+				},
+				"arm_right": {
+					"rotation": [0, "12.5-Math.cos((query.anim_time)*90*7)*2", -55]
+				},
+				"arm_right2": {
+					"rotation": [0, -15, 15]
+				},
+				"hand_right": {
+					"rotation": [0, 0, 17.5]
+				},
+				"hand_right2": {
+					"rotation": [0, 0, 20]
+				},
+				"arm_left": {
+					"rotation": [0, "-12.5-Math.cos((query.anim_time)*90*7)*2", 55]
+				},
+				"arm_left2": {
+					"rotation": [0, 15, -15]
+				},
+				"hand_left": {
+					"rotation": [0, 0, -17.5]
+				},
+				"hand_left2": {
+					"rotation": [0, 0, -20]
+				},
+				"tail": {
+					"rotation": ["17.5-Math.cos((query.anim_time) *90*7)*4", 0, "0-Math.cos((query.anim_time)*45*7)*4"]
+				},
+				"tail2": {
+					"rotation": [25, 0, "0-Math.cos((query.anim_time)*45*7)*4"]
+				},
+				"tail3": {
+					"rotation": [15, 0, "0-Math.cos((query.anim_time)*45*7)*4"]
+				},
+				"tail4": {
+					"rotation": [22.5, 0, "0-Math.cos((query.anim_time)*45*7)*4"]
+				},
+				"tail5": {
+					"rotation": [10, 0, "-Math.cos((query.anim_time)*45*7)*4"]
+				},
+				"neck": {
+					"rotation": ["-0-Math.cos((query.anim_time)*90*7)*4", -50, 0]
+				},
+				"head": {
+					"rotation": ["-40-Math.cos((query.anim_time) *90*7) *10", 0, 0]
+				},
+				"ball": {
+					"position": [0, "6+math.sin(query.anim_time*90*7)*7", 0]
+				},
+				"pupil_left": {
+					"position": [0, 0, 0.5]
+				},
+				"ball_spin": {
+					"rotation": ["-0+math.mod(q.anim_time*1.5,2)*360", 0, 0]
+				},
+				"ball2": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [-15, 72.5, 0]
+				},
+				"ball_battle": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.bomushika.cry": {
+			"animation_length": 1.5,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-20, 0, 0],
+						"0.75": [-22.5, 0, 0],
+						"1.0": [-22.5, 0, 0],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"mouth_closed": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": {"pre": [0, 0, 0], "post": [0, 0.5, 0]},
+						"1.0": {"pre": [0, 0.5, 0], "post": [0, 0, 0]}
+					}
+				},
+				"mouth_open": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": {"pre": [0, 0, 0], "post": [0, -0.5, 0]},
+						"1.0": {"pre": [0, -0.5, 0], "post": [0, 0, 0]}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0625": {
+					"effect": "pokemon.bomushika.cry"
+				}
+			}
+		},
+		"animation.bomushika.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyelid_left": {
+					"position": {
+						"0.0": [0.28, 0, 0],
+						"0.125": {
+							"pre": [0.28, 0, 0],
+							"post": [0, 0, 0]
+						}
+					}
+				},
+				"eyelid_right": {
+					"position": {
+						"0.0": [-0.28, 0, 0],
+						"0.125": {
+							"pre": [-0.28, 0, 0],
+							"post": [-0.28, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.bomushika.walk_test": {
+			"loop": true,
+			"bones": {
+				"bomushika": {
+					"position": [0, 0, "66-query.anim_time*90*0.09"]
+				}
+			}
+		}
+	}
+}

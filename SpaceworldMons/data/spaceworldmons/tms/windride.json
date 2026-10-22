@@ -1,0 +1,19 @@
+{
+  "moveName": "windride",
+  "obtainMethods": [
+    {
+      "variant": "cobblemon:default"
+    }
+  ],
+  "type": "normal",
+  "recipe": [
+    {
+      "item": "cobblemon:flying_gem",
+      "count": 4
+    },
+    {
+      "item": "minecraft:feather",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:komari",
+    "speciesId": "cobblemon:komari",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

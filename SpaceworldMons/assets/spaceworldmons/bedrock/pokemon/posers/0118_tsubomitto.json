@@ -1,0 +1,64 @@
+{
+    "portraitScale": 1.2,
+    "portraitTranslation": [0, 1, 0],
+    "profileScale": 0.7,
+    "profileTranslation": [0, 0.7, 0],
+    "rootBone": "tsubomitto",
+    "animations": {
+        "cry": "q.bedrock_stateful('tsubomitto', 'cry')",
+        "recoil": "q.bedrock_stateful('tsubomitto', 'blink')",
+        "faint": "q.bedrock_stateful('tsubomitto', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+				"q.look('head')",
+                "q.bedrock('tsubomitto', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('tsubomitto', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('tsubomitto', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+				"q.look('head')",
+                "q.bedrock('tsubomitto', 'battle_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('tsubomitto', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('tsubomitto', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+				"q.look('head')",
+                "q.bedrock('tsubomitto', 'ground_walk')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('tsubomitto', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('tsubomitto', 'blink')"
+            ]
+        }
+	}
+}

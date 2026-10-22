@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:elhawk",
+    "speciesId": "cobblemon:elhawk",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

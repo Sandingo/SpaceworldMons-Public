@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:boyatto",
+    "speciesId": "cobblemon:boyatto",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

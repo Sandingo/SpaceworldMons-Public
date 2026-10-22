@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:umbreon-beta",
+    "speciesId": "cobblemon:umbreon",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

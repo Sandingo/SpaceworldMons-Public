@@ -1,0 +1,292 @@
+{
+  "implemented": true,
+  "name": "Konya",
+  "nationalPokedexNumber": 10,
+  "primaryType": "normal",
+  "abilities": [
+    "pickup",
+    "technician",
+    "h:unnerve"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 40,
+    "defence": 30,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 85
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 40,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "entityInteract": {
+      "avoidedByCreeper": true,
+      "avoidedByPhantom": true
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": true
+    }
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 5
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:growl",
+    "7:bite",
+    "11:furyswipes",
+    "17:screech",
+    "21:payday",
+    "27:feintattack",
+    "31:swagger",
+    "37:slash",
+    "egg:amnesia",
+    "egg:assist",
+    "egg:captivate",
+    "egg:charm",
+    "egg:covet",
+    "egg:feintattack",
+    "egg:flail",
+    "egg:hypnosis",
+    "egg:lastresort",
+    "egg:nightslash",
+    "egg:odorsleuth",
+    "egg:punishment",
+    "egg:spite",
+    "egg:tailwhip",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:amnesia",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:captivate",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lastresort",
+    "tm:metalclaw",
+    "tm:nastyplot",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:payday",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:foulplay",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lastresort",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar",
+    "legacy:watergun",
+    "legacy:waterpulse",
+    "legacy:zapcannon",
+    "special:happyhour",
+    "special:petaldance",
+    "special:sing"
+  ],
+  "labels": [
+    "gen1beta"
+  ],
+  "pokedex": [
+    "spaceworldmons.species.konya.desc",
+    "spaceworldmons.species.betakantojohto.desc"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 36,
+  "evolutions": [
+    {
+      "id": "konya_meowth",
+      "variant": "level_up",
+      "result": "meowth",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ]
+    },
+    {
+      "id": "konya_meowthalola",
+      "variant": "level_up",
+      "result": "meowth alolan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#spaceworldmons:evolution/regional/generic_alolabiome"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#spaceworldmons:evolution/regional/generic_kantobiome"
+        },
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ]
+    },
+    {
+      "id": "konya_meowthgalar",
+      "variant": "level_up",
+      "result": "meowth galarian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#spaceworldmons:evolution/regional/generic_galarbiome"
+        },
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ]
+    }
+  ],
+  "aspects": [],
+  "cannotDynamax": false
+}

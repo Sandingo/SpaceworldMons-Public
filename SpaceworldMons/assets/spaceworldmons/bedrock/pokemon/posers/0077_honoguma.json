@@ -1,0 +1,108 @@
+{
+    "portraitScale": 2.2,
+    "portraitTranslation": [-0.2, -0.8, 0],
+    "profileScale": 0.9,
+    "profileTranslation": [0, 0.4, 0],
+    "rootBone": "honoguma",
+    "animations": {
+        "cry": "q.bedrock_stateful('honoguma', 'blink')",
+        "recoil": "q.bedrock_stateful('honoguma', 'blink')",
+        "faint": "q.bedrock_stateful('honoguma', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('honoguma', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('honoguma', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('honoguma', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('honoguma', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('honoguma', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('honoguma', 'blink')"
+            ]
+        },
+    "shoulder_left": {
+      "poseTypes": [
+        "SHOULDER_LEFT"
+      ],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('honoguma', 'shoulder_left')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('honoguma', 'blink')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            -6,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": [
+        "SHOULDER_RIGHT"
+      ],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('honoguma', 'shoulder_right')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('honoguma', 'blink')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            6,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+        "walk": {
+            "poseName": "walk",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('honoguma', 'ground_walk')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('honoguma', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('honoguma', 'blink')"
+            ]
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:hitmontop",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:hitmontop-beta",
+            "model": "spaceworldmons:hitmontop-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/hitmontop-beta/hitmontop.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/hitmontop-beta/hitmontop_shiny.png"
+        }, {
+            "aspects": [
+                "alpha_eyes"
+            ],
+            "layers": [{
+                    "name": "alpha_eyes",
+                    "texture": "spaceworldmons:textures/pokemon/hitmontop-beta/hitmontop_alpha.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

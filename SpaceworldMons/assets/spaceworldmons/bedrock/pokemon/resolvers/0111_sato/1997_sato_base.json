@@ -1,0 +1,29 @@
+{
+  "species": "cobblemon:sato",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0111_sato",
+      "model": "spaceworldmons:sato.geo",
+      "texture": "spaceworldmons:textures/pokemon/0111_sato/sato.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny" ],
+      "texture": "spaceworldmons:textures/pokemon/0111_sato/sato_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0111_sato/sato_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

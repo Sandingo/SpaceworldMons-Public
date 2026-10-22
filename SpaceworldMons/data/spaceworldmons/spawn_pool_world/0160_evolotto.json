@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "evolotto-1",
+            "pokemon": "evolotto",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "2-8",
+            "weight": 5,
+            "condition": {
+                "biomes": [
+                    "#c:is_overworld"
+                ]
+            }
+        }
+    ]
+}

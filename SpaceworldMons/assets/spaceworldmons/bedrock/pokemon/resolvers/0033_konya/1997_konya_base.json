@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:konya",
+    "order": 1997,
+    "variations": [{
+            "aspects": [],
+            "poser": "spaceworldmons:0033_konya",
+            "model": "spaceworldmons:konya.geo",
+            "texture": "spaceworldmons:textures/pokemon/0033_konya/konya.png",
+            "layers": []
+        }, {
+            "aspects": ["shiny"],
+            "texture": "spaceworldmons:textures/pokemon/0033_konya/konya_shiny.png"
+        }, {
+            "aspects": [
+                "alpha_eyes"
+            ],
+            "layers": [{
+                    "name": "alpha_eyes",
+                    "texture": "spaceworldmons:textures/pokemon/0033_konya/konya_alpha.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

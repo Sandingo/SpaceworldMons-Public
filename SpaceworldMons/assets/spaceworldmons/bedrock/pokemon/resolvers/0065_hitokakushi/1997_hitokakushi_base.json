@@ -1,0 +1,60 @@
+{
+    "species": "cobblemon:hitokakushi",
+    "order": 1997,
+    "variations": [{
+            "aspects": [],
+            "poser": "spaceworldmons:0065_hitokakushi",
+            "model": "spaceworldmons:hitokakushi.geo",
+            "texture": "spaceworldmons:textures/pokemon/0065_hitokakushi/hitokakushi.png",
+            "layers": [{
+                    "name": "wisp",
+                    "texture": {
+                        "frames": [
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp1.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp2.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp3.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp4.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp3.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp2.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp1.png"
+                        ],
+                        "fps": 16,
+                        "loop": true
+                    }
+                }
+            ]
+        }, {
+            "aspects": ["shiny"],
+            "texture": "spaceworldmons:textures/pokemon/0065_hitokakushi/hitokakushi_shiny.png",
+            "layers": [{
+                    "name": "wisp",
+                    "texture": {
+                        "frames": [
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp1_shiny.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp2_shiny.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp3_shiny.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp4_shiny.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp3_shiny.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp2_shiny.png",
+                            "spaceworldmons:textures/pokemon/0065_hitokakushi/animation/wisp1_shiny.png"
+                        ],
+                        "fps": 16,
+                        "loop": true
+                    }
+                }
+            ]
+        },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0065_hitokakushi/hitokakushi_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+    ]
+}

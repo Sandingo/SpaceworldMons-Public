@@ -1,0 +1,8 @@
+{
+    "pokemon": ["gorochu"],
+    "cosmeticItems": [{
+            "consumedItem": "minecraft:cocoa_beans",
+            "aspects": ["cosmetic_item-cocoa_beans"]
+        }
+    ]
+}

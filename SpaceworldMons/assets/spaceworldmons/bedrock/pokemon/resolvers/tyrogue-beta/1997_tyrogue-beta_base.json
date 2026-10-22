@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:tyrogue",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:tyrogue-beta",
+            "model": "spaceworldmons:tyrogue-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/tyrogue-beta/tyrogue.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/tyrogue-beta/tyrogue_shiny.png"
+        }, {
+            "aspects": [
+                "alpha_eyes"
+            ],
+            "layers": [{
+                    "name": "alpha_eyes",
+                    "texture": "spaceworldmons:textures/pokemon/tyrogue-beta/tyrogue_alpha.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

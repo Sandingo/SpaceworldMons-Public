@@ -1,0 +1,109 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "molambino-herd-1",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "7-63",
+      "weight": 20,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_deep_ocean"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_frozen_ocean"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "manboking",
+          "weight": 2,
+          "levelRange": "44-63",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "molambino",
+          "weight": 80,
+          "levelRange": "7-27",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "solamola",
+          "weight": 20,
+          "levelRange": "28-43",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "molambino-herd-4",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "7-63",
+      "weight": 20,
+      "condition": {
+        "canSeeSky": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_deep_ocean"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_frozen_ocean"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "manboking",
+          "weight": 2,
+          "levelRange": "44-63",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "molambino",
+          "weight": 80,
+          "levelRange": "7-27",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "solamola",
+          "weight": 20,
+          "levelRange": "28-43",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

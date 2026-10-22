@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:croakozuna",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0025_croakozuna",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0025_croakozuna/croakozuna.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0025_croakozuna/croakozuna_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "species": "cobblemon:basculin",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": ["beta"],
+      "poser": "spaceworldmons:basculin-beta",
+      "model": "spaceworldmons:basculin-beta.geo",
+      "texture": "spaceworldmons:textures/pokemon/basculin-beta/basculin.png",
+	  "layers": []
+    },
+    {
+      "aspects": ["beta", "shiny"],
+      "texture": "spaceworldmons:textures/pokemon/basculin-beta/basculin_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/basculin-beta/basculin_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

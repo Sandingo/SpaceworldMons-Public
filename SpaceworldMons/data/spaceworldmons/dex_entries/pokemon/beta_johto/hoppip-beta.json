@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:hoppip-beta",
+    "speciesId": "cobblemon:hoppip",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

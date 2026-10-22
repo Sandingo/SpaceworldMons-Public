@@ -1,0 +1,28 @@
+{
+    "species": "cobblemon:girafarig",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:girafarig-beta",
+            "model": "spaceworldmons:girafarig-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/girafarig-beta/girafarig.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/girafarig-beta/girafarig_shiny.png"
+        },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/girafarig-beta/girafarig_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
+

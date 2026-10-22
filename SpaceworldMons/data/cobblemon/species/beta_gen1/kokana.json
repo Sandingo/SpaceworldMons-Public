@@ -1,0 +1,126 @@
+{
+    "implemented": true,
+    "name": "Kokana",
+    "nationalPokedexNumber": 6,
+    "primaryType": "bug",
+    "abilities": [
+        "shielddust",
+        "swarm",
+        "h:runaway"
+    ],
+    "baseStats": {
+        "hp": 40,
+        "attack": 35,
+        "defence": 30,
+        "special_attack": 30,
+        "special_defence": 25,
+        "speed": 45
+    },
+    "catchRate": 255,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 39,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 15,
+    "eggGroups": [
+        "bug"
+    ],
+    "behaviour": {
+        "herd": {
+            "maxSize": "6",
+            "toleratedLeaders": [{
+                    "pokemon": "kakuna",
+                    "tier": 1
+                }, {
+                    "pokemon": "beedrill",
+                    "tier": 2
+                }, {
+                    "pokemon": "kasanagi",
+                    "tier": 3
+                }, {
+                    "pokemon": "carapthor",
+                    "tier": 4
+                }
+            ]
+        },
+        "resting": {
+            "willSleepOnBed": true,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendSelf": false,
+            "willDefendOwner": true,
+            "willFlee": true
+        }
+    },
+    "drops": {
+        "amount": 2,
+        "entries": [{
+                "item": "minecraft:string",
+                "quantityRange": "0-1"
+            }, {
+                "item": "cobblemon:durin_berry",
+                "percentage": 2.5
+            }
+        ]
+    },
+    "moves": [
+        "1:cometpunch",
+        "1:stringshot",
+        "9:bugbite",
+        "tm:bugbite",
+        "tm:electroweb",
+        "tm:skittersmack",
+        "tm:stringshot",
+        "tm:terablast",
+        "tutor:bugbite",
+        "tutor:electroweb",
+        "tutor:skittersmack",
+        "tutor:stringshot"
+    ],
+    "labels": [
+        "gen1beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.kokana.desc",
+        "spaceworldmons.species.betakanto.desc"
+    ],
+    "baseScale": 0.5,
+    "hitbox": {
+        "width": 0.9,
+        "height": 0.6,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+    },
+    "height": 3,
+    "weight": 25,
+    "evolutions": [{
+            "id": "kokana_kasanagi",
+            "variant": "level_up",
+            "result": "kasanagi",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 7
+                }
+            ]
+        }
+    ],
+    "aspects": [],
+    "cannotDynamax": false
+}

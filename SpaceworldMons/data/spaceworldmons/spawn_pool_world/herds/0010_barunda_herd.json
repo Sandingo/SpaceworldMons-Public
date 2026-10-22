@@ -1,0 +1,74 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "barunda-herd-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "context": "grounded",
+      "bucket": "rare",
+      "maxHerdSize": 5,
+      "level": "12-34",
+      "weight": 80,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#c:is_windswept"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "barunda",
+          "weight": 80,
+          "levelRange": "12-34",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": true,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "barunda-herd-2",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "maxHerdSize": 5,
+      "level": "12-34",
+      "weight": 80,
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "day"
+        }
+      },
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:village"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "barunda",
+          "weight": 80,
+          "levelRange": "12-34",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": true,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

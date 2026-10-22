@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:kaburion",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0282_kaburion",
+      "model": "spaceworldmons:kaburion.geo",
+      "texture": "spaceworldmons:textures/pokemon/0282_kaburion/kaburion.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0282_kaburion/kaburion_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0282_kaburion/kaburion_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

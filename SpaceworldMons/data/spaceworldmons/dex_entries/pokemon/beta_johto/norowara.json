@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:norowara",
+    "speciesId": "cobblemon:norowara",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

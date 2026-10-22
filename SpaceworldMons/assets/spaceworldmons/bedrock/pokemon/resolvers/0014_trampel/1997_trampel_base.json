@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:trampel",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0014_trampel",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0014_trampel/trampel.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0014_trampel/trampel_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:ascenshark",
+    "speciesId": "cobblemon:ascenshark",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

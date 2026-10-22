@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:basculin-beta",
+    "speciesId": "cobblemon:basculin",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

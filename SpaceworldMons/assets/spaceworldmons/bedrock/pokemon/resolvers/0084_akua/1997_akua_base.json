@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:akua",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0084_akua",
+      "model": "spaceworldmons:akua.geo",
+      "texture": "spaceworldmons:textures/pokemon/0084_akua/akua.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0084_akua/akua_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0084_akua/akua_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

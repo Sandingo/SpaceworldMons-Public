@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:konya",
+    "speciesId": "cobblemon:konya",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

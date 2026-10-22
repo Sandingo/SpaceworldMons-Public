@@ -1,0 +1,73 @@
+{
+  "portraitScale": 1.2,
+  "portraitTranslation": [
+    0,
+    0.3,
+    0
+  ],
+  "profileScale": 0.95,
+  "profileTranslation": [
+    0,
+    0.35,
+    0
+  ],
+  "rootBone": "kodomin",
+  "animations": {
+    "cry": "q.bedrock_stateful('kodomin', 'cry')",
+    "recoil": "q.bedrock_stateful('kodomin', 'blink')",
+    "faint": "q.bedrock_stateful('kodomin', 'blink')"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "condition": "!q.in_air",
+      "animations": [
+	"bedrock(kodomin, ground_idle)",
+        "q.look('head')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('kodomin', 'blink')"
+      ]
+    },
+    "battle-standing": {
+      "poseName": "battle_standing",
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+	"bedrock(kodomin, ground_idle)",
+        "q.look('head')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('kodomin', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "isBattle": false,
+      "condition": "!q.in_air && !q.is_sprinting",
+      "animations": [
+	"bedrock(kodomin, ground_walk)",
+        "q.look('head')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('kodomin', 'blink')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+    "implemented": true,
+    "name": "Mikon",
+    "nationalPokedexNumber": 5,
+    "primaryType": "fire",
+    "abilities": [
+        "flashfire",
+        "h:drought"
+    ],
+    "baseStats": {
+        "hp": 25,
+        "attack": 28,
+        "defence": 27,
+        "special_attack": 35,
+        "special_defence": 50,
+        "speed": 50
+    },
+    "catchRate": 190,
+    "maleRatio": 0.25,
+    "shoulderMountable": false,
+    "baseExperienceYield": 52,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "undiscovered"
+    ],
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4",
+            "times": [
+                "167-11833,13702-22299"
+            ],
+            "drowsyChance": 0.0021,
+            "rouseChance": 0.0042
+        },
+        "itemInteract": {
+            "desiredItems": [{
+                    "_comment": "Drop it",
+                    "item": "minecraft:glass_bottle",
+                    "pickupPriority": -1
+                }, {
+                    "item": "minecraft:potion",
+                    "pickupPriority": 1,
+                    "returnItem": "minecraft:glass_bottle",
+                    "fullnessValue": 10
+                }
+            ]
+        },
+        "herd": {
+            "maxSize": "2",
+            "toleratedLeaders": [{
+                    "pokemon": "vulpix",
+                    "tier": 1
+                }, {
+                    "pokemon": "ninetales",
+                    "tier": 2
+                }
+            ]
+        },
+        "moving": {
+            "swim": {
+                "avoidsWater": true,
+                "canSwimInLava": true
+            }
+        },
+        "combat": {
+            "willDefendSelf": false,
+            "willDefendOwner": true,
+            "willFlee": true
+        },
+        "fireImmune": true
+    },
+    "ai": [{
+            "type": "apply_behaviours",
+            "behaviours": [
+                "cobblemon:pokemon_fox"
+            ]
+        }
+    ],
+    "drops": {
+        "amount": 3,
+        "entries": [{
+                "item": "minecraft:sweet_berries",
+                "quantityRange": "1-3"
+            }, {
+                "item": "minecraft:charcoal",
+                "percentage": 2.5
+            }, {
+                "item": "cobblemon:rawst_berry",
+                "percentage": 2.5
+            }
+        ]
+    },
+    "moves": [
+        "1:ember",
+        "1:tailwhip",
+        "1:charm",
+        "7:disable",
+        "11:quickattack",
+        "14:confuseray",
+        "20:firespin",
+        "24:spite",
+        "27:feintattack",
+        "33:flamethrower",
+        "37:safeguard",
+        "40:fireblast",
+        "egg:babydolleyes",
+        "egg:captivate",
+        "egg:disable",
+        "egg:extrasensory",
+        "egg:feintattack",
+        "egg:flail",
+        "egg:flamecharge",
+        "egg:healingwish",
+        "egg:howl",
+        "egg:hypnosis",
+        "egg:memento",
+        "egg:psychup",
+        "egg:roar",
+        "egg:secretpower",
+        "tm:agility",
+        "tm:babydolleyes",
+        "tm:batonpass",
+        "tm:bodyslam",
+        "tm:burningjealousy",
+        "tm:captivate",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:covet",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:doubleedge",
+        "tm:encore",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:firespin",
+        "tm:flamecharge",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:foulplay",
+        "tm:headbutt",
+        "tm:heatwave",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:imprison",
+        "tm:incinerate",
+        "tm:irontail",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:payback",
+        "tm:powerswap",
+        "tm:protect",
+        "tm:psychup",
+        "tm:rest",
+        "tm:roar",
+        "tm:roleplay",
+        "tm:safeguard",
+        "tm:secretpower",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:spite",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:tailslap",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:weatherball",
+        "tm:willowisp",
+        "tm:zenheadbutt",
+        "tutor:babydolleyes",
+        "tutor:burningjealousy",
+        "tutor:covet",
+        "tutor:darkpulse",
+        "tutor:energyball",
+        "tutor:flamethrower",
+        "tutor:foulplay",
+        "tutor:heatwave",
+        "tutor:helpinghand",
+        "tutor:irontail",
+        "tutor:mysticalfire",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:rest",
+        "tutor:roleplay",
+        "tutor:sleeptalk",
+        "tutor:snarl",
+        "tutor:spite",
+        "tutor:swift",
+        "tutor:zenheadbutt",
+        "legacy:attract",
+        "legacy:bide",
+        "legacy:confide",
+        "legacy:curse",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:mimic",
+        "legacy:naturalgift",
+        "legacy:rage",
+        "legacy:reflect",
+        "legacy:return",
+        "legacy:round",
+        "legacy:skullbash",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:tackle",
+        "legacy:toxic"
+    ],
+    "labels": [
+        "gen1beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.mikon.desc",
+        "spaceworldmons.species.betakantojohtosinnoh.desc"
+    ],
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 0.6,
+        "height": 0.8,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 5,
+    "weight": 77,
+    "evolutions": [{
+            "id": "mikon_vulpix",
+            "variant": "level_up",
+            "result": "vulpix",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 13
+                }
+            ]
+        }
+    ],
+    "aspects": [],
+    "cannotDynamax": false
+}

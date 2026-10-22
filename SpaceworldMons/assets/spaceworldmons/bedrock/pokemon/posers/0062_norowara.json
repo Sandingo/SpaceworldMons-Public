@@ -1,0 +1,95 @@
+{
+    "portraitScale": 2,
+    "portraitTranslation": [0, 0, 0],
+    "profileScale": 0.8,
+    "profileTranslation": [-0.05, 0.45, 0],
+    "rootBone": "norowara",
+    "animations": {
+        "cry": "q.bedrock_stateful('norowara', 'twitch')",
+        "recoil": "q.bedrock_stateful('norowara', 'twitch')",
+        "faint": "q.bedrock_stateful('norowara', 'twitch')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('norowara', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('norowara', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('norowara', 'twitch')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('norowara', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('norowara', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('norowara', 'twitch')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('norowara', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('norowara', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('norowara', 'twitch')"
+            ]
+        },
+        "hovering": {
+            "poseName": "hovering",
+            "poseTypes": ["HOVER"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('norowara', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('norowara', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('norowara', 'twitch')"
+            ]
+        },
+        "flying": {
+            "poseName": "flying",
+            "poseTypes": ["FLY"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('norowara', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('norowara', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('norowara', 'twitch')"
+            ]
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "target": "cobblemon:psyduck",
+    "behaviour": {
+        "moving": {
+            "swim": {
+                "canBreatheUnderwater": true,
+                "swimSpeed": "0.2"
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "light": "0-4",
+            "willSleepOnBed": true,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "combat": {
+            "willDefendOwner": true,
+            "willFlee": false
+        },
+        "herd": {
+            "maxSize": 2,
+            "toleratedLeaders": [{
+                    "pokemon": "psyduck alpha",
+                    "tier": 1
+                }, {
+                    "pokemon": "weirduck",
+                    "tier": 2
+                }, {
+                    "pokemon": "golduck",
+                    "tier": 3
+                }
+            ]
+        }
+    },
+    "evolutions": [{
+            "id": "psyduck_weirduck",
+            "variant": "level_up",
+            "result": "weirduck",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 22
+                }
+            ]
+        }
+    ]
+}

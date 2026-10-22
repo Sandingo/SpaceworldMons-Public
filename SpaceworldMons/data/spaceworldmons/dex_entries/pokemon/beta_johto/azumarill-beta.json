@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:azumarill-beta",
+    "speciesId": "cobblemon:azumarill",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

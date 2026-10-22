@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:roccino",
+    "speciesId": "cobblemon:roccino",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

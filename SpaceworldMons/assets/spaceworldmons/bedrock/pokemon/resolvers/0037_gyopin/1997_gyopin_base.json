@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:gyopin",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0037_gyopin",
+      "model": "spaceworldmons:gyopin.geo",
+      "texture": "spaceworldmons:textures/pokemon/0037_gyopin/gyopin.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0037_gyopin/gyopin_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0037_gyopin/gyopin_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

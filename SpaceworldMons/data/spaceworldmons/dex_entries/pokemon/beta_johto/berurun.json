@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:berurun",
+    "speciesId": "cobblemon:berurun",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

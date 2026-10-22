@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:punky",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0213_punky",
+      "model": "spaceworldmons:punky.geo",
+      "texture": "spaceworldmons:textures/pokemon/0213_punky/punky.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0213_punky/punky_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0213_punky/punky_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

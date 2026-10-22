@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:jumpluff",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:jumpluff-beta",
+            "model": "spaceworldmons:jumpluff-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/jumpluff-beta/jumpluff.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/jumpluff-beta/jumpluff_shiny.png"
+        }, {
+            "aspects": [
+                "alpha_eyes"
+            ],
+            "layers": [{
+                    "name": "alpha_eyes",
+                    "texture": "spaceworldmons:textures/pokemon/jumpluff-beta/jumpluff_alpha.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

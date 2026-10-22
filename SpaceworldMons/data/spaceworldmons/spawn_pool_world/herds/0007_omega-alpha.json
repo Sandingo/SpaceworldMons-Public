@@ -1,0 +1,78 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "omega-alpha-1",
+            "presets": [
+                "natural",
+                "redstone"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "herdablePokemon": [{
+                    "pokemon": "omega held_item=cobblemon:steel_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "omega",
+                    "weight": 80.0,
+                    "levelRange": "49-52",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "omega-alpha-2",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 80,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "create:cogwheel",
+                    "create:large_cogwheel",
+                    "create:gearbox",
+                    "create:vertical_gearbox"
+                ]
+            },
+            "herdablePokemon": [{
+                    "pokemon": "omega held_item=cobblemon:steel_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "omega",
+                    "weight": 80.0,
+                    "levelRange": "49-52",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

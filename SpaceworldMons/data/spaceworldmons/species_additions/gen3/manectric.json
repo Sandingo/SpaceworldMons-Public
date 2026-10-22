@@ -1,0 +1,49 @@
+{
+    "target": "cobblemon:manectric",
+  "behaviour": {
+    "entityInteract": {
+      "avoidedBySkeleton": true
+    },
+    "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "manectric mega=false",
+          "tier": 1
+        },
+        {
+          "pokemon": "raiou",
+          "tier": 2
+        },
+        {
+          "pokemon": "manectric mega",
+          "tier": 2
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "resting": {
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    }
+  },
+    "evolutions": [{
+            "id": "manectric_raiou",
+      	    "variant": "item_interact",
+            "result": "raiou",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [],
+	    "requiredContext": "cobblemon:thunder_stone"
+        }
+    ]
+}

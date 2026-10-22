@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:crocky",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0015_crocky",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0015_crocky/crocky.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0015_crocky/crocky_shiny.png"
+    }
+  ]
+}

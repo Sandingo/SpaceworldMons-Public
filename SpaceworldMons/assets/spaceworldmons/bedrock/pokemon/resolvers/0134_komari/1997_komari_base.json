@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:komari",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0134_komari",
+      "model": "spaceworldmons:komari.geo",
+      "texture": "spaceworldmons:textures/pokemon/0134_komari/komari.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0134_komari/komari_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0134_komari/komari_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

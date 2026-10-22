@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:ikari",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0048_ikari",
+      "model": "spaceworldmons:ikari.geo",
+      "texture": "spaceworldmons:textures/pokemon/0048_ikari/ikari.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0048_ikari/ikari_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0048_ikari/ikari_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

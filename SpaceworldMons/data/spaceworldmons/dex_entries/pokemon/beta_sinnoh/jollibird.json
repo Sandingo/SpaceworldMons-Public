@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:jollibird",
+    "speciesId": "cobblemon:jollibird",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:monja",
+    "speciesId": "cobblemon:monja",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

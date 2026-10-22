@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:manboking",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0076_manboking",
+      "model": "spaceworldmons:manboking.geo",
+      "texture": "spaceworldmons:textures/pokemon/0076_manboking/manboking.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0076_manboking/manboking_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0076_manboking/manboking_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

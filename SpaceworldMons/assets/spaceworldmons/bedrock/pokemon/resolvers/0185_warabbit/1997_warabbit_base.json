@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:warabbit",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0185_warabbit",
+      "model": "spaceworldmons:warabbit.geo",
+      "texture": "spaceworldmons:textures/pokemon/0185_warabbit/warabbit.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0185_warabbit/warabbit_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0185_warabbit/warabbit_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:animon",
+    "speciesId": "cobblemon:animon",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

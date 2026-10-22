@@ -1,0 +1,15 @@
+{
+    "species": "cobblemon:skiploom",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:skiploom-beta",
+            "model": "spaceworldmons:skiploom-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/skiploom-beta/skiploom.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/skiploom-beta/skiploom_shiny.png"
+        }
+    ]
+}

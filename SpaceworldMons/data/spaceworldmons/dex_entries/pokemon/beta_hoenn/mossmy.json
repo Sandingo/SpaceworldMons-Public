@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:mossmy",
+    "speciesId": "cobblemon:mossmy",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

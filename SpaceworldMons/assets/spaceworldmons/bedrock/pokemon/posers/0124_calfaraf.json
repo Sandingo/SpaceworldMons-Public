@@ -1,0 +1,84 @@
+{
+    "portraitScale": 2,
+    "portraitTranslation": [-0.8, 0.8, 0],
+    "profileScale": 0.8,
+    "profileTranslation": [0.03, 0.5, 0],
+    "rootBone": "calfaraf",
+    "animations": {
+        "cry": "q.bedrock_stateful('calfaraf', 'cry')",
+        "recoil": "q.bedrock_stateful('calfaraf', 'recoil')"
+    },
+    "poses": {
+        "standing": {
+            "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+            "isBattle": false,
+            "condition": "q.has_entity ? !q.in_air : 1.0",
+            "animations": [
+                "q.look('neck', 1, 1, 25, -10, 35, -35)",
+                "q.look('neck2', 1, 0, 15, -15, 0, 0)",
+                "q.look('head', 1, 1, 35, -15, 15, -15)",
+                "q.bedrock('calfaraf', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('calfaraf', 'blink')",
+                "q.bedrock_quirk('calfaraf', 'blink2')",
+                "q.bedrock_quirk('calfaraf', 'quirk_ground_idle')"
+            ],
+            "transformTicks": 10
+        },
+        "battle-standing": {
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('neck', 1, 1, 25, -10, 35, -35)",
+                "q.look('neck2', 1, 0, 15, -15, 0, 0)",
+                "q.look('head', 1, 1, 35, -15, 15, -15)",
+                "q.bedrock('calfaraf', 'battle_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('calfaraf', 'blink')",
+                "q.bedrock_quirk('calfaraf', 'blink2')"
+            ],
+            "transformTicks": 10
+        },
+        "walking": {
+            "poseTypes": ["WALK", "SWIM", "FLY"],
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('neck', 1, 1, 25, -10, 35, -35)",
+                "q.look('neck2', 1, 0, 15, -15, 0, 0)",
+                "q.look('head', 1, 1, 35, -15, 15, -15)",
+                "q.bedrock('calfaraf', 'ground_walk')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('calfaraf', 'blink')",
+                "q.bedrock_quirk('calfaraf', 'blink2')"
+            ],
+            "transformTicks": 10
+        },
+        "running": {
+            "poseTypes": ["WALK", "SWIM", "FLY"],
+            "condition": "!q.in_air && q.is_sprinting",
+            "animations": [
+                "q.look('neck', 1, 1, 25, -10, 35, -35)",
+                "q.look('neck2', 1, 0, 15, -15, 0, 0)",
+                "q.look('head', 1, 1, 35, -15, 15, -15)",
+                "q.bedrock('calfaraf', 'ground_run')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('calfaraf', 'blink')",
+                "q.bedrock_quirk('calfaraf', 'blink2')"
+            ],
+            "transformTicks": 10
+        },
+		"sleep": {
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('calfaraf', 'sleep')"
+            ],
+            "quirks": ["q.bedrock_quirk('calfaraf', 'blink2')"],
+            "transformTicks": 10
+        }
+    }
+}

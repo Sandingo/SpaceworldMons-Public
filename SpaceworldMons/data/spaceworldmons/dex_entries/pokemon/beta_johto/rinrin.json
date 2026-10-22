@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:rinrin",
+    "speciesId": "cobblemon:rinrin",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

@@ -1,0 +1,27 @@
+{
+    "species": "cobblemon:garchomp",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:garchomp-beta",
+            "model": "spaceworldmons:garchomp-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/garchomp-beta/garchomp.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/garchomp-beta/garchomp_shiny.png"
+        },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/garchomp-beta/garchomp_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

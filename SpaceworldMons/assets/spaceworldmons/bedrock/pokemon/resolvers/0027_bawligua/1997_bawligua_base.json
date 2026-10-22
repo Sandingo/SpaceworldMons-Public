@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:bawligua",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0027_bawligua",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0027_bawligua/bawligua.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0027_bawligua/bawligua_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "cobblemon:simple_pokedex_def",
+    "id": "spaceworldmons:beta_kanto",
+    "sortOrder": 1996,
+    "entries": [
+        "spaceworldmons:barunda",
+        "spaceworldmons:blottle",
+        "spaceworldmons:pendraken",
+        "spaceworldmons:kobat",
+        "spaceworldmons:mikon",
+        "spaceworldmons:kokana",
+        "spaceworldmons:kasanagi",
+        "spaceworldmons:carapthor",
+        "spaceworldmons:weirduck",
+        "spaceworldmons:konya",
+        "spaceworldmons:magnetite",
+        "spaceworldmons:guardia",
+        "spaceworldmons:gyopin",
+        "spaceworldmons:kotora",
+        "spaceworldmons:raitora",
+        "spaceworldmons:gorotora",
+        "spaceworldmons:puchikoon",
+        "spaceworldmons:gorochu",
+        "spaceworldmons:omega"
+    ]
+}

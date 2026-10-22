@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:skiploom-beta",
+    "speciesId": "cobblemon:skiploom",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

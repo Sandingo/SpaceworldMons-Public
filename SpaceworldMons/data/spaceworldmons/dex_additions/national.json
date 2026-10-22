@@ -1,0 +1,11 @@
+{
+    "dexId": "cobblemon:national",
+    "entries": [
+        "spaceworldmons:beta_kanto",
+        "spaceworldmons:beta_johto",
+        "spaceworldmons:beta_hoenn",
+        "spaceworldmons:beta_sinnoh",
+        "spaceworldmons:beta_unova",
+        "spaceworldmons:beta_kalos"
+    ]
+}

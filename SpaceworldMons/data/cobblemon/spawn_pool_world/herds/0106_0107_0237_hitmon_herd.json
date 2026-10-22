@@ -1,0 +1,168 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hitmon-herd-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 3,
+      "levelRange": "1-46",
+      "weight": 2.6,
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
+        }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_hills"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "tyrogue",
+          "weight": 30,
+          "levelRange": "5-19",
+          "levelRangeOffset": "-4-2",
+          "maxTimes": 3,
+          "isLeader": true,
+          "isFollower": true
+        },
+        {
+          "pokemon": "tyrogue beta",
+          "weight": 15,
+          "levelRange": "5-19",
+          "levelRangeOffset": "-4-2",
+          "maxTimes": 3,
+          "isLeader": true,
+          "isFollower": true
+        },
+        {
+          "pokemon": "hitmonchan",
+          "weight": 25,
+          "levelRange": "23-43",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "hitmonlee",
+          "weight": 25,
+          "levelRange": "23-43",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "hitmontop beta",
+          "weight": 20,
+          "levelRange": "23-43",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "hitmontop",
+          "weight": 5,
+          "levelRange": "23-43",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        }
+      ]
+    },
+    {
+      "id": "hitmon-herd-2",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 3,
+      "levelRange": "1-46",
+      "weight": 1.3,
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "day"
+        }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_hills"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "tyrogue beta",
+          "weight": 30,
+          "levelRange": "5-19",
+          "levelRangeOffset": "-4-2",
+          "maxTimes": 3,
+          "isLeader": true,
+          "isFollower": true
+        },
+        {
+          "pokemon": "tyrogue",
+          "weight": 15,
+          "levelRange": "5-19",
+          "levelRangeOffset": "-4-2",
+          "maxTimes": 3,
+          "isLeader": true,
+          "isFollower": true
+        },
+        {
+          "pokemon": "hitmonchan",
+          "weight": 25,
+          "levelRange": "23-43",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "hitmonlee",
+          "weight": 25,
+          "levelRange": "23-43",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "hitmontop beta",
+          "weight": 20,
+          "levelRange": "23-43",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "hitmontop",
+          "weight": 5,
+          "levelRange": "23-43",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        }
+      ]
+    }
+  ]
+}

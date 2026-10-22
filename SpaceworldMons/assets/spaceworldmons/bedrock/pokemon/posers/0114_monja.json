@@ -1,0 +1,37 @@
+{
+    "head": "head",
+    "portraitScale": 2,
+    "portraitTranslation": [0, -1.4, 0],
+    "profileScale": 1.5,
+    "profileTranslation": [0, -0.5, 0],
+    "animations": {
+        "cry": "q.bedrock_stateful('monja', 'ground_idle')",
+        "faint": "q.bedrock_stateful('monja', 'ground_idle')"
+    },
+    "poses": {
+        "battle-idle": {
+            "transformTicks": 10,
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "isTouchingWater": false,
+            "transformedParts": [],
+            "animations": ["bedrock(monja, ground_idle)"],
+            "quirks": [
+                "q.bedrock_quirk('monja', 'ground_idle')"
+            ]
+        },
+        "standing": {
+            "transformTicks": 10,
+            "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+            "animations": ["look", "bedrock(monja, ground_idle)"],
+            "quirks": [
+                "q.bedrock_quirk('monja', 'ground_idle')"
+            ]
+        },
+        "walking": {
+            "transformTicks": 10,
+            "poseTypes": ["WALK"],
+            "animations": ["bedrock(monja, ground_walk)"]
+        }
+    }
+}

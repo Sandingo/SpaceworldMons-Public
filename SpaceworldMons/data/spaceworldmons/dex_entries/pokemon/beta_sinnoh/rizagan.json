@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:rizagan",
+    "speciesId": "cobblemon:rizagan",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

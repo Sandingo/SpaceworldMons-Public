@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:ponku",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0165_ponku",
+      "model": "spaceworldmons:ponku.geo",
+      "texture": "spaceworldmons:textures/pokemon/0165_ponku/ponku.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0165_ponku/ponku_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0165_ponku/ponku_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

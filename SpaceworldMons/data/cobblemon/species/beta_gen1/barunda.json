@@ -1,0 +1,162 @@
+{
+    "implemented": true,
+    "name": "Barunda",
+    "nationalPokedexNumber": 1,
+    "primaryType": "fairy",
+    "secondaryType": "flying",
+    "abilities": [
+        "magicbounce",
+        "unburden",
+        "h:windrider"
+    ],
+    "baseStats": {
+        "hp": 80,
+        "attack": 50,
+        "defence": 30,
+        "special_attack": 100,
+        "special_defence": 80,
+        "speed": 125
+    },
+    "catchRate": 75,
+    "maleRatio": 0.5,
+    "shoulderMountable": true,
+    "baseExperienceYield": 94,
+    "experienceGroup": "fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "amorphous"
+    ],
+    "behaviour": {
+        "moving": {
+            "fly": {
+                "canFly": true
+            },
+            "swim": {
+                "avoidsWater": true
+            },
+            "walk": {
+                "canWalk": false
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "light": "0-4",
+            "willSleepOnBed": false,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": "3"
+        },
+        "combat": {
+            "willDefendSelf": false,
+            "willDefendOwner": true,
+            "willFlee": true
+        }
+    },
+    "drops": {
+        "amount": 1,
+        "entries": [{
+                "item": "cobblemon:air_balloon",
+                "percentage": 10.0
+            }
+        ]
+    },
+    "moves": [
+        "1:gust",
+        "1:growl",
+        "8:fairywind",
+        "18:drainingkiss",
+        "25:sweetkiss",
+        "31:confuseray",
+        "35:agility",
+        "43:dazzlinggleam",
+        "egg:bodyslam",
+        "egg:clearsmog",
+        "egg:defog",
+        "egg:destinybond",
+        "egg:disable",
+        "egg:haze",
+        "egg:hypnosis",
+        "egg:memento",
+        "egg:tailwind",
+        "egg:weatherball",
+        "egg:skydrop",
+        "tm:bide",
+        "tm:doubleedge",
+        "tm:dreameater",
+        "tm:explosion",
+        "tm:flash",
+        "tm:fly",
+        "tm:hyperbeam",
+        "tm:mimic",
+        "tm:psychic",
+        "tm:psywave",
+        "tm:rage",
+        "tm:razorwind",
+        "tm:reflect",
+        "tm:rest",
+        "tm:selfdestruct",
+        "tm:skullbash",
+        "tm:substitute",
+        "tm:swift",
+        "tm:takedown",
+        "tm:teleport",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:whirlwind",
+        "tm:windride",
+        "tutor:aircutter",
+        "tutor:allyswitch",
+        "tutor:bind",
+        "tutor:defog",
+        "tutor:hypnosis",
+        "tutor:icywind",
+        "tutor:knockoff",
+        "tutor:magiccoat",
+        "tutor:minimize",
+        "tutor:mudslap",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:recycle",
+        "tutor:rollout",
+        "tutor:shockwave",
+        "tutor:skillswap",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:tailwind",
+        "tutor:telekinesis",
+        "tutor:trick"
+    ],
+    "labels": [
+        "gen1beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.barunda.desc",
+        "spaceworldmons.species.betakanto.desc"
+    ],
+    "baseScale": 0.75,
+    "hitbox": {
+        "width": 0.7,
+        "height": 1.7,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+    },
+    "height": 4,
+    "weight": 12,
+    "aspects": [],
+    "cannotDynamax": false
+}

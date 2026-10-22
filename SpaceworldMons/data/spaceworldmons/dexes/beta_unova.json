@@ -1,0 +1,13 @@
+{
+    "type": "cobblemon:simple_pokedex_def",
+    "id": "spaceworldmons:beta_unova",
+    "sortOrder": 2000,
+    "entries": [
+	"spaceworldmons:basculin-beta",
+	"spaceworldmons:escavalier-beta",
+        "spaceworldmons:kaburion",
+        "spaceworldmons:tanisu",
+        "spaceworldmons:taniino",
+        "spaceworldmons:taniking"
+    ]
+}

@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:weirduck",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0032_weirduck",
+      "model": "spaceworldmons:weirduck.geo",
+      "texture": "spaceworldmons:textures/pokemon/0032_weirduck/weirduck.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0032_weirduck/weirduck_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0032_weirduck/weirduck_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

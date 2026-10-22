@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:carapthor",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0031_carapthor",
+      "model": "spaceworldmons:carapthor.geo",
+      "texture": "spaceworldmons:textures/pokemon/0031_carapthor/carapthor.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0031_carapthor/carapthor_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0031_carapthor/carapthor_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

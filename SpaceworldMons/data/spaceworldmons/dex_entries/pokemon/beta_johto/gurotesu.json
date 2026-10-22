@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:gurotesu",
+    "speciesId": "cobblemon:gurotesu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

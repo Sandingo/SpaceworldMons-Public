@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:calfaraf",
+    "speciesId": "cobblemon:calfaraf",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

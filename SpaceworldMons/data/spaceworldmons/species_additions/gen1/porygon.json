@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:porygon",
+  "evolutions": [
+    {
+      "id": "porygon-porygon2-beta",
+      "variant": "trade",
+      "result": "porygon2 beta",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dubious_disc"
+        }
+      ]
+    }
+  ]
+}

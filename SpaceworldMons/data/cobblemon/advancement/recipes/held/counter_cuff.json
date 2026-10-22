@@ -1,0 +1,33 @@
+{
+    "parent": "cobblemon:recipes/held",
+    "criteria": {
+        "has_item": {
+            "conditions": {
+                "items": [{
+                        "items": [
+                            "minecraft:blaze_powder"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "spaceworldmons:counter_cuff"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_item",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "spaceworldmons:counter_cuff"
+        ]
+    }
+}

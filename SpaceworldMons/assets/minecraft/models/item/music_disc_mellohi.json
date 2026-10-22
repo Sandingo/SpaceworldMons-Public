@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/music_disc_mellohi"
+    },
+    "overrides": [{
+            "model": "spaceworldmons:item/beta_build",
+            "predicate": {
+                "custom_model_data": 19971
+            }
+        }
+    ]
+}

@@ -1,0 +1,214 @@
+{
+    "implemented": true,
+    "name": "Chomame",
+    "nationalPokedexNumber": 94,
+    "primaryType": "grass",
+    "abilities": [
+        "quickfeet",
+        "runaway",
+        "h:weakarmor"
+    ],
+    "baseStats": {
+        "hp": 40,
+        "attack": 40,
+        "defence": 60,
+        "special_attack": 35,
+        "special_defence": 50,
+        "speed": 20
+    },
+    "catchRate": 190,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 70,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "grass"
+    ],
+    "behaviour": {
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "light": "0-4",
+            "willSleepOnBed": true,
+            "times": [
+                "any"
+            ],
+            "drowsyChance": 0.0014,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": "2",
+            "toleratedLeaders": [{
+                    "pokemon": "chomame",
+                    "tier": 1
+                }, {
+                    "pokemon": "mameja",
+                    "tier": 2
+                }
+            ]
+        },
+        "combat": {
+            "willDefendOwner": true
+        }
+    },
+    "drops": {
+        "amount": 2,
+        "entries": [{
+                "tag": "minecraft:chicken_food",
+                "quantityRange": "0-2"
+            }, {
+                "item": "cobblemon:galarica_nuts",
+                "percentage": 5
+            }
+        ]
+    },
+
+    "moves": [
+        "1:bulletseed",
+        "4:absorb",
+        "8:vinewhip",
+        "10:razorleaf",
+        "12:defensecurl",
+        "14:leechseed",
+        "16:grassknot",
+        "18:gigadrain",
+        "22:seedbomb",
+        "26:shellsmash",
+        "30:woodhammer",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulletseed",
+        "tm:captivate",
+        "tm:confide",
+        "tm:cut",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:flash",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:grassyglide",
+        "tm:grassyterrain",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:leafstorm",
+        "tm:leechlife",
+        "tm:lunge",
+        "tm:magicalleaf",
+        "tm:naturalgift",
+        "tm:naturepower",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:scaryface",
+        "tm:secretpower",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:terablast",
+        "tm:thief",
+        "tm:trailblaze",
+        "tm:weatherball",
+        "tm:brightmoss",
+        "tutor:acid",
+        "tutor:attract",
+        "tutor:bide",
+        "tutor:bind",
+        "tutor:bodyslam",
+        "tutor:curse",
+        "tutor:cut",
+        "tutor:doubleedge",
+        "tutor:doubleteam",
+        "tutor:endure",
+        "tutor:facade",
+        "tutor:flash",
+        "tutor:frustration",
+        "tutor:gigadrain",
+        "tutor:growth",
+        "tutor:headbutt",
+        "tutor:hiddenpower",
+        "tutor:knockoff",
+        "tutor:leechlife",
+        "tutor:megadrain",
+        "tutor:mimic",
+        "tutor:powerwhip",
+        "tutor:protect",
+        "tutor:rage",
+        "tutor:razorleaf",
+        "tutor:reflect",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:seedbomb",
+        "tutor:sleeppowder",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:solarbeam",
+        "tutor:stunspore",
+        "tutor:substitute",
+        "tutor:suckerpunch",
+        "tutor:swagger",
+        "tutor:sweetscent",
+        "tutor:swordsdance",
+        "tutor:synthesis",
+        "tutor:takedown",
+        "tutor:vinewhip",
+        "tutor:worryseed",
+        "tutor:wrap"
+    ],
+    "labels": [
+        "gen6beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.chomame.desc",
+        "spaceworldmons.species.betakalos.desc"
+    ],
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 0.5,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 5,
+    "weight": 48,
+    "evolutions": [{
+            "id": "chomame_mameja",
+            "variant": "level_up",
+            "result": "mameja",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 39
+                }, {
+                    "range": "dawn",
+                    "variant": "time_range"
+                }
+            ]
+        }
+    ],
+    "aspects": [],
+    "cannotDynamax": false
+}

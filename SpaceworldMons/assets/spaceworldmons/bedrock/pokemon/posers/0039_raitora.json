@@ -1,0 +1,71 @@
+{
+    "portraitScale": 1.65,
+    "portraitTranslation": [-0.5, -0.5, 0],
+    "profileScale": 0.9,
+    "profileTranslation": [0, 0.4, 0],
+	"rootBone": "raitora",
+    "animations": {
+        "cry": "q.bedrock_stateful('raitora', 'cry')",
+		"recoil": "q.bedrock_stateful('raitora', 'blink')",
+        "faint": "q.bedrock_stateful('raitora', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('raitora', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('raitora', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('raitora', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('raitora', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('raitora', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('raitora', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('raitora', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('raitora', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('raitora', 'blink')"
+            ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('raitora', 'sleep')"
+            ],
+            "transformTicks": 10
+        }
+    }
+}

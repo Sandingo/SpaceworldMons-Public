@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:kamex",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0043_kamex",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0043_kamex/kamex.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0043_kamex/kamex_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "species": "cobblemon:totta",
+    "order": 1997,
+    "variations": [{
+            "aspects": [],
+            "poser": "spaceworldmons:0128_totta",
+            "model": "spaceworldmons:totta.geo",
+            "texture": "spaceworldmons:textures/pokemon/0128_totta/totta.png",
+            "layers": []
+        }, {
+            "aspects": ["shiny"],
+            "texture": "spaceworldmons:textures/pokemon/0128_totta/totta_shiny.png"
+        },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0128_totta/totta_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+    ]
+}

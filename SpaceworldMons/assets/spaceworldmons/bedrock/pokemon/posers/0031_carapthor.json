@@ -1,0 +1,98 @@
+{
+    "portraitScale": 1.5,
+    "portraitTranslation": [-0.2, 2.75, 0],
+    "profileScale": 0.45,
+    "profileTranslation": [0, 1.1, 0],
+    "rootBone": "carapthor",
+    "animations": {
+        "cry": "q.bedrock_stateful('carapthor', 'blink')",
+        "physical": "q.bedrock_stateful('carapthor', 'physical')",
+        "special": "q.bedrock_stateful('carapthor', 'special')",
+        "status": "q.bedrock_stateful('carapthor', 'status')",
+        "recoil": "q.bedrock_stateful('carapthor', 'blink')",
+        "faint": "q.bedrock_stateful('carapthor', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('carapthor', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('carapthor', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('carapthor', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('carapthor', 'battle_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('carapthor', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('carapthor', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('carapthor', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('carapthor', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('carapthor', 'blink')"
+            ]
+        },
+        "hovering": {
+            "poseName": "hovering",
+            "poseTypes": ["HOVER"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('carapthor', 'air_fly')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('carapthor', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('carapthor', 'blink')"
+            ]
+        },
+        "flying": {
+            "poseName": "flying",
+            "poseTypes": ["FLY"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('carapthor', 'air_fly')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('carapthor', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('carapthor', 'blink')"
+            ]
+        }
+    }
+}

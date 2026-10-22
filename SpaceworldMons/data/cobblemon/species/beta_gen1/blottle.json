@@ -1,0 +1,144 @@
+{
+    "implemented": true,
+    "name": "Blottle",
+    "nationalPokedexNumber": 2,
+    "primaryType": "poison",
+    "secondaryType": "water",
+    "abilities": [
+        "suctioncups",
+        "h:shellarmor"
+    ],
+    "baseStats": {
+        "hp": 60,
+        "attack": 35,
+        "defence": 60,
+        "special_attack": 65,
+        "special_defence": 65,
+        "speed": 50
+    },
+    "catchRate": 190,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 105,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 30,
+    "eggGroups": [
+        "water_1",
+        "water_3"
+    ],
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "moving": {
+            "swim": {
+                "canBreatheUnderwater": true,
+                "swimSpeed": "0.75"
+            },
+            "walk": {
+                "avoidsLand": true,
+                "walkSpeed": 0.19
+            }
+        },
+        "herd": {
+            "maxSize": "5",
+            "toleratedLeaders": [{
+                    "pokemon": "pendraken",
+                    "tier": 1
+                }
+            ]
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "drops": {
+        "amount": 2,
+        "entries": [{
+                "item": "minecraft:nautilus_shell"
+            }, {
+                "item": "minecraft:bone_meal",
+                "percentage": 5.0
+            }
+        ]
+    },
+    "moves": [
+        "1:constrict",
+        "1:smokescreen",
+        "8:bubble",
+        "13:wrap",
+        "19:poisongas",
+        "23:hypnosis",
+        "25:inkspray",
+        "27:supersonic",
+        "30:octazooka",
+        "31:sludge",
+        "38:haze",
+        "40:hydropump",
+        "tm:swordsdance",
+        "tm:toxic",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:bubblebeam",
+        "tm:watergun",
+        "tm:psywave",
+        "tm:psychic",
+        "tm:rage",
+        "tm:megadrain",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:bide",
+        "tm:skullbash",
+        "tm:rest",
+        "tm:substitute",
+        "tm:cut",
+        "tm:surf",
+        "tm:dazzlinggleam"
+    ],
+    "labels": [
+        "gen1beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.blottle.desc",
+        "spaceworldmons.species.betakanto.desc"
+    ],
+    "baseScale": 0.8,
+    "hitbox": {
+        "width": 0.8,
+        "height": 2.5,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 6,
+    "weight": 50,
+    "evolutions": [{
+            "id": "blottle_pendraken-spaceworldmons",
+            "variant": "level_up",
+            "result": "pendraken spaceworldmons",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 30
+                }
+            ]
+        }
+    ],
+    "aspects": [],
+    "cannotDynamax": false
+}

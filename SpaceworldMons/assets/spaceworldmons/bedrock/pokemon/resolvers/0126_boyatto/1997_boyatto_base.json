@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:boyatto",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0126_boyatto",
+      "model": "spaceworldmons:boyatto.geo",
+      "texture": "spaceworldmons:textures/pokemon/0126_boyatto/boyatto.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0126_boyatto/boyatto_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0126_boyatto/boyatto_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

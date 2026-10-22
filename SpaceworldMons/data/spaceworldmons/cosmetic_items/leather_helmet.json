@@ -1,0 +1,8 @@
+{
+    "pokemon": ["gorochu"],
+    "cosmeticItems": [{
+            "consumedItem": "minecraft:leather_helmet",
+            "aspects": ["cosmetic_item-leather_helmet"]
+        }
+    ]
+}

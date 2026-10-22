@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:umbreon",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [
+        "beta"
+      ],
+      "texture": "spaceworldmons:textures/pokemon/umbreon-beta/umbreon.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "spaceworldmons:textures/pokemon/umbreon-beta/umbreon_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "beta",
+        "shiny"
+      ],
+      "texture": "spaceworldmons:textures/pokemon/umbreon-beta/umbreon_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "spaceworldmons:textures/pokemon/umbreon-beta/umbreon_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

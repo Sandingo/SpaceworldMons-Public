@@ -1,0 +1,262 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 81,
+    "name": "Salegrosso",
+    "primaryType": "rock",
+    "secondaryType": "dark",
+    "abilities": [
+        "rockhead",
+        "solidrock",
+        "h:rockypayload"
+    ],
+    "baseStats": {
+        "hp": 100,
+        "attack": 120,
+        "defence": 95,
+        "special_attack": 55,
+        "special_defence": 95,
+        "speed": 85
+    },
+    "catchRate": 90,
+    "maleRatio": 0.5,
+    "baseExperienceYield": 170,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 15,
+    "eggGroups": [
+        "field",
+        "mineral"
+    ],
+    "behaviour": {
+        "entityInteract": {
+            "avoidedByCreeper": true,
+            "avoidedByPhantom": true
+        },
+        "herd": {
+            "maxSize": "6",
+            "toleratedLeaders": [{
+                    "pokemon": "rockruff",
+                    "tier": 1
+                }, {
+                    "pokemon": "electrike",
+                    "tier": 2
+                }, {
+                    "pokemon": "roccino",
+                    "tier": 2
+                }, {
+                    "pokemon": "lycanroc",
+                    "tier": 3
+                }, {
+                    "pokemon": "salegrosso",
+                    "tier": 3
+                }, {
+                    "pokemon": "manectric mega=false",
+                    "tier": 3
+                }, {
+                    "pokemon": "manectric mega",
+                    "tier": 4
+                }
+            ]
+        },
+        "resting": {
+            "willSleepOnBed": true,
+            "times": [
+                "night"
+            ],
+            "drowsyChance": 0.0033,
+            "rouseChance": 0.0042
+        },
+        "moving": {
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+        }
+    },
+    "drops": {
+        "amount": 4,
+        "entries": [{
+                "item": "minecraft:calcite",
+                "quantityRange": "0-4"
+            }, {
+                "item": "minecraft:rotten_flesh",
+                "quantityRange": "0-2"
+            }, {
+                "item": "cobblemon:hard_stone",
+                "percentage": 5
+            }, {
+                "item": "cobblemon:passho_berry",
+                "percentage": 5
+            }
+        ]
+    },
+    "moves": [
+        "1:counter",
+        "1:reversal",
+        "1:taunt",
+        "1:tackle",
+        "1:leer",
+        "1:sandattack",
+        "1:odorsleuth",
+        "1:endure",
+        "1:doubleteam",
+        "12:rockthrow",
+        "16:howl",
+        "20:bite",
+        "24:rocktomb",
+        "30:roar",
+        "36:rockslide",
+        "42:crunch",
+        "48:scaryface",
+        "54:stealthrock",
+        "55:rockhead",
+        "60:stoneedge",
+        "egg:crushclaw",
+        "egg:endeavor",
+        "egg:lastresort",
+        "egg:odorsleuth",
+        "egg:suckerpunch",
+        "egg:thrash",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:covet",
+        "tm:crunch",
+        "tm:dig",
+        "tm:doubleedge",
+        "tm:doubleteam",
+        "tm:dualchop",
+        "tm:earthpower",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:fling",
+        "tm:focuspunch",
+        "tm:foulplay",
+        "tm:gigaimpact",
+        "tm:helpinghand",
+        "tm:hypervoice",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:knockoff",
+        "tm:laserfocus",
+        "tm:lashout",
+        "tm:rockhead",
+        "tm:lastresort",
+        "tm:lowsweep",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:mudslap",
+        "tm:outrage",
+        "tm:payback",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:revenge",
+        "tm:reversal",
+        "tm:roar",
+        "tm:rockblast",
+        "tm:rockclimb",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:scaryface",
+        "tm:shadowclaw",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:stealthrock",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:throatchop",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:trailblaze",
+        "tm:upperhand",
+        "tm:zenheadbutt",
+        "tutor:bulkup",
+        "tutor:bulldoze",
+        "tutor:covet",
+        "tutor:dualchop",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:firefang",
+        "tutor:firepunch",
+        "tutor:focuspunch",
+        "tutor:foulplay",
+        "tutor:gigaimpact",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:irontail",
+        "tutor:knockoff",
+        "tutor:laserfocus",
+        "tutor:lashout",
+        "tutor:lastresort",
+        "tutor:mudslap",
+        "tutor:outrage",
+        "tutor:playrough",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:shadowclaw",
+        "tutor:sleeptalk",
+        "tutor:snarl",
+        "tutor:stealthrock",
+        "tutor:stompingtantrum",
+        "tutor:stoneedge",
+        "tutor:suckerpunch",
+        "tutor:throatchop",
+        "tutor:thunderfang",
+        "tutor:thunderpunch",
+        "tutor:zenheadbutt"
+    ],
+    "labels": [
+        "gen3beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.salegrosso.desc",
+        "spaceworldmons.species.betahoenn.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 0.9,
+        "height": 1.1,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 10,
+    "weight": 365,
+    "preEvolution": "roccino",
+    "evolutions": [],
+    "aspects": [
+        
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "mameja-alpha-1",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 2,
+                "condition": {
+                    "timeRange": "dawn"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+            },
+            "herdablePokemon": [{
+                    "pokemon": "mameja held_item=cobblemon:grass_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "chomame",
+                    "weight": 80.0,
+                    "levelRange": "4-38",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "mameja",
+                    "weight": 70.0,
+                    "levelRange": "39-56",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }, {
+            "id": "mameja-2",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            },
+            "herdablePokemon": [{
+                    "pokemon": "mameja held_item=cobblemon:grass_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "chomame",
+                    "weight": 80.0,
+                    "levelRange": "4-38",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }, {
+                    "pokemon": "mameja",
+                    "weight": 70.0,
+                    "levelRange": "39-56",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

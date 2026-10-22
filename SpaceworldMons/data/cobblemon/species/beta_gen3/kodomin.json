@@ -1,0 +1,126 @@
+{
+    "implemented": true,
+    "name": "Kodomin",
+    "nationalPokedexNumber": 67,
+    "primaryType": "grass",
+    "secondaryType": "electric",
+    "abilities": [
+        "chlorophyll",
+        "lightningrod",
+        "h:sapsipper"
+    ],
+    "baseStats": {
+        "hp": 70,
+        "attack": 120,
+        "defence": 80,
+        "special_attack": 70,
+        "special_defence": 105,
+        "speed": 60
+    },
+    "catchRate": 75,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 204,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "grass"
+    ],
+    "drops": {
+        "amount": 2,
+        "entries": [{
+                "item": "minecraft:moss_block",
+                "quantityRange": "1-2"
+            }, {
+                "item": "cobblemon:luminous_moss",
+                "percentage": 5
+            }
+        ]
+    },
+    "moves": [
+        "0:thundershock",
+        "1:hornattack",
+        "1:absorb",
+        "1:astonish",
+        "5:watersport",
+        "8:ingrain",
+        "12:megadrain",
+        "14:stunspore",
+        "16:leechseed",
+        "22:razorleaf",
+        "30:spark",
+        "34:gigadrain",
+        "38:raindance",
+        "40:lightningstrike",
+        "42:drumbeating",
+        "46:moonlight",
+        "54:powerwhip",
+        "65:horndrill",
+        "egg:cottonspore",
+        "egg:lifedew",
+        "egg:razorleaf",
+        "egg:sleeppowder",
+        "egg:poisonpowder",
+        "egg:synthesis",
+        "egg:seedbomb",
+        "tm:dazzlinggleam",
+        "tm:magicalleaf",
+        "tm:swift",
+        "tm:toxic",
+        "tm:bulletseed",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:raindance",
+        "tm:gigadrain",
+        "tm:doubleteam",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:energyball",
+        "tm:endure",
+        "tm:flash",
+        "tm:swordsdance",
+        "tm:psychup",
+        "tm:sleeptalk",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:cut",
+        "tm:voltswitch",
+        "tm:electroball",
+        "tm:thunderwave",
+        "tm:electricterrain",
+        "tm:wildcharge",
+        "tm:thunder",
+        "tm:charge",
+        "tm:thunderbolt",
+        "tm:brightmoss"
+    ],
+    "labels": [
+        "gen3beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.kodomin.desc",
+        "spaceworldmons.species.betahoenn.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1.2,
+        "height": 1.4,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+    },
+    "height": 10,
+    "weight": 375,
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

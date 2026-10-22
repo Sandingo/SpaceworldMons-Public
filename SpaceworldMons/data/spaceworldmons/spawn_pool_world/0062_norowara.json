@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "norowara-1",
+            "pokemon": "norowara",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-2",
+            "weight": 0.5,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#c:is_mountain/peak"
+                ]
+            }
+        }, {
+            "id": "norowara-2",
+            "pokemon": "norowara",
+            "presets": [
+                "ancient_city"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-2",
+            "weight": 4
+        }
+    ]
+}

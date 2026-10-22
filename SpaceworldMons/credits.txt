@@ -1,0 +1,39 @@
+==========================================
+		Main Team:
+==========================================
+Sandmeister 		- Project Manager, Lead Texture Artist, 3D Modeler, Animator, Coder, Final Polish
+Phantazap			- 3D Modeler, Lead Coder, Lead Animator, Dex Entry Author
+EverdredtheBrown 	- 3D Modeler
+KoryTheMaril		- 3D Modeler, Texture Artist, Dex Entry Author
+Fyre520				- 3D Modeler, Texture Artist
+Joao Francia		- 3D Modeler, Texture Artist
+Druthers 			- 3D Modeler, Texture Artist
+DaDolphin			- Animator
+N0file				- Animator
+RacieB				- Lost Pokemon Cryptozoologist, Pokémon Design Reference, Placeholder Pokémon Art
+Blizaki				- Pokemon Balance
+Soysauce			- 3D Modeler, Japanese Translation
+
+==========================================
+	    Additional Credits:
+==========================================
+SpencyRock			- Turbann's Eye Model
+Lazaro              - Ko-Mai Model
+Doctor X            - Honoguma Line Models, Textures, Animations
+Andryyy.			- Roccino Line Models, Textures
+Grindel				- Carapthor Model
+RedRiibbon			- Celebi's Model
+Phthuzz/Thudo		- Mega Jynx/Raiou Models, Textures
+
+==========================================
+             Special Thanks:
+==========================================
+Cobblemon Team		- Base Mod, Preexisting Models and Animations
+Helix Chamber		- Documenting early Capsule Monsters Content, Organizing Popular Fan-Recreations of Missing Content
+TheCuttingRoomFloor	- Documenting all of the Pokémon leaks and Beta Builds
+
+
+==========================================
+SpaceworldMons is a fan-made, non-profit project. All works derivative of, and including this project are under a GNU General Public License v3.0. You are allowed to change, modify, redistribute or use code therein to make your own projects, so long as you share alike and strictly for non-profit purposes. 
+
+Pokémon and Minecraft belong to their respective owners.

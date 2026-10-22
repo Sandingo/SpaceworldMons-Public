@@ -1,0 +1,52 @@
+{
+    "portraitScale": 2.02,
+    "portraitTranslation": [-0.5, -0.58, 0],
+    "profileScale": 0.81,
+    "profileTranslation": [0.0, 0.5, 0.0],
+    "rootBone": "marill",
+    "animations": {
+        "cry": "q.bedrock_stateful('marill-beta', 'cry')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+            "animations": ["q.look('head_ai')", "q.bedrock('marill-beta', 'ground_idle')"],
+            "quirks": ["q.bedrock_quirk('marill-beta', 'blink')"]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK"],
+            "animations": [
+                "q.look('head_ai')",
+                "q.bedrock('marill-beta', 'ground_walk')"
+            ],
+            "quirks": ["q.bedrock_quirk('marill-beta', 'blink')"]
+        },
+        "floating": {
+            "poseName": "floating",
+            "poseTypes": ["FLOAT"],
+            "animations": [
+                "q.look('head_ai')",
+                "q.bedrock('marill-beta', 'water_idle')"
+            ],
+            "quirks": ["q.bedrock_quirk('marill-beta', 'blink')"]
+        },
+        "swimming": {
+            "poseName": "swimming",
+            "poseTypes": ["SWIM"],
+            "animations": [
+                "q.look('head_ai')",
+                "q.bedrock('marill-beta', 'water_swim')"
+            ],
+            "quirks": ["q.bedrock_quirk('marill-beta', 'blink')"]
+        },
+        "sleep": {
+            "poseName": "sleep",
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('marill-beta', 'sleep')"
+            ]
+        }
+    }
+}

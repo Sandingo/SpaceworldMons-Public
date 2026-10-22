@@ -1,0 +1,62 @@
+{
+  "species": "cobblemon:puchikoon",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0041_puchikoon",
+      "model": "spaceworldmons:puchikoon.geo",
+      "texture": "spaceworldmons:textures/pokemon/0041_puchikoon/puchikoon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": {
+            "frames": [
+              "spaceworldmons:textures/pokemon/0041_puchikoon/fire/normal/1.png",
+              "spaceworldmons:textures/pokemon/0041_puchikoon/fire/normal/2.png",
+              "spaceworldmons:textures/pokemon/0041_puchikoon/fire/normal/3.png",
+              "spaceworldmons:textures/pokemon/0041_puchikoon/fire/normal/4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "spaceworldmons:textures/pokemon/0041_puchikoon/puchikoon_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": {
+            "frames": [
+              "spaceworldmons:textures/pokemon/0041_puchikoon/fire/shiny/1.png",
+              "spaceworldmons:textures/pokemon/0041_puchikoon/fire/shiny/2.png",
+              "spaceworldmons:textures/pokemon/0041_puchikoon/fire/shiny/3.png",
+              "spaceworldmons:textures/pokemon/0041_puchikoon/fire/shiny/4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0041_puchikoon/puchikoon_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

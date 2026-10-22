@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:pendraken",
+    "speciesId": "cobblemon:pendraken",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:vatu",
+    "speciesId": "cobblemon:vatu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

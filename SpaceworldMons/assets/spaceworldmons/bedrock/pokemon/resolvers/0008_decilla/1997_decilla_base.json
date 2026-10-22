@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:decilla",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0008_decilla",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0008_decilla/decilla.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0008_decilla/decilla_shiny.png"
+    }
+  ]
+}

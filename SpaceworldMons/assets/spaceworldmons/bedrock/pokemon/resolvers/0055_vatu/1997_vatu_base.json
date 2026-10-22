@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:vatu",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0055_vatu",
+      "model": "spaceworldmons:vatu.geo",
+      "texture": "spaceworldmons:textures/pokemon/0055_vatu/vatu.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0055_vatu/vatu_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0055_vatu/vatu_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

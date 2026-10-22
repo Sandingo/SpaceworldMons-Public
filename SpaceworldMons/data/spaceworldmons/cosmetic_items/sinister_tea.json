@@ -1,0 +1,8 @@
+{
+    "pokemon": ["gorochu"],
+    "cosmeticItems": [{
+            "consumedItem": "cobblemon:sinister_tea",
+            "aspects": ["cosmetic_item-sinister_tea"]
+        }
+    ]
+}

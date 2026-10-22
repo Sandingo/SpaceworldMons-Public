@@ -1,0 +1,39 @@
+{
+    "portraitScale": 1.6,
+    "portraitTranslation": [-0.3,-0.2,0],
+    "profileScale": 0.6,
+    "profileTranslation": [0,0.8,0],
+  "rootBone": "sutanbu",
+    "poses": {
+      "standing": {
+        "poseTypes": [
+          "STAND",
+          "NONE",
+          "PORTRAIT",
+          "PROFILE"
+        ],
+        "isBattle": false,
+        "animations": [
+          "q.bedrock('sutanbu', 'ground_idle')"
+        ],
+        "quirks": []
+      },
+      "walking": {
+        "poseTypes": [
+          "WALK",
+          "SWIM"
+        ],
+        "animations": [
+          "q.bedrock('sutanbu', 'ground_walk')"
+        ],
+        "quirks": []
+      },
+        "sleep": {
+            "poseName": "sleep",
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('sutanbu', 'sleep')"
+            ]
+        }
+    }
+  }

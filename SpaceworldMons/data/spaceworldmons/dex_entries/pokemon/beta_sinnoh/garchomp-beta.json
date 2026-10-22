@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:garchomp-beta",
+    "speciesId": "cobblemon:garchomp",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

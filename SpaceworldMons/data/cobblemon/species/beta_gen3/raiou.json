@@ -1,0 +1,214 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 70,
+  "name": "Raiou",
+  "primaryType": "electric",
+  "maleRatio": 0.5,
+  "height": 20,
+  "weight": 604,
+  "pokedex": [
+        "spaceworldmons.species.raiou.desc",
+        "spaceworldmons.species.betahoenn.desc"
+  ],
+  "labels": [
+    "gen3beta"
+  ],
+  "aspects": [],
+  "abilities": [
+    "static",
+    "lightningrod",
+    "h:intimidate"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 70,
+    "special_attack": 120,
+    "special_defence": 70,
+    "speed": 120
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "baseExperienceYield": 236,
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.8,
+    "height": 2,
+    "fixed": false
+  },
+  "behaviour": {
+    "entityInteract": {
+      "avoidedBySkeleton": true
+    },
+    "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "raiou alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "manectric mega",
+          "tier": 1
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "resting": {
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:electricterrain",
+    "1:electrify",
+    "1:firefang",
+    "1:tackle",
+    "1:thunderwave",
+    "1:leer",
+    "1:howl",
+    "1:spark",
+    "1:odorsleuth",
+    "1:quickattack",
+    "18:shockwave",
+    "22:bite",
+    "26:thunderfang",
+    "32:roar",
+    "38:discharge",
+    "44:charge",
+    "50:wildcharge",
+    "56:thunder",
+    "egg:curse",
+    "egg:flameburst",
+    "egg:headbutt",
+    "egg:spark",
+    "egg:switcheroo",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:crunch",
+    "tm:curse",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:mudslap",
+    "tm:overheat",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:roar",
+    "tm:scaryface",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:strength",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:uproar",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:chargebeam",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icefang",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:refresh"
+  ],
+  "preEvolution": "manectric",
+  "evolutions": []
+}

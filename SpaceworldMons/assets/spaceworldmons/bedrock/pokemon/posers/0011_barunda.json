@@ -1,0 +1,121 @@
+{
+    "portraitScale": 1.5,
+    "portraitTranslation": [0, 0.5, 0],
+    "profileScale": 0.8,
+    "profileTranslation": [0, 0.5, 0],
+    "rootBone": "barunda",
+    "animations": {
+        "cry": "q.bedrock_stateful('barunda', 'cry')",
+        "recoil": "q.bedrock_stateful('barunda', 'blink')",
+        "faint": "q.bedrock_stateful('barunda', 'faint')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('body_rotation')",
+                "q.bedrock('barunda', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('barunda', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('barunda', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('body_rotation')",
+                "q.bedrock('barunda', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('barunda', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('barunda', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('body_rotation')",
+                "q.bedrock('barunda', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('barunda', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('barunda', 'blink')"
+            ]
+        },
+        "hovering": {
+            "poseName": "hovering",
+            "poseTypes": ["HOVER"],
+            "isBattle": false,
+            "animations": [
+                "q.look('body_rotation')",
+                "q.bedrock('barunda', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('barunda', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('barunda', 'blink')"
+            ]
+        },
+        "flying": {
+            "poseName": "flying",
+            "poseTypes": ["FLY"],
+            "isBattle": false,
+            "animations": [
+                "q.look('body_rotation')",
+                "q.bedrock('barunda', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('barunda', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('barunda', 'blink')"
+            ]
+        },
+        "shoulder_left": {
+            "poseName": "shoulder_left",
+            "poseTypes": ["SHOULDER_LEFT"],
+            "animations": [
+                "q.look('body_rotation')",
+                "q.bedrock('barunda', 'shoulder_left')", {
+                    "condition": "q.is_holding_item"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('barunda', 'blink')"
+            ]
+        },
+        "shoulder_right": {
+            "poseName": "shoulder_right",
+            "poseTypes": ["SHOULDER_RIGHT"],
+            "animations": [
+                "q.look('body_rotation')",
+                "q.bedrock('barunda', 'shoulder_right')", {
+                    "condition": "q.is_holding_item"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('barunda', 'blink')"
+            ]
+        }
+    }
+}

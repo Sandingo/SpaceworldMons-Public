@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:mikon",
+    "speciesId": "cobblemon:mikon",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

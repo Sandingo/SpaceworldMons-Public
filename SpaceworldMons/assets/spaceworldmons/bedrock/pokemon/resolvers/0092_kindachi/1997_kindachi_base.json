@@ -1,0 +1,69 @@
+
+{
+  "species": "cobblemon:kindachi",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0092_kindachi",
+      "model": "spaceworldmons:kindachi.geo",
+      "texture": "spaceworldmons:textures/pokemon/0092_kindachi/kindachi.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame1.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame2.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame3.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame4.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame5.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame6.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame7.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame8.png"
+            ],
+            "fps": 16,
+            "loop": true
+          },
+		  "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0092_kindachi/kindachi_shiny.png",
+	  "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame1_shiny.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame2_shiny.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame3_shiny.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame4_shiny.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame5_shiny.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame6_shiny.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame7_shiny.png",
+              "spaceworldmons:textures/pokemon/0092_kindachi/animation/flame8_shiny.png"
+            ],
+            "fps": 16,
+            "loop": true
+          },
+		  "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0092_kindachi/kindachi_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

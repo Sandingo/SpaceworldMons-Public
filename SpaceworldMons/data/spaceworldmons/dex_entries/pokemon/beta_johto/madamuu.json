@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:madamuu",
+    "speciesId": "cobblemon:madamuu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

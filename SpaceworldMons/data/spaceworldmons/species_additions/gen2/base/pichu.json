@@ -1,0 +1,60 @@
+{
+    "target": "cobblemon:pichu",
+    "behaviour": {
+        "moving": {
+            "walk": {
+                "walkSpeed": 0.15
+            },
+            "swim": {
+                "swimSpeed": 0.125,
+                "canWalkOnWater": true,
+                "avoidsWater": true
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        },
+        "herd": {
+            "maxSize": 4,
+            "toleratedLeaders": [{
+                    "pokemon": "pichu",
+                    "tier": 1
+                }, {
+                    "pokemon": "dedenne",
+                    "tier": 1
+                }, {
+                    "pokemon": "plusle",
+                    "tier": 2
+                }, {
+                    "pokemon": "minun",
+                    "tier": 2
+                }, {
+                    "pokemon": "morpeko",
+                    "tier": 2
+                }, {
+                    "pokemon": "pikachu",
+                    "tier": 3
+                }, {
+                    "pokemon": "raichu megax=false",
+                    "tier": 4
+                }, {
+                    "pokemon": "raichu megay=false",
+                    "tier": 4
+                }, {
+                    "pokemon": "raichu megax",
+                    "tier": 5
+                }, {
+                    "pokemon": "raichu megay",
+                    "tier": 5
+                }, {
+                    "pokemon": "gorochu",
+                    "tier": 5
+                }
+            ]
+        }
+    }
+}

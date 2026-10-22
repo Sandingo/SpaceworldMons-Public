@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:kodomin",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0141_kodomin",
+      "model": "spaceworldmons:kodomin.geo",
+      "texture": "spaceworldmons:textures/pokemon/0141_kodomin/kodomin.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0141_kodomin/kodomin_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0141_kodomin/kodomin_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

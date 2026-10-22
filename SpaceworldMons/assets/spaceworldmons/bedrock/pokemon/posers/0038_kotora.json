@@ -1,0 +1,76 @@
+{
+    "portraitScale": 1.65,
+    "portraitTranslation": [0, -0.8, 0],
+    "profileScale": 1,
+    "profileTranslation": [0, 0.2, 0],
+	"rootBone": "kotora",
+  "transformedParts": [
+    {
+      "part": "locator_item_hat",
+      "scale": [1.1, 1.1, 1.1],
+      "position": [0, 0.2, 0]
+    }],
+    "animations": {
+        "cry": "q.bedrock_stateful('kotora', 'cry')",
+		"recoil": "q.bedrock_stateful('kotora', 'blink')",
+        "faint": "q.bedrock_stateful('kotora', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('kotora', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kotora', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('kotora', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('kotora', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kotora', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('kotora', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('kotora', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('kotora', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('kotora', 'blink')"
+            ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('kotora', 'sleep')"
+            ],
+            "transformTicks": 10
+        }
+    }
+}

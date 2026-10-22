@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:scizor-beta",
+    "speciesId": "cobblemon:scizor",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

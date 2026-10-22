@@ -1,0 +1,33 @@
+{
+  "requirements": [
+    {
+      "variant": "properties",
+      "target": "para"
+    }
+  ],
+  "interactions": [
+    {
+      "grouping": "cobblemon:bone_meal",
+      "cooldown": "9000",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "#c:fertilizers"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "shrink_item"
+        },
+        {
+          "variant": "drop_item",
+          "item": "minecraft:red_mushroom"
+        },
+        {
+          "variant": "play_sound",
+          "sound": "minecraft:item.bone_meal.use"
+        }
+      ]
+    }
+  ]
+}

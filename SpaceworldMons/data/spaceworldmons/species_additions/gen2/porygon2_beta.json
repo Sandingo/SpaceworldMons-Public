@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:porygon2",
+  "features": [
+    "beta"
+  ],
+  "forms": [
+    {
+      "implemented": true,
+      "nationalPokedexNumber": 233,
+      "name": "Beta",
+      "pokedex": [
+        "spaceworldmons.species.porygon2-beta.desc",
+        "spaceworldmons.species.betajohto.desc"
+      ],
+      "labels": [
+        "gen2"
+      ],
+      "aspects": [
+        "beta"
+      ],
+      "evolutions": [],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:blank_tm",
+            "percentage": 25
+          }
+        ]
+      }
+    }
+  ]
+}

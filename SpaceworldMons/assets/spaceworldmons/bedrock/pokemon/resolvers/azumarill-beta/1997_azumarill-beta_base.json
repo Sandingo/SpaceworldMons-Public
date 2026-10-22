@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:azumarill",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:azumarill-beta",
+            "model": "spaceworldmons:azumarill-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/azumarill-beta/azumarill.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/azumarill-beta/azumarill_shiny.png"
+        }, {
+            "aspects": [
+                "alpha_eyes"
+            ],
+            "layers": [{
+                    "name": "alpha_eyes",
+                    "texture": "spaceworldmons:textures/pokemon/azumarill-beta/azumarill_alpha.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

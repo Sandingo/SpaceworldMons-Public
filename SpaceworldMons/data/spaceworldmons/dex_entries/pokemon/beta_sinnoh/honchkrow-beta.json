@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:honchkrow-beta",
+    "speciesId": "cobblemon:honchkrow",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

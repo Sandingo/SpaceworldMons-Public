@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:kabin",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0004_kabin",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0004_kabin/kabin.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0004_kabin/kabin_shiny.png"
+    }
+  ]
+}

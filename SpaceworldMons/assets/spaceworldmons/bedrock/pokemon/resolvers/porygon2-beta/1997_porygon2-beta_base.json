@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:porygon2",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:porygon2-beta",
+            "model": "spaceworldmons:porygon2-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/porygon2-beta/porygon2.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/porygon2-beta/porygon2_shiny.png"
+        }, {
+            "aspects": [
+                "alpha_eyes"
+            ],
+            "layers": [{
+                    "name": "alpha_eyes",
+                    "texture": "spaceworldmons:textures/pokemon/porygon2-beta/porygon2_alpha.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

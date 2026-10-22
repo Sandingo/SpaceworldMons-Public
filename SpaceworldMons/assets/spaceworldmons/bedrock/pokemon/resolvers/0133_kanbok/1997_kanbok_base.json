@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:kanbok",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0133_kanbok",
+      "model": "spaceworldmons:kanbok.geo",
+      "texture": "spaceworldmons:textures/pokemon/0133_kanbok/kanbok.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0133_kanbok/kanbok_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0133_kanbok/kanbok_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

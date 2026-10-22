@@ -1,0 +1,30 @@
+{
+    "head": "head",
+    "portraitScale": 2,
+    "portraitTranslation": [0, -0.3, 0],
+    "profileScale": 1,
+    "profileTranslation": [0, 0.2, 0],
+    "animations": {},
+    "poses": {
+        "battle-idle": {
+            "transformTicks": 10,
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "isTouchingWater": false,
+            "transformedParts": [],
+            "animations": ["bedrock(zuruzu, ground_idle)"],
+            "quirks": []
+        },
+        "standing": {
+            "transformTicks": 10,
+            "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+            "animations": ["look", "bedrock(zuruzu, ground_idle)"],
+            "quirks": []
+        },
+        "walking": {
+            "transformTicks": 10,
+            "poseTypes": ["WALK"],
+            "animations": ["bedrock(zuruzu, ground_walk)"]
+        }
+    }
+}

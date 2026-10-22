@@ -1,0 +1,130 @@
+{
+    "portraitScale": 1.5,
+    "portraitTranslation": [-0.2, 0, 0],
+    "profileScale": 0.9,
+    "profileTranslation": [0, 0.35, 0],
+    "rootBone": "sato",
+    "animations": {
+        "cry": "q.bedrock_stateful('sato', 'twitch')",
+        "recoil": "q.bedrock_stateful('sato', 'twitch')",
+        "faint": "q.bedrock_stateful('sato', 'twitch')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "NONE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('sato', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('sato', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('sato', 'twitch')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('sato', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('sato', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('sato', 'twitch')"
+            ]
+        },
+        "walk": {
+            "poseName": "walk",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('sato', 'ground_walk')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('sato', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('sato', 'twitch')"
+            ]
+        },
+		"floating": {
+            "poseName": "floating",
+            "poseTypes": ["FLOAT"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('sato', 'water_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('sato', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('sato', 'twitch')"
+            ]
+        },
+		"swimming": {
+            "poseName": "swimming",
+            "poseTypes": ["SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('sato', 'water_swim')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('sato', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('sato', 'twitch')"
+            ]
+        },
+		"hovering": {
+            "poseName": "hovering",
+            "poseTypes": ["HOVER", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('sato', 'air_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('sato', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('sato', 'twitch')"
+            ]
+        },
+        "flying": {
+            "poseName": "flying",
+            "poseTypes": ["FLY"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('sato', 'air_fly')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('sato', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('sato', 'twitch')"
+            ]
+        }
+    }
+}

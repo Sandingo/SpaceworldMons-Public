@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:sunorora",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0179_sunorora",
+      "model": "spaceworldmons:sunorora.geo",
+      "texture": "spaceworldmons:textures/pokemon/0179_sunorora/sunorora.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0179_sunorora/sunorora_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0179_sunorora/sunorora_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

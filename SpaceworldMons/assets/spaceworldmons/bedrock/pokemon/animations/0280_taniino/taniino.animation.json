@@ -1,0 +1,78 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.taniino.ground_idle": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": ["-math.cos(query.anim_time * 90) * 2.5", 0, 0],
+					"position": [0, "math.sin(query.anim_time * 90) * 0.25", 0]
+				},
+				"head_rot": {
+					"rotation": ["-math.sin(query.anim_time * 90 - 0.2) * -2.5", 0, 0]
+				},
+				"right_arm": {
+					"rotation": ["-math.cos(query.anim_time * 90) * -2.5", 0, 0],
+					"position": [0, "math.sin(query.anim_time * 90) * -0.25", 0]
+				},
+				"left_arm": {
+					"rotation": ["-math.cos(query.anim_time * 90) * -2.5", 0, 0],
+					"position": [0, "math.sin(query.anim_time * 90) * -0.25", 0]
+				},
+				"back": {
+					"rotation": [0, "-math.sin(query.anim_time * 180) * 1", 0]
+				}
+			}
+		},
+		"animation.taniino.ground_walk": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": ["-math.cos(query.anim_time * 360) * -2.5", "-math.sin(query.anim_time * 180) * -5", 0],
+					"position": [0, "math.cos(query.anim_time * 720) * -0.5", 0]
+				},
+				"head_rot": {
+					"rotation": ["-math.sin(query.anim_time * 360 - 0.2) * -2.5", "-math.cos(query.anim_time * 180 - 0.2) * -2.5", 0]
+				},
+				"right_arm": {
+					"rotation": ["-10 - math.cos(query.anim_time * 360) * -10", "math.sin(query.anim_time * 360) * 15", 0],
+					"position": [0, "math.cos(query.anim_time * 720) * 0.25", "math.sin(query.anim_time * 360) * 0.5"]
+				},
+				"left_arm": {
+					"rotation": ["-10 - math.cos(query.anim_time * 360) * -10", "math.sin(query.anim_time * 360) * -15", 0],
+					"position": [0, "math.cos(query.anim_time * 720) * 0.25", "math.sin(query.anim_time * 360) * 0.5"]
+				},
+				"back": {
+					"rotation": [0, "-math.sin(query.anim_time * 360) * 5", 0]
+				}
+			}
+		},
+		"animation.taniino.blink": {
+			"animation_length": 0.125,
+			"bones": {
+				"left_eye": {
+					"position": {
+						"0.0": [0, 0, 0.1],
+						"0.0833": [0, 0, 0.1],
+						"0.125": [0, 0, 0]
+					}
+				},
+				"right_eye": {
+					"position": {
+						"0.0": [0, 0, 0.1],
+						"0.0833": [0, 0, 0.1],
+						"0.125": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.taniino.hold_item": {
+			"loop": true,
+			"bones": {
+				"head_rot": {
+					"rotation": [-5, 0, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:tyrogue-beta",
+    "speciesId": "cobblemon:tyrogue",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Beta",
+            "unlockForms": [
+                "Beta"
+            ]
+        }
+    ],
+    "variations": []
+}

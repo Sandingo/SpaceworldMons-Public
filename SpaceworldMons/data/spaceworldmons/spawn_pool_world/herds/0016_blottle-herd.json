@@ -1,0 +1,177 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "blottle-herd-1",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "surface",
+      "maxHerdSize": 7,
+      "levelRange": "4-52",
+      "weight": 10.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "blottle",
+          "weight": 80.0,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "pendraken",
+          "weight": 20.0,
+          "levelRange": "30-52",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "blottle-herd-2",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "rare",
+      "spawnablePositionType": "submerged",
+      "maxHerdSize": 7,
+      "levelRange": "4-52",
+      "weight": 50.0,
+      "condition": {
+        "canSeeSky": false,
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "#cobblemon:shipwreck_cove"
+        ],
+        "minY": -60,
+        "maxY": 13,
+        "biomes": [
+          "#cobblemon:is_dripstone",
+          "#cobblemon:is_lush"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "blottle",
+          "weight": 80.0,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "pendraken",
+          "weight": 20.0,
+          "levelRange": "30-52",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "blottle-herd-3",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "submerged",
+      "maxHerdSize": 7,
+      "levelRange": "4-52",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "blottle",
+          "weight": 80.0,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "pendraken",
+          "weight": 20.0,
+          "levelRange": "30-52",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "blottle-herd-4",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "submerged",
+      "maxHerdSize": 7,
+      "levelRange": "4-52",
+      "weight": 50.0,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "minY": -60,
+        "maxY": 13
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "blottle",
+          "weight": 80.0,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "pendraken",
+          "weight": 20.0,
+          "levelRange": "30-52",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

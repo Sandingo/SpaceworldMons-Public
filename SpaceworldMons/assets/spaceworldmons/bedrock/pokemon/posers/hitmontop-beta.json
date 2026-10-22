@@ -1,0 +1,74 @@
+{
+  "portraitScale": 2.3,
+  "portraitTranslation": [
+    0,
+    -0.3,
+    0
+  ],
+  "profileScale": 0.9,
+  "profileTranslation": [
+    0,
+    0.45,
+    0
+  ],
+  "rootBone": "hitmontop-beta",
+  "animations": {
+    "cry": "q.bedrock_stateful('hitmontop-beta', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+	  "transformTicks": 10,
+      "animations": [
+        "q.bedrock('hitmontop-beta', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('hitmontop-beta', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+	  "transformTicks": 10,
+      "animations": [
+        "q.bedrock('hitmontop-beta', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('hitmontop-beta', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('hitmontop-beta', 'ground_walk')"
+      ],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('hitmontop-beta', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+	  "transformTicks": 10,
+      "animations": [
+        "q.bedrock('hitmontop-beta', 'sleep')"
+      ]
+    }
+  }
+}

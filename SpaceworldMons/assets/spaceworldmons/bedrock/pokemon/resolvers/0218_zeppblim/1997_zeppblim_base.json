@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:zeppblim",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0218_zeppblim",
+      "model": "spaceworldmons:zeppblim.geo",
+      "texture": "spaceworldmons:textures/pokemon/0218_zeppblim/zeppblim.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0218_zeppblim/zeppblim_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0218_zeppblim/zeppblim_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

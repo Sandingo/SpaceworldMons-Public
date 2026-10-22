@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:shibirefugu",
+    "speciesId": "cobblemon:shibirefugu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

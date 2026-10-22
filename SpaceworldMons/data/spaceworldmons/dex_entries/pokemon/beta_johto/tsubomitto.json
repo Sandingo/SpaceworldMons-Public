@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:tsubomitto",
+    "speciesId": "cobblemon:tsubomitto",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

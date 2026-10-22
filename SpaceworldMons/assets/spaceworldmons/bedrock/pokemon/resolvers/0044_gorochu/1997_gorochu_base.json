@@ -1,0 +1,129 @@
+{
+    "species": "cobblemon:gorochu",
+    "order": 1997,
+    "variations": [{
+            "aspects": [],
+            "poser": "spaceworldmons:0044_gorochu",
+            "model": "spaceworldmons:gorochu.geo",
+            "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu.png",
+            "layers": []
+        }, {
+            "aspects": ["shiny"],
+            "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_shiny.png"
+        }, {
+            "aspects": ["cosmetic_item-rage_candy_bar"],
+            "model": "spaceworldmons:gorochu_cap.geo",
+            "layers": [{
+                    "name": "original",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_cap_original.png"
+                }
+            ]
+        }, {
+            "aspects": ["cosmetic_item-pewter_crunchies"],
+            "model": "spaceworldmons:gorochu_cap.geo",
+            "layers": [{
+                    "name": "partner",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_cap_original.png"
+                }
+            ]
+        }, {
+            "aspects": ["cosmetic_item-lava_cookie"],
+            "model": "spaceworldmons:gorochu_cap.geo",
+            "layers": [{
+                    "name": "hoenn",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_cap_hoenn.png"
+                }
+            ]
+        }, {
+            "aspects": ["cosmetic_item-old_gateau"],
+            "model": "spaceworldmons:gorochu_cap.geo",
+            "layers": [{
+                    "name": "sinnoh",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_cap_sinnoh.png"
+                }
+            ]
+        }, {
+            "aspects": ["cosmetic_item-casteliacone"],
+            "model": "spaceworldmons:gorochu_cap.geo",
+            "layers": [{
+                    "name": "unova",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_cap_unova.png"
+                }
+            ]
+        }, {
+            "aspects": ["cosmetic_item-lumiose_galette"],
+            "model": "spaceworldmons:gorochu_cap.geo",
+            "layers": [{
+                    "name": "kalos",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_cap_kalos.png"
+                }
+            ]
+        }, {
+            "aspects": ["cosmetic_item-big_malasada"],
+            "model": "spaceworldmons:gorochu_cap.geo",
+            "layers": [{
+                    "name": "alola",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_cap_alola.png"
+                }
+            ]
+        }, {
+            "aspects": ["cosmetic_item-smoked_tail_curry"],
+            "model": "spaceworldmons:gorochu_cap.geo",
+            "layers": [{
+                    "name": "world",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_cap_world.png"
+                }
+            ]
+        }, {
+            "aspects": ["cosmetic_item-compass"],
+            "model": "spaceworldmons:gorochu_captain.geo",
+            "layers": [{
+                    "name": "captain",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_captain.png"
+                }
+            ]
+        }, {
+            "aspects": ["cosmetic_item-shears"],
+            "model": "spaceworldmons:gorochu_fluff.geo",
+            "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_fluff.png"
+        }, {
+            "aspects": ["shiny", "cosmetic_item-shears"],
+            "model": "spaceworldmons:gorochu_fluff.geo",
+            "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_fluff_shiny.png"
+        }, {
+            "aspects": ["cosmetic_item-leather_helmet"],
+            "model": "spaceworldmons:gorochu_detective.geo",
+            "layers": [{
+                    "name": "detective",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_detective.png"
+                }
+            ]
+        }, {
+            "aspects": ["cosmetic_item-sinister_tea"],
+            "model": "spaceworldmons:gorochu_detective.geo",
+            "layers": [{
+                    "name": "detective",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_detective.png"
+                }
+            ]
+        }, {
+            "aspects": ["cosmetic_item-cocoa_beans"],
+            "model": "spaceworldmons:gorochu_detective.geo",
+            "layers": [{
+                    "name": "detective",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_detective.png"
+                }
+            ]
+        }, {
+            "aspects": [
+                "alpha_eyes"
+            ],
+            "layers": [{
+                    "name": "alpha_eyes",
+                    "texture": "spaceworldmons:textures/pokemon/0044_gorochu/gorochu_alpha.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

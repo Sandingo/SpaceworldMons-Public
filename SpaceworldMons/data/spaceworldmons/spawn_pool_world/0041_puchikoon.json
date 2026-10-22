@@ -1,0 +1,55 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "puchikoon-1",
+            "pokemon": "puchikoon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "1-15",
+            "weight": 11,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_grassland"
+                ],
+                "isRaining": false
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_magical"
+                ]
+            }
+        }, {
+            "id": "puchikoon-2",
+            "pokemon": "puchikoon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "1-15",
+            "weight": 11,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_overgrowth",
+                    "#cobblemon:nether/is_wasteland"
+                ]
+            }
+        }
+    ]
+}

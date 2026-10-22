@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:norowara",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0062_norowara",
+      "model": "spaceworldmons:norowara.geo",
+      "texture": "spaceworldmons:textures/pokemon/0062_norowara/norowara.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0062_norowara/norowara_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0062_norowara/norowara_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "species": "cobblemon:murkrow",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:murkrow-beta",
+            "model": "spaceworldmons:murkrow-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/murkrow-beta/murkrow.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/murkrow-beta/murkrow_shiny.png"
+        },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/murkrow-beta/murkrow_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
+

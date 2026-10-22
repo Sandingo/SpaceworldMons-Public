@@ -1,0 +1,41 @@
+{
+    "enabled": false,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "komainu-alpha-1",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "context": "grounded",
+            "bucket": "boss",
+            "level": "8-100",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "minecraft:cherry_grove"
+                ]
+            },
+			"herdablePokemon": [{
+                    "pokemon": "komainu held_item=cobblemon:rock_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                }, {
+                    "pokemon": "komainu",
+                    "weight": 80.0,
+                    "levelRange": "65-95",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 2,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

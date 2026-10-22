@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "NsN",
+        "sGs",
+        "NsN"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:rock_gem"
+        },
+        "s": [{
+                "item": "minecraft:stone"
+            }, {
+                "item": "minecraft:deepslate"
+            }, {
+                "item": "minecraft:blackstone"
+            }, {
+                "item": "minecraft:tuff"
+            }
+        ],
+        "N": {
+            "item": "minecraft:raw_iron"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:music_disc_13",
+        "components": {
+            "minecraft:custom_model_data": 199711,
+            "minecraft:item_name": "{\"translate\":\"item.spaceworldmons.tough_stone\", \"italic\":false}",
+            "minecraft:lore": [
+                "{\"translate\":\"tooltip.spaceworldmons.tough_stone\", \"color\":\"gray\", \"italic\":false}"
+            ],
+            "cobblemon:held_item_effect": {
+                "showdownId": "tough_stone",
+                "consumed": false
+            },
+            "!minecraft:jukebox_playable": {},
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

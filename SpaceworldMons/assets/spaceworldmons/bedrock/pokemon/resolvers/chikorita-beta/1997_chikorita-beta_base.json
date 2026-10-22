@@ -1,0 +1,14 @@
+{
+    "species": "cobblemon:chikorita",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "cobblemon:chikorita",
+            "model": "cobblemon:chikorita.geo",
+            "texture": "spaceworldmons:textures/pokemon/chikorita-beta/chikorita.png"
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/chikorita-beta/chikorita_shiny.png"
+        }
+    ]
+}

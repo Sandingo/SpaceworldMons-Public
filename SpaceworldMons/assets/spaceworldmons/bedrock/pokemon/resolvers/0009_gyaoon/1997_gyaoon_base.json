@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:gyaoon",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0009_gyaoon",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0009_gyaoon/gyaoon.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0009_gyaoon/gyaoon_shiny.png"
+    }
+  ]
+}

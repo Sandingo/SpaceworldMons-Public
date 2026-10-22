@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:betobebii",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0107_betobebii",
+      "model": "spaceworldmons:betobebii.geo",
+      "texture": "spaceworldmons:textures/pokemon/0107_betobebii/betobebii.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0107_betobebii/betobebii_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0107_betobebii/betobebii_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

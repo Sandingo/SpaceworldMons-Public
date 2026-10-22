@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "gbg",
+        "bdb",
+        "gbg"
+    ],
+    "key": {
+        "d": {
+            "item": "minecraft:dragon_breath"
+        },
+        "b": {
+            "item": "minecraft:blaze_powder"
+        },
+        "g": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:music_disc_13",
+        "components": {
+            "minecraft:custom_model_data": 199718,
+            "minecraft:item_name": "{\"translate\":\"item.spaceworldmons.strange_power\", \"italic\":false}",
+            "minecraft:lore": [
+                "{\"translate\":\"tooltip.spaceworldmons.strange_power\", \"color\":\"gray\", \"italic\":false}"
+            ],
+            "cobblemon:held_item_effect": {
+                "showdownId": "strange_power",
+                "consumed": false
+            },
+            "!minecraft:jukebox_playable": {},
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

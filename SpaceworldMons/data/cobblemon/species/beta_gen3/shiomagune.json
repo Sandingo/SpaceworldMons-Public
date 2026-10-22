@@ -1,0 +1,210 @@
+{
+  "implemented": true,
+  "name": "Shiomagune",
+  "nationalPokedexNumber": 72,
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "abilities": [
+    "magnetpull",
+    "hypercutter",
+    "h:ironbarbs"
+  ],
+  "baseStats": {
+    "hp": 71,
+    "attack": 110,
+    "defence": 120,
+    "special_attack": 62,
+    "special_defence": 54,
+    "speed": 68
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      }
+    },
+    "herd": {
+      "maxSize": 4,
+      "toleratedLeaders": [
+        {
+          "pokemon": "shiomagune",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "willSleepOnBed": true,
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 128,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "mineral",
+    "water_3"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:pinap_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:visegrip",
+    "1:thundershock",
+    "1:sandattack",
+    "6:harden",
+    "8:metalclaw",
+    "12:bubblebeam",
+    "16:protect",
+    "21:spark",
+    "26:spikes",
+    "29:flail",
+    "30:thunderpunch",
+    "32:razorshell",
+    "34:magnetbomb",
+    "36:swordsdance",
+    "40:magnetrise",
+    "44:crabhammer",
+    "51:irondefense",
+    "56:guillotine",
+    "egg:ancientpower",
+    "egg:bide",
+    "egg:chipaway",
+    "egg:hammerarm",
+    "egg:knockoff",
+    "egg:nightslash",
+    "egg:slash",
+    "egg:tickle",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:cut",
+    "tm:dig",
+    "tm:dive",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:furycutter",
+    "tm:hail",
+    "tm:haze",
+    "tm:honeclaws",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:metalclaw",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:thief",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:xscissor",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:supercellslam",
+    "tm:stompingtantrum",
+    "tm:strongarm",
+    "tutor:allyswitch",
+    "tutor:ancientpower",
+    "tutor:dive",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:superpower",
+    "tutor:waterpulse",
+    "tutor:electroweb",
+    "tutor:magnetrise",
+    "tutor:shockwave",
+    "tutor:risingvoltage",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:thunderpunch",
+    "tutor:wildcharge",
+    "tutor:xscissor"
+  ],
+  "labels": [
+    "gen3beta"
+  ],
+  "pokedex": [
+    "spaceworldmons.species.shiomagune.desc",
+    "spaceworldmons.species.betahoenn.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 0.8,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "width": 4,
+  "height": 75,
+  "evolutions": [],
+  "aspects": [],
+  "cannotDynamax": false
+}

@@ -1,0 +1,118 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ikari.water_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 90) * -1", 0, 0],
+					"position": [0, "0+Math.cos((query.anim_time) * 90 * 2) * 0.5", 0]
+				},
+				"fin_right": {
+					"rotation": [0, 0, "1+4*math.sin(q.anim_time*90*2+90)"]
+				},
+				"fin_left": {
+					"rotation": [0, 0, "1-4*math.sin(q.anim_time*90*2+90)"]
+				},
+				"jaw": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2) * 2", 0, 0]
+				},
+				"chain3": {
+					"rotation": ["math.sin(q.anim_time*90*1-90)*6", 0, "math.sin(q.anim_time*90*2-150)*-10"]
+				},
+				"chain5": {
+					"rotation": ["math.sin(q.anim_time*90*1-120)*8", 0, "math.sin(q.anim_time*90*2-180)*-14"]
+				},
+				"chain6": {
+					"rotation": ["math.sin(q.anim_time*90*1-150)*12", 0, "math.sin(q.anim_time*90*2-210)*-17"]
+				},
+				"anchor": {
+					"rotation": ["math.sin(q.anim_time*90*1-210)*25", 0, "math.sin(q.anim_time*90*2-270)*-28"]
+				}
+			}
+		},
+		"animation.ikari.water_swim": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, "math.cos( q.anim_time * 90 * 4 - 135)*2", 0],
+					"position": ["0+Math.cos((query.anim_time) * 90 * 8 - 45) * 0", "0+Math.cos((query.anim_time) * 90 * 4) * 0.2", 0]
+				},
+				"fin_right": {
+					"rotation": [0, 0, "math.cos( q.anim_time * 90 * 4 - 90)*10"]
+				},
+				"fin_left": {
+					"rotation": [0, 0, "-(math.cos( q.anim_time * 90 * 4 - 90)*10)"]
+				},
+				"chain3": {
+					"rotation": ["7.5+math.sin(q.anim_time*90*0.5-30)*-7", 0, "math.sin(q.anim_time*90*1-160)*-5"]
+				},
+				"chain5": {
+					"rotation": ["6+math.sin(q.anim_time*90*0.5-60)*-10", 0, "math.sin(q.anim_time*90*1-180)*-6"]
+				},
+				"chain6": {
+					"rotation": ["math.sin(q.anim_time*90*0.5-90)*-4", 0, "math.sin(q.anim_time*90*1-200)*-7"]
+				},
+				"anchor": {
+					"rotation": ["math.sin(q.anim_time*90*0.5-120)*-10", 0, "math.sin(q.anim_time*90*1-230)*-8"]
+				}
+			}
+		},
+		"animation.ikari.battle_idle": {
+			"loop": true,
+			"bones": {
+				"ikari": {
+					"rotation": [0, 27.5, 0]
+				},
+				"body": {
+					"rotation": ["12.5+Math.cos((query.anim_time) * 90 * 2 - 90) * -1", 0, 0],
+					"position": [0, "1+Math.cos((query.anim_time) * 90 * 2) * 0.5", 0]
+				},
+				"jaw": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2) * 2", 0, 0]
+				},
+				"fin_right": {
+					"rotation": [22.5, 0, "1+4*math.sin(q.anim_time*90*2+90)"]
+				},
+				"fin_left": {
+					"rotation": [22.5, 0, "1-4*math.sin(q.anim_time*90*2+90)"]
+				},
+				"chain2": {
+					"rotation": [17.5, 0, 0]
+				},
+				"chain3": {
+					"rotation": [0, 0, "7.5+math.sin(q.anim_time*90*2-160)*-14"]
+				},
+				"chain4": {
+					"rotation": [40, 0, "math.sin(q.anim_time*90*2-160)*-14"]
+				},
+				"chain5": {
+					"rotation": [60, 0, "math.sin(q.anim_time*90*2-170)*-12"]
+				},
+				"chain6": {
+					"rotation": [-46.1453, -12.80911, "math.sin(q.anim_time*90*2-270)*-2"]
+				},
+				"anchor": {
+					"rotation": [-41.74027, -16.32555, "math.sin(q.anim_time*90*2-270)*-13"]
+				}
+			}
+		},
+		"animation.ikari.mouth_open": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [-10, 0, 0]
+				},
+				"jaw": {
+					"rotation": [22.5, 0, 0]
+				},
+				"gills_right": {
+					"rotation": [-5, 0, 0]
+				},
+				"gills_left": {
+					"rotation": [-5, 0, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+    "species": "cobblemon:unadon",
+    "order": 1997,
+    "variations": [{
+            "aspects": [],
+            "poser": "spaceworldmons:0046_unadon",
+            "model": "spaceworldmons:unadon.geo",
+            "texture": "spaceworldmons:textures/pokemon/0046_unadon/unadon.png",
+            "layers": [
+				{
+                    "name": "body",
+                    "texture": "spaceworldmons:textures/pokemon/0046_unadon/body.png",
+                    "translucent": true
+                }, 
+				{
+                    "name": "eye_balls",
+                    "texture": "spaceworldmons:textures/pokemon/0046_unadon/eye_balls.png",
+                    "translucent": true
+                }
+            ]
+        }, {
+            "aspects": ["shiny"],
+            "texture": "spaceworldmons:textures/pokemon/0046_unadon/unadon_shiny.png",
+            "layers": [
+				{
+                    "name": "body",
+                    "texture": "spaceworldmons:textures/pokemon/0046_unadon/body_shiny.png",
+                    "translucent": true
+                }
+            ]
+        },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0046_unadon/unadon_alpha.png",
+            "layers": [				{
+                    "name": "eye_balls",
+                    "texture": "spaceworldmons:textures/pokemon/0046_unadon/eye_balls_alpha.png",
+                    "translucent": true
+                }],
+          "emissive": true
+        }
+      ]
+    }
+    ]
+}

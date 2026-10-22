@@ -1,0 +1,114 @@
+{
+    "portraitScale": 2.4,
+    "portraitTranslation": [0, -1.2, 0],
+    "profileScale": 1.1,
+    "profileTranslation": [0, 0, 0],
+    "rootBone": "molambino",
+    "animations": {
+        "cry": "q.bedrock_stateful('molambino', 'blink')",
+        "recoil": "q.bedrock_stateful('molambino', 'blink')",
+        "faint": "q.bedrock_stateful('molambino', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "NONE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.bedrock('molambino', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('molambino', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('molambino', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.bedrock('molambino', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('molambino', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('molambino', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.bedrock('molambino', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('molambino', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('molambino', 'blink')"
+            ]
+        },
+		"floating": {
+            "poseName": "floating",
+            "poseTypes": ["FLOAT", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.bedrock('molambino', 'water_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('molambino', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('molambino', 'blink')"
+            ]
+        },
+        "battle-floating": {
+            "poseName": "battle_floating",
+            "poseTypes": ["FLOAT"],
+            "isBattle": true,
+            "animations": [
+                "q.bedrock('molambino', 'water_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('molambino', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('molambino', 'blink')"
+            ]
+        },
+		"swimming": {
+            "poseName": "swimming",
+            "poseTypes": ["SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.bedrock('molambino', 'water_swim')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('molambino', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('molambino', 'blink')"
+            ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('molambino', 'sleep')"
+            ],
+            "transformTicks": 10
+        }
+	}
+}

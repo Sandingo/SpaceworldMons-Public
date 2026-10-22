@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:kasanagi",
+    "speciesId": "cobblemon:kasanagi",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

@@ -1,0 +1,151 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "unadon-herd-1",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 20,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_deep_ocean"
+        ],
+        "maxY": 48
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "unadon",
+          "weight": 60,
+          "levelRange": "10-35",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "ikari",
+          "weight": 15,
+          "levelRange": "20-55",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "gurotesu",
+          "weight": 2,
+          "levelRange": "20-55",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "unadon-herd-2",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 20,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "unadon",
+          "weight": 60,
+          "levelRange": "10-35",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "ikari",
+          "weight": 15,
+          "levelRange": "20-55",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "gurotesu",
+          "weight": 2,
+          "levelRange": "20-55",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "unadon-herd-5",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 20,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "minY": -60,
+        "maxY": 13
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "unadon",
+          "weight": 60,
+          "levelRange": "10-35",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "ikari",
+          "weight": 15,
+          "levelRange": "20-55",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "gurotesu",
+          "weight": 2,
+          "levelRange": "20-55",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

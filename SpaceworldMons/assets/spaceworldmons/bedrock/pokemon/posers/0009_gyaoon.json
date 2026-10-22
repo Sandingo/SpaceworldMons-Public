@@ -1,0 +1,40 @@
+{
+    "head": "head",
+    "portraitScale": 1.5,
+    "portraitTranslation": [0, -0.2, 0],
+    "profileScale": 1.5,
+    "profileTranslation": [0, -0.2, 0],
+    "animations": {
+        "cry": "q.bedrock_stateful('barunda', 'ground_idle')",
+        "faint": "q.bedrock_stateful('barunda', 'ground_idle')"
+    },
+    "poses": {
+        "battle-idle": {
+            "transformTicks": 10,
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "isTouchingWater": false,
+            "transformedParts": [],
+            "animations": ["bedrock(barunda, ground_idle)"],
+            "quirks": [
+                "q.bedrock_quirk('barunda', 'ground_idle')"
+            ]
+        },
+        "standing": {
+            "transformTicks": 10,
+            "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+            "animations": ["look", "bedrock(barunda, ground_idle)"],
+            "quirks": [
+                "q.bedrock_quirk('barunda', 'ground_idle')"
+            ]
+        },
+        "walking": {
+            "transformTicks": 10,
+            "poseTypes": ["WALK"],
+            "animations": ["bedrock(barunda, ground_idle)"],
+            "quirks": [
+                "q.bedrock_quirk('barunda', 'ground_idle')"
+            ]
+        }
+    }
+}

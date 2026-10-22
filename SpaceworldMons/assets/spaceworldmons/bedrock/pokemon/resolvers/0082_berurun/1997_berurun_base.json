@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:berurun",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0082_berurun",
+      "model": "spaceworldmons:berurun.geo",
+      "texture": "spaceworldmons:textures/pokemon/0082_berurun/berurun.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0082_berurun/berurun_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0082_berurun/berurun_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

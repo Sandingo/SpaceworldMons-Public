@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:hanamogura",
+    "speciesId": "cobblemon:hanamogura",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

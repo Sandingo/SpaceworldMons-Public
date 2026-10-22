@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:papyo",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0006_papyo",
+      "model": "spaceworldmons:phm.geo",
+      "texture": "spaceworldmons:textures/pokemon/0006_papyo/papyo.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0006_papyo/papyo_shiny.png"
+    }
+  ]
+}

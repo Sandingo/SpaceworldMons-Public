@@ -1,0 +1,265 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "basculin-beta-1",
+            "pokemon": "basculin beta",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "5,6,7"
+            }
+        }, {
+            "id": "basculin-beta-2",
+            "pokemon": "basculin beta",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "1,2,3"
+            }
+        }, {
+            "id": "basculin-beta-3",
+            "pokemon": "basculin beta",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "0,4"
+            }
+        }, {
+            "id": "basculin-beta-4",
+            "pokemon": "basculin beta",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_tundra"
+                ],
+                "moonPhase": "5,6,7"
+            }
+        }, {
+            "id": "basculin-beta-5",
+            "pokemon": "basculin beta",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "21-46",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_tundra"
+                ],
+                "moonPhase": "1,2,3"
+            }
+        }, {
+            "id": "basculin-beta-6",
+            "pokemon": "basculin beta",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_tundra"
+                ],
+                "moonPhase": "0,4"
+            }
+        }, {
+            "id": "basculin-beta-7",
+            "pokemon": "basculin beta",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "5,6,7"
+            }
+        }, {
+            "id": "basculin-beta-8",
+            "pokemon": "basculin beta",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "1,2,3"
+            }
+        }, {
+            "id": "basculin-beta-9",
+            "pokemon": "basculin beta",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "0,4"
+            }
+        }, {
+            "id": "basculin-beta-10",
+            "pokemon": "basculin beta",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_tundra"
+                ],
+                "moonPhase": "5,6,7"
+            }
+        }, {
+            "id": "basculin-beta-11",
+            "pokemon": "basculin beta",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_tundra"
+                ],
+                "moonPhase": "1,2,3"
+            }
+        }, {
+            "id": "basculin-beta-12",
+            "pokemon": "basculin beta",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_tundra"
+                ],
+                "moonPhase": "0,4"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "komari-1",
+            "pokemon": "komari",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-41",
+            "weight": 15,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#c:is_spooky"
+                ]
+            }
+        }, {
+            "id": "komari-2",
+            "pokemon": "komari",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-41",
+            "weight": 15,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#c:is_magical"
+                ]
+            }
+        }
+    ]
+}

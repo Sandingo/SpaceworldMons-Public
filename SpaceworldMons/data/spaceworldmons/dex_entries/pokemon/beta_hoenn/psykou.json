@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:psykou",
+    "speciesId": "cobblemon:psykou",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

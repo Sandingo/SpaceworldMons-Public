@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:penpin",
+    "speciesId": "cobblemon:penpin",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

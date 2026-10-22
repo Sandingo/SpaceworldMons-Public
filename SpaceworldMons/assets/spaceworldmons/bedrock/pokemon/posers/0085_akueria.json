@@ -1,0 +1,292 @@
+{
+    "portraitScale": 1.3,
+    "portraitTranslation": [-1.3, 3, 0],
+    "profileScale": 0.38,
+    "profileTranslation": [0, 1.1, 0],
+    "rootBone": "akueria",
+    "firstPersonCameraOffset": {
+        "seat_1": [0, 0.45, 0],
+        "seat_2": [0, 0.45, 0]
+    },
+    "thirdPersonCameraOffset": {
+        "seat_1": [0, 0.45, 0],
+        "seat_1_reverse": [0, 0.45, 0],
+        "seat_2": [0, 0.45, 0],
+        "seat_2_reverse": [0, 0.45, 0]
+    },
+    "thirdPersonCameraOffsetNoViewBobbing": {
+        "seat_1": [0, 0.45, 0],
+        "seat_1_reverse": [0, 0.45, 0],
+        "seat_2": [0, 0.45, 0],
+        "seat_2_reverse": [0, 0.45, 0]
+    },
+    "animations": {
+        "cry": "q.bedrock_stateful('akueria', 'cry')",
+        "recoil": "q.bedrock_stateful('akueria', 'recoil')"
+    },
+    "poses": {
+		"standing": {
+			"poseName": "standing",
+            "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "isTouchingWater": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('akueria', 'ground_idle')", {
+                    "condition": "q.is_ridden",
+                    "animation": "q.bedrock('akueria', 'ride_ground_walk')"
+                },
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('akueria', 'blink')",
+                "q.bedrock_quirk('akueria', q.array('quirk', 'quirk2'))"
+            ]
+        },
+        "battle-standing": {
+			"poseName": "battle-standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "isTouchingWater": false,
+            "namedAnimations": {
+                "cry": "q.bedrock_primary('akueria', 'battle_cry', q.curve('symmetrical_wide'))",
+                "special": "q.bedrock_primary('akueria', 'special', q.curve('symmetrical_wide'))",
+                "status": "q.bedrock_primary('akueria', 'status', q.curve('symmetrical_wide'))"
+            },
+            "animations": [
+				"q.look('head')",
+				"q.bedrock('akueria', 'ground_idle')",
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+			],	
+            "quirks": ["q.bedrock_quirk('akueria', 'blink')"]
+        },
+        "surfacewater-battle-standing": {
+			"poseName": "surfacewater-battle-standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "isTouchingWater": true,
+            "isUnderWater": false,
+            "namedAnimations": {
+                "cry": "q.bedrock_primary('akueria', 'surfacewater_battle_cry', q.curve('symmetrical_wide'))",
+                "special": "q.bedrock_primary('akueria', 'surfacewater_special', q.curve('symmetrical_wide'))",
+                "status": "q.bedrock_primary('akueria', 'surfacewater_status', q.curve('symmetrical_wide'))"
+            },
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('akueria', 'surfacewater_idle')",
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+            ],
+            "quirks": ["q.bedrock_quirk('akueria', 'blink')"]
+        },
+        "underwater-battle-standing": {
+			"poseName": "underwater-battle-standing",
+            "poseTypes": ["FLOAT"],
+            "isBattle": true,
+            "isTouchingWater": true,
+            "isUnderWater": true,
+            "namedAnimations": {
+                "cry": "q.bedrock_primary('akueria', 'water_battle_cry', q.curve('symmetrical_wide'))",
+                "special": "q.bedrock_primary('akueria', 'water_special', q.curve('symmetrical_wide'))",
+                "status": "q.bedrock_primary('akueria', 'water_status', q.curve('symmetrical_wide'))"
+            },
+            "animations": [
+				"q.look('head')",
+				"q.bedrock('akueria', 'water_idle')",
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+			],
+            "quirks": ["q.bedrock_quirk('akueria', 'blink')"]
+        },
+        "walking": {
+			"poseName": "walking",
+            "poseTypes": ["WALK"],
+            "isTouchingWater": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('akueria', 'ground_walk')", {
+                    "condition": "q.is_ridden",
+                    "animation": "q.bedrock('akueria', 'ride_ground_walk')"
+                },
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+            ],
+            "quirks": ["q.bedrock_quirk('akueria', 'blink')"]
+        },
+		"land-jumping": {
+			"poseName": "land-jumping",
+            "poseTypes": ["STAND", "WALK"],
+            "condition": "q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('akueria', 'ride_ground_jump')",
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+            ],
+            "transformTicks": 3,
+            "transformToTicks": 3
+        },
+        "water-jumping": {
+			"poseName": "water-jumping",
+            "poseTypes": ["FLOAT", "SWIM"],
+            "condition": "q.is_ridden",
+            "isTouchingWater": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('akueria', 'ride_surfacewater_jump')",
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+            ],
+            "transformTicks": 3,
+            "transformToTicks": 3
+        },
+		"floating": {
+			"poseName": "floating",
+            "poseTypes": ["FLOAT"],
+            "isTouchingWater": true,
+            "isUnderWater": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('akueria', 'water_idle')",
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('akueria', 'blink')",
+                "q.bedrock_quirk('akueria', 'water_quirk')"
+            ]
+        },
+        "surfacewater-floating": {
+			"poseName": "surfacewater-floating",
+            "poseTypes": ["STAND", "FLOAT"],
+            "isTouchingWater": true,
+            "isUnderWater": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('akueria', 'surfacewater_idle')", {
+                    "condition": "q.is_ridden",
+                    "animation": "q.bedrock('akueria', 'ride_surfacewater_swim')"					
+                },
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('akueria', 'blink')",
+                "q.bedrock_quirk('akueria', q.array('quirk', 'quirk2'))"
+            ],
+            "transformedParts": [{
+                    "part": "body",
+                    "position": [0, 4.5, 0]
+                }
+            ]
+        },
+		"swimming": {
+			"poseName": "swimming",
+            "poseTypes": ["SWIM"],
+            "isTouchingWater": true,
+            "isUnderWater": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('akueria', 'water_swim')",
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+            ],
+            "quirks": ["q.bedrock_quirk('akueria', 'blink')"]
+        },
+        "surfacewater-swimming": {
+			"poseName": "surfacewater-swimming",
+            "poseTypes": ["WALK", "SWIM"],
+            "isTouchingWater": true,
+            "isUnderWater": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('akueria', 'surfacewater_swim')", {
+                    "condition": "q.is_ridden",
+                    "animation": "q.bedrock('akueria', 'ride_surfacewater_swim')"
+                },
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('akueria', 'blink')",
+                "q.bedrock_quirk('akueria', q.array('quirk', 'quirk2'))"
+            ],
+            "transformedParts": [{
+                    "part": "body",
+                    "position": [0, 4.5, 0]
+                }
+            ]
+        },
+        "sleeping": {
+			"poseName": "sleeping",
+            "poseTypes": ["SLEEP"],
+            "isTouchingWater": false,
+            "namedAnimations": {
+                "cry": "q.bedrock_stateful('dummy', 'cry')"
+            },
+            "animations": [
+				"q.bedrock('akueria', 'sleep')",
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+			]
+        },        
+        "surfacewater-sleeping": {
+			"poseName": "surfacewater-sleeing",
+            "poseTypes": ["SLEEP"],
+            "isTouchingWater": true,
+            "isUnderWater": false,
+            "namedAnimations": {
+                "cry": "q.bedrock_stateful('dummy', 'cry')"
+            },
+            "animations": [
+				"q.bedrock('akueria', 'surfacewater_sleep')",
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+			]
+        },
+		"underwater-sleeping": {
+			"poseName": "underwater-sleeping",
+            "poseTypes": ["SLEEP"],
+            "isTouchingWater": true,
+            "isUnderWater": true,
+            "namedAnimations": {
+                "cry": "q.bedrock_stateful('dummy', 'cry')"
+            },
+            "animations": [
+				"q.bedrock('akueria', 'water_sleep')",
+				{
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('akua', 'hold_item')"
+                }
+			]
+        }
+    }
+}

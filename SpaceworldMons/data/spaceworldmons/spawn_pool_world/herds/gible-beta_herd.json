@@ -1,0 +1,116 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gible-beta-herd-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "rare",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "5-60",
+      "weight": 20,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_mountain"
+        ],
+        "minY": 0
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "gible beta",
+          "weight": 80,
+          "levelRange": "8-27",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "gabite beta",
+          "weight": 18,
+          "levelRange": "26-43",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "garchomp beta",
+          "weight": 2,
+          "levelRange": "49-55",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "gible-beta-herd-2",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "ultra-rare",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "5-60",
+      "weight": 20,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_mountain"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "gible beta",
+          "weight": 80,
+          "levelRange": "8-27",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "gabite beta",
+          "weight": 18,
+          "levelRange": "26-43",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "garchomp beta",
+          "weight": 2,
+          "levelRange": "49-55",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

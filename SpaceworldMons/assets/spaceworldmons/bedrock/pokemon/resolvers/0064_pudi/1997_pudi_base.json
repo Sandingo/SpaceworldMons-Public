@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:pudi",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0064_pudi",
+      "model": "spaceworldmons:pudi.geo",
+      "texture": "spaceworldmons:textures/pokemon/0064_pudi/pudi.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0064_pudi/pudi_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0064_pudi/pudi_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

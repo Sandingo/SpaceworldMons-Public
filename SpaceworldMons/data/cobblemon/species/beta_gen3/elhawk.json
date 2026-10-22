@@ -1,0 +1,203 @@
+{
+    "name": "Elhawk",
+    "nationalPokedexNumber": 83,
+    "primaryType": "flying",
+    "abilities": [
+        "airlock",
+        "h:airlock"
+    ],
+    "baseStats": {
+        "hp": 80,
+        "attack": 120,
+        "defence": 85,
+        "special_attack": 110,
+        "special_defence": 85,
+        "speed": 120
+    },
+    "riding": {
+        "behaviours": {
+            "AIR": {
+                "speed": "Math.clamp(q.entity.velocity.horizontal_magnitude + 0.33, 0, 1)",
+                "key": "cobblemon:air/jet",
+                "rideSounds": [{
+                        "muffleEnabled": true,
+                        "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                        "playForNonPassengers": true,
+                        "soundLocation": "cobblemon:ride.loop.wind",
+                        "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+                    }
+                ],
+                "gravity": "q.gravity * (0.1 + (q.passenger_count - 1) * 0.1)",
+                "jumpVector": [
+                    0,
+                    "0.3*q.jump_strength/50",
+                    0
+                ],
+                "stats": {
+                    "ACCELERATION": "70-95",
+                    "JUMP": "85-100",
+                    "SKILL": "70-95",
+                    "SPEED": "75-90",
+                    "STAMINA": "85-100"
+                }
+            },
+            "LAND": {
+                "key": "cobblemon:land/horse",
+                "rideSounds": [],
+                "canJump": false,
+                "canSprint": false,
+                "stats": {
+                    "ACCELERATION": "10-40",
+                    "JUMP": "10-40",
+                    "SKILL": "80-100",
+                    "SPEED": "10-40",
+                    "STAMINA": "10-40"
+                }
+            }
+        },
+        "seats": [{
+                "locator": "seat_1"
+            }
+        ]
+    },
+    "behaviour": {
+        "moving": {
+            "walk": {
+                "walkSpeed": 0.3
+            },
+            "fly": {
+                "canFly": true
+            },
+            "swim": {
+                "canSwim": true,
+                "canBreatheUnderwater": true
+            }
+        },
+        "combat": {
+            "willDefendOwner": true
+        }
+    },
+    "catchRate": 3,
+    "maleRatio": -1,
+    "shoulderMountable": false,
+    "baseExperienceYield": 270,
+    "experienceGroup": "slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "undiscovered"
+    ],
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "2-4"
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "cobblemon:sharp_beak"
+      }
+    ]
+  },
+    "moves": [
+        "1:peck",
+        "1:ember",
+        "1:whirlwind",
+        "1:featherdance",
+        "5:helpinghand",
+        "10:recover",
+        "15:mist",
+        "20:tailwind",
+        "25:wingattack",
+        "30:wish",
+        "35:drillpeck",
+        "40:mysticalfire",
+        "45:fly",
+        "50:mirrormove",
+        "55:roleplay",
+        "60:sacredfire",
+        "65:skillswap",
+        "70:miragefeather",
+        "75:skyattack",
+        "tm:takedown",
+        "tm:charm",
+        "tm:agility",
+        "tm:protect",
+        "tm:flamethrower",
+        "tm:disarmingvoice",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:swift",
+        "tm:icywind",
+        "tm:drainingkiss",
+        "tm:aircutter",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:shadowclaw",
+        "tm:airslash",
+        "tm:bodyslam",
+        "tm:sleeptalk",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:grassknot",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:fly",
+        "tm:substitute",
+        "tm:trick",
+        "tm:aurasphere",
+        "tm:tailwind",
+        "tm:shadowball",
+        "tm:psychic",
+        "tm:calmmind",
+        "tm:helpinghand",
+        "tm:batonpass",
+        "tm:gigaimpact",
+        "tm:hyperbeam",
+        "tm:solarbeam",
+        "tm:roar",
+        "tm:weatherball",
+        "tm:dualwingbeat",
+        "tm:psychup",
+        "tm:doubleedge",
+        "tm:futuresight",
+        "tm:alluringvoice",
+        "tm:hurricane",
+        "tm:aircutter",
+        "tm:acrobatics",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:bravebird",
+        "tm:overheat",
+        "tm:fireblast"
+    ],
+    "labels": [
+        "gen3beta"
+    ],
+    "pokedex": [
+        "spaceworldmons.species.elhawk.desc",
+        "spaceworldmons.species.betahoenn.desc"
+    ],
+    "baseScale": 0.9,
+    "hitbox": {
+        "width": 2,
+        "height": 1.9,
+        "fixed": false
+    },
+    "baseFriendship": 90,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 1
+    },
+    "height": 50,
+    "weight": 50,
+    "evolutions": [],
+    "aspects": [],
+    "cannotDynamax": false
+}

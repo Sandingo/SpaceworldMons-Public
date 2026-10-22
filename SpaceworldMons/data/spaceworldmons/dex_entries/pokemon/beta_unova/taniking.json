@@ -1,0 +1,14 @@
+{
+    "id": "spaceworldmons:taniking",
+    "speciesId": "cobblemon:taniking",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [{
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

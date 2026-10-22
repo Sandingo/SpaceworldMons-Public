@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:plux",
+  "order": 1997,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "spaceworldmons:0116_plux",
+      "model": "spaceworldmons:plux.geo",
+      "texture": "spaceworldmons:textures/pokemon/0116_plux/plux.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "spaceworldmons:textures/pokemon/0116_plux/plux_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "spaceworldmons:textures/pokemon/0116_plux/plux_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

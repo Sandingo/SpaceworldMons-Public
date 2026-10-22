@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:meganium",
+    "order": 1997,
+    "variations": [{
+            "aspects": ["beta"],
+            "poser": "spaceworldmons:meganium-beta",
+            "model": "spaceworldmons:meganium-beta.geo",
+            "texture": "spaceworldmons:textures/pokemon/meganium-beta/meganium.png",
+            "layers": []
+        }, {
+            "aspects": ["beta", "shiny"],
+            "texture": "spaceworldmons:textures/pokemon/meganium-beta/meganium_shiny.png"
+        }, {
+            "aspects": [
+                "alpha_eyes"
+            ],
+            "layers": [{
+                    "name": "alpha_eyes",
+                    "texture": "spaceworldmons:textures/pokemon/meganium-beta/meganium_alpha.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

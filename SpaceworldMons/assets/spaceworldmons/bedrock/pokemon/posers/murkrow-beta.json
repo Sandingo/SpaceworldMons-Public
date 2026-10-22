@@ -1,0 +1,103 @@
+{
+    "portraitScale": 3,
+    "portraitTranslation": [-0.35, -1.4, 0],
+    "profileScale": 0.95,
+    "profileTranslation": [0, 0.35, 0],
+    "rootBone": "murkrow",
+    "animations": {
+        "cry": "q.bedrock_stateful('murkrow-beta', 'cry')",
+        "recoil": "q.bedrock_stateful('murkrow-beta', 'blink')",
+        "faint": "q.bedrock_stateful('murkrow-beta', 'blink')"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+            "isBattle": false,
+            "condition": "!q.in_air",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('murkrow-beta', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('murkrow-beta', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('murkrow-beta', 'blink')"
+            ]
+        },
+        "battle-standing": {
+            "poseName": "battle_standing",
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('murkrow-beta', 'ground_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('murkrow-beta', 'hold_item')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('murkrow-beta', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "poseTypes": ["WALK", "SWIM"],
+            "isBattle": false,
+            "condition": "!q.in_air && !q.is_sprinting",
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('murkrow-beta', 'ground_walk')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('murkrow-beta', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('murkrow-beta', 'blink')"
+            ]
+        },
+        "hovering": {
+            "poseName": "hovering",
+            "poseTypes": ["HOVER"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('murkrow-beta', 'air_idle')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('murkrow-beta', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('murkrow-beta', 'blink')"
+            ]
+        },
+        "flying": {
+            "poseName": "flying",
+            "poseTypes": ["FLY"],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('murkrow-beta', 'air_fly')", {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('murkrow-beta', 'hold_item')"
+                }
+            ],
+            "transformTicks": 10,
+            "quirks": [
+                "q.bedrock_quirk('murkrow-beta', 'blink')"
+            ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('murkrow-beta', 'sleep')"
+            ],
+            "transformTicks": 10
+        }
+    }
+}
